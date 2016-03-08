@@ -1,0 +1,16 @@
+option java_package = "com.protobuf";
+
+
+message message_system_send_request
+{
+	
+}
+
+
+
+message message_system_send
+{
+	required uint32 player_id = 1 [default = 0];
+	required uint32 message_system_number = 2;
+}
+

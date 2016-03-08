@@ -1,0 +1,21 @@
+option java_package = "com.protobuf";
+import "com_package_item.proto";
+
+
+message backend_message_system_send_request
+{
+	required uint32 message_type = 1; // 1 是普通系统信息，2是全局系统信息
+	optional uint32 player_id = 2;
+	required string message = 3;
+	repeated com_package_item items = 4;
+}
+
+
+
+message backend_message_system_send
+{
+	required uint32 message_type = 1; // 1 是普通系统信息，2是全局系统信息
+	optional uint32 player_id = 2;
+	required string message = 3;
+}
+

@@ -1,0 +1,9 @@
+option java_package = "com.protobuf";
+import "guild_info.proto";
+import "guild_member_info.proto";
+
+message guild_own_info
+{
+    optional guild_info guild_info  =  1;
+    optional guild_member_info guild_member_info = 2;
+}

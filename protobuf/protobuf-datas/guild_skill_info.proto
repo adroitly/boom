@@ -1,0 +1,9 @@
+option java_package = "com.protobuf";
+
+//势力技能基本信息
+message guild_skill_info
+{
+    required uint32 skill_type = 1;
+    required uint32 skill_level = 2;
+    required uint32 skill_exp = 3;
+}

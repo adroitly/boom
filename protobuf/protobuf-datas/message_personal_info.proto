@@ -1,0 +1,14 @@
+option java_package = "com.protobuf";
+
+
+message message_personal_info
+{
+	optional uint32 from_player_id = 1 [default = 0];
+	optional uint32 to_player_id = 2 [default = 0];
+	optional string message = 3;
+	optional uint32 message_type = 4 [default = 1];  //1表示未读，2表示已读, 3 删除
+	optional string to_nickname = 5;
+	optional string from_nickname = 6;
+	optional uint32 time = 7;
+    optional uint32 icon = 8;
+}

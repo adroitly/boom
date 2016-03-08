@@ -1,0 +1,27 @@
+option java_package = "com.protobuf";
+
+
+message attack_building_request
+{
+	required int32 from_x = 1;
+	required int32 from_y = 2;
+	optional uint32 army_id = 3;
+
+	optional int32 to_x = 4;
+	optional int32 to_y = 5;
+}
+
+message attack_building
+{
+    optional uint32 player_id   		= 1;
+    optional uint32 army_id    			= 2;
+    optional int32  army_number 		= 3;
+    repeated uint32 skill_ids   		= 4;
+
+    optional int32 x 					= 5;
+	optional int32 y 					= 6;
+	optional uint32 remain_cityDef 	    = 7;
+	optional uint32 garrison_number  	= 8;
+    
+}
+

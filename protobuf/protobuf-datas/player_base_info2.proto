@@ -1,0 +1,20 @@
+option java_package = "com.protobuf";
+// 玩家基础信息
+
+message player_base_info2_request
+{
+    optional int32 target_id = 1;           //玩家ID
+}
+
+message player_base_info2
+{
+    optional int32 player_id = 1;           //玩家ID
+    optional string nickname = 2;           //玩家名称
+    optional int32 level = 3;               //玩家等级
+    optional int32 castle_level = 4;        //主城等级
+    optional int32 country = 5;				//国家
+    optional string guild_leader_name = 6;  //会长名称
+    optional string guild_name = 7;         //公会名称
+    optional string guild_title = 8;      	 	//公会官职
+    optional uint32 icon = 9;
+}

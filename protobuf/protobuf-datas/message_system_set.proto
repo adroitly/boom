@@ -1,0 +1,18 @@
+option java_package = "com.protobuf";
+
+
+message message_system_set_request
+{
+	required uint32 id = 1 [default = 0];
+	required uint32 message_type = 2 [default = 0]; //1表示未读，2表示已读, 3 删除
+}
+
+
+
+message message_system_set
+{
+	required uint32 id = 1 [default = 0];
+	required uint32 message_type = 2 [default = 0]; //1表示未读，2表示已读, 3 删除
+	required uint32 message_system_number = 3;
+}
+

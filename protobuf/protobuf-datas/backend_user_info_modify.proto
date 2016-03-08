@@ -1,0 +1,15 @@
+option java_package = "com.protobuf";
+
+message backend_user_info_modify_request
+{
+	required uint32 id = 1;
+	optional uint32 level = 2;
+	optional uint32 rmb = 3;
+}
+
+message backend_user_info_modify
+{
+	required uint32 code = 1;
+}
+
+

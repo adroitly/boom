@@ -1,0 +1,6 @@
+option java_package = "com.protobuf";
+
+message hero_delete
+{
+    repeated uint32 hero_ids = 1;
+}

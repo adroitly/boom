@@ -1,0 +1,12 @@
+option java_package = "com.protobuf";
+// 成员操作
+message guild_member_operate_request
+{
+    required int32 target_id = 1;       // 玩家ID
+    required int32 operate_type = 2;    // 0禅让 1封侯 2封爵 3成员 4踢出 
+}
+
+message guild_member_operate
+{
+    required int32 code = 1;    //0为成功，非0为失败
+}

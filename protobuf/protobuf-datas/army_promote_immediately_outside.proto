@@ -1,0 +1,12 @@
+option java_package = "com.protobuf";
+
+message army_promote_immediately_outside_request
+{
+	required uint32 army_id = 1;
+}
+
+message army_promote_immediately_outside
+{
+	required uint32 code = 1;
+}
+

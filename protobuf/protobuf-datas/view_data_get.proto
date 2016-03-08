@@ -1,0 +1,15 @@
+option java_package = "com.protobuf";
+
+// 获取视图坐标x,y内的所有数据
+message view_data_get_request
+{
+	optional int32 x = 1;
+	optional int32 y = 2;
+}
+
+
+
+message view_data_get
+{
+}
+

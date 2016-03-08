@@ -1,0 +1,11 @@
+option java_package = "com.protobuf";
+
+
+message army_base_info
+{
+	required uint32 hero_type = 1;
+	required uint32 hero_level = 2;
+	required uint32 army_number = 3;
+	required uint32 food = 4;
+	required uint32 soldier_type = 5;
+}

@@ -1,0 +1,13 @@
+option java_package = "com.protobuf";
+
+
+message user_level_up_use_item_request
+{
+	required uint32 level = 1;
+}
+
+message user_level_up_use_item
+{
+    required uint32 code = 1;
+}
+

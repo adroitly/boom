@@ -1,0 +1,12 @@
+option java_package = "com.protobuf";
+
+message collect_info_delete_request
+{
+    required uint32 id = 1;
+}
+
+message collect_info_delete
+{
+    required uint32 code = 1;
+    optional uint32 id = 2;
+}

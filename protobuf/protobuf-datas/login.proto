@@ -1,0 +1,35 @@
+option java_package = "com.protobuf";
+import "army_info.proto";
+import "hero_info.proto";
+import "soldier_info.proto";
+import "item_info.proto";
+import "guild_own_info.proto";
+import "user_info.proto";
+import "building_info.proto";
+
+message login_request
+{
+	required uint32 type = 1;	// type类型：1测试，2账号登陆，3weixin登陆，4QQ登陆，5微博登陆
+	required uint32 login_type = 2;  // login_type类型：0login，1创建角色， 创建角色的时候，nickname不能为空
+	optional uint32 id = 3;
+	optional string session = 4;
+	optional string nickname = 5;
+	optional uint32 icon = 6;		//形象ID
+	optional uint32 sex = 7;		//性别，1为男，2为女
+	optional uint32 country = 8;	//国家
+
+	required uint32 platform_id = 9;  
+	required uint32 channel_id = 10;   
+}
+
+message login
+{
+	required uint32 code 		= 1;
+	optional user_info user_info = 2;
+	repeated army_info armies 	= 3;
+	repeated hero_info heros 	= 4;
+	repeated soldier_info soldiers 	= 5;
+	repeated item_info items 	= 6;
+	optional guild_own_info guild_own_info	= 7;
+	optional building_info building_info = 8;
+}

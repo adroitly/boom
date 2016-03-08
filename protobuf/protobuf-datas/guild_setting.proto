@@ -1,0 +1,16 @@
+option java_package = "com.protobuf";
+// 自动加入设置
+message guild_setting_request
+{
+    
+    optional int32 auto = 1;    //1:关闭自动加入  2：开启自动加入 
+    optional int32 level = 2;   //加入等级限制
+    optional string billboard = 3;  //设置公告
+    optional int32 flag = 4;        //设置旗帜
+
+}
+
+message guild_setting
+{
+    required int32 code = 1;    //0为成功，非0为失败
+}

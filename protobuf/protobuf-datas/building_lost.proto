@@ -1,0 +1,11 @@
+option java_package = "com.protobuf";
+
+
+message building_lost
+{
+	optional int32 x 			= 1;
+	optional int32 y 			= 2;
+	optional int32  city_amount     = 3;
+	optional int32  lost_city_amount = 4;
+	optional int32  skill_id 	= 5;
+}

@@ -1,0 +1,12 @@
+option java_package = "com.protobuf";
+
+message army_set_request
+{
+	required uint32 army_id = 1;
+	required uint32 army_number = 2;
+}
+
+message army_set
+{
+	required uint32 code = 1;
+}

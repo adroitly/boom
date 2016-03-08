@@ -1,0 +1,12 @@
+option java_package = "com.protobuf";
+
+// 对酒
+
+// 结果成功需要先发送hero-info
+message hero_seek_2_info
+{
+	required uint32 building_id = 1; 		//建筑id
+	required uint32 hero_seek_type = 2;		//英雄id
+	required uint32 hero_seek_luck = 3;		//好感度
+}
+

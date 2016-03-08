@@ -1,0 +1,7 @@
+option java_package = "com.protobuf.common";
+
+message soldier_info
+{
+    required uint32 soldier_type = 1;
+    required uint32 soldier_number = 2;
+}

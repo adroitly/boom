@@ -1,0 +1,21 @@
+option java_package = "com.protobuf";
+
+message message_board_list_request
+{
+	required uint32 page = 1;			// 从1开始
+	required uint32 country = 2;		// 0为所有国家
+}
+
+message message_board_list
+{
+	message message_board{
+		optional uint32  id = 1;
+		optional uint32  player_id = 2;
+		optional string  nickname = 3;
+		optional string  content = 4;
+		optional uint32  time = 5;
+		optional uint32  country = 6;
+	}
+	repeated message_board messages = 1;
+}
+

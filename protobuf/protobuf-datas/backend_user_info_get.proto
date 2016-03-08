@@ -1,0 +1,14 @@
+option java_package = "com.protobuf";
+import "user_info.proto";
+
+message backend_user_info_get_request
+{
+	required uint32 id = 1;
+}
+
+message backend_user_info_get
+{
+	required user_info user = 1;
+}
+
+

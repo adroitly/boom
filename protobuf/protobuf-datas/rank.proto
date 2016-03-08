@@ -1,0 +1,23 @@
+option java_package = "com.protobuf";
+import "rank_info.proto";
+
+message rank_request
+{
+    //1 国战排行榜
+    //2 个人功勋
+    //3 势力
+	//4 官职排行榜, 等级排行榜
+	//5 财富排行榜，铜币 50804
+	//6 粮食排行榜，50801
+	//7 元气玉排行榜 50805
+	//8 矿石排行榜 50803
+	//9 木材排行榜 50802
+	required uint32 rank_id = 1;
+	required uint32 page = 2;
+}
+
+
+message rank
+{
+	repeated rank_info ranks = 1;
+}

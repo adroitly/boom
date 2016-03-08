@@ -1,0 +1,12 @@
+option java_package = "com.protobuf";
+import "player_base_info1.proto";
+
+message user_search_request
+{
+	required string nickname = 1;
+}
+
+message user_search
+{
+	repeated player_base_info1 player_infos = 1;
+}

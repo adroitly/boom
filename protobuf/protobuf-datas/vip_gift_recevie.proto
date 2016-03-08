@@ -1,0 +1,11 @@
+option java_package = "com.protobuf";
+
+message vip_gift_recevie_request
+{
+    required uint32 gift_lv = 1;
+}
+
+message vip_gift_recevie
+{
+    required uint32 code = 1;
+}

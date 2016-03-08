@@ -1,0 +1,28 @@
+option java_package = "com.protobuf";
+import "guild_skill_info.proto";
+import "guild_custom_title_info.proto";
+//势力基本信息
+message guild_info_request{
+	required uint32 guild_id = 1;       //势力id
+}
+
+message guild_info
+{
+	required uint32 guild_id = 1;       //势力id
+	optional uint32 flag = 2;           //旗帜
+	optional string name = 3;           //势力名称
+	optional uint32 level = 4;          //势力等级
+	optional string leader_name = 5;    //君王名称
+	optional uint32 member_number = 6;  //成员数
+	optional string note = 7;           //势力公告
+    repeated guild_skill_info guild_skill_infos = 8; //技能信息
+    optional uint32 exp = 9;			//经验值，不可消耗
+    optional uint32 donate = 10;		//贡献值，可消耗
+    optional uint32 setting_auto_join = 11;		//设置自动加入
+    optional uint32 setting_limit_level = 12;	//自动加入的限制等级
+    repeated guild_custom_title_info custom_titles = 13;	//自定义title
+    optional uint32 country = 14;       //国家
+}
+
+
+

@@ -1,0 +1,16 @@
+option java_package = "com.protobuf";
+
+
+message message_personal_send_request
+{
+	required string message = 1;
+	required string to_player_name = 2;
+}
+
+
+
+message message_personal_send
+{
+    optional uint32 code = 1;   
+}
+

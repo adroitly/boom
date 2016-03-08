@@ -1,0 +1,13 @@
+option java_package = "com.protobuf";
+
+import "guild_info.proto";
+//本国所有势力
+message guild_info_list_request
+{
+    required uint32 type = 1; // 1 获取本国，2获取所有国家
+}
+
+message guild_info_list
+{
+    repeated guild_info guild_infos = 1; //本国势力列表
+}

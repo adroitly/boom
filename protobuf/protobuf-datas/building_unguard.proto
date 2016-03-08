@@ -1,0 +1,14 @@
+option java_package = "com.protobuf";
+import "outside_army_info.proto";
+
+// 驻守
+message building_unguard_request
+{
+	required uint32 army_id = 1;
+}
+
+message building_unguard
+{
+	required int32 code = 1;
+    optional outside_army_info army = 2;
+}

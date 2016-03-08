@@ -1,0 +1,13 @@
+option java_package = "com.protobuf";
+
+message hero_hp_promote_all_request
+{
+	required uint32 code = 1;
+}
+
+message hero_hp_promote_all
+{
+	required uint32 code = 1;
+}
+
+

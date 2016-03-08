@@ -1,0 +1,9 @@
+option java_package = "com.protobuf";
+// 玩家基础信息
+message player_base_info
+{
+    optional int32 player_id = 1;           //玩家ID
+    optional string nickname = 2;           //玩家名称
+    optional int32 level = 3;               //玩家等级
+    optional int32 pre_online_time = 4;     //玩家上次在线时间
+}

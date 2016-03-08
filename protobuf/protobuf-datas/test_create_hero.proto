@@ -1,0 +1,10 @@
+option java_package = "com.protobuf";
+message test_create_hero_request
+{
+	required uint32 hero_type = 1;
+}
+
+message test_create_hero
+{
+	required uint32 player_id = 1;
+}

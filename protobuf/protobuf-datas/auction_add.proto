@@ -1,0 +1,15 @@
+option java_package = "com.protobuf";
+
+message auction_add_request
+{
+	required uint32 item_id = 1;
+	required uint32 resource_id = 2;
+	required uint32 number = 3;
+	required uint32 price = 4;
+}
+
+message auction_add
+{
+	required uint32 code = 1;
+}
+

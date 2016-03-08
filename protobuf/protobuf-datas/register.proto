@@ -1,0 +1,13 @@
+option java_package = "com.protobuf";
+
+message register_request
+{
+	required string channel_id = 1;
+	optional string platform_userid = 2;
+}
+
+message register
+{
+	required string userid = 1;
+}
+

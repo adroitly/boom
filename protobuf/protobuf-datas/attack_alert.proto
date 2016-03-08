@@ -1,0 +1,22 @@
+option java_package = "com.protobuf";
+
+
+message attack_alert_request
+{
+	required int32 from_x = 1;
+	required int32 from_y = 2;
+	required int32 to_x = 3;
+	required int32 to_y = 4;
+}
+
+message attack_alert
+{	
+	required string nickname = 1;
+	required int32 from_x = 2;
+	required int32 from_y = 3;
+
+	required int32 to_x = 4;
+	required int32 to_y = 5;
+	optional uint32 building_id  = 6;    
+	optional uint32 time = 7;
+}

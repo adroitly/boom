@@ -1,0 +1,11 @@
+option java_package = "com.protobuf";
+
+message building_upgrade_request
+{
+}
+
+
+message building_upgrade
+{
+	required uint32 code 		= 1;
+}

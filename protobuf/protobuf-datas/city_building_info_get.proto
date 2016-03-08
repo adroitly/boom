@@ -1,0 +1,11 @@
+option java_package = "com.protobuf";
+import "building_info.proto";
+message city_building_info_get_request
+{
+    required uint32 guild_id = 1;
+}
+
+message city_building_info_get
+{
+    repeated building_info buildingInfos 	= 1;
+}

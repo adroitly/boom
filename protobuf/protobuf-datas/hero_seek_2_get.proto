@@ -1,0 +1,13 @@
+option java_package = "com.protobuf";
+import "hero_seek_2_info.proto";
+// 对酒
+message hero_seek_2_get_request
+{
+	required uint32 building_id = 1;
+}
+
+message hero_seek_2_get
+{
+	required hero_seek_2_info hero_seek_2_info = 1;
+}
+

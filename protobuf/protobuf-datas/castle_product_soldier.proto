@@ -1,0 +1,16 @@
+option java_package = "com.protobuf";
+
+
+
+message castle_product_soldier_request
+{
+	required uint32 soldier_type = 1;
+	required uint32 number = 2;
+	required int32 x = 3;
+	required int32 y = 4;
+}
+
+message castle_product_soldier
+{
+	required uint32 code = 1;
+}

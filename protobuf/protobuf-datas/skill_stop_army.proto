@@ -1,0 +1,9 @@
+option java_package = "com.protobuf";
+
+
+message skill_stop_army
+{
+	optional uint32 player_id 			= 1;
+	optional uint32 army_id 			= 2;
+	optional uint32 skill_id			= 3;
+}

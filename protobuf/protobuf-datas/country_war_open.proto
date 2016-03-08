@@ -1,0 +1,10 @@
+option java_package = "com.protobuf";
+
+message country_war_open_request
+{
+}
+
+message country_war_open 
+{
+    required uint32 is_open = 1;        // 1为开启
+}

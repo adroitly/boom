@@ -1,0 +1,12 @@
+import "country_war_record.proto";
+option java_package = "com.protobuf";
+
+message country_war_record_get_request
+{
+    required uint32 country_id = 1;
+}
+
+message country_war_record_get
+{
+    repeated country_war_record record_list = 1;
+}

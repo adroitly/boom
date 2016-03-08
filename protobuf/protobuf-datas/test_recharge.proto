@@ -1,0 +1,11 @@
+option java_package = "com.protobuf";
+
+message test_recharge_request
+{
+    required uint32 id = 1;
+}
+
+message test_recharge
+{
+    required uint32 code = 1;
+}

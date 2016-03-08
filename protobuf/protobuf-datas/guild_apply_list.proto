@@ -1,0 +1,16 @@
+option java_package = "com.protobuf";
+import "player_base_info.proto";
+
+// 获取申请列表
+message guild_apply_list_request
+{
+}
+
+message guild_apply_list
+{
+	required uint32 code = 1;
+    repeated player_base_info player_base_infos = 2;    // 申请的成员列表
+}
+
+
+

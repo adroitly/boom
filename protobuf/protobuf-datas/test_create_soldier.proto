@@ -1,0 +1,12 @@
+option java_package = "com.protobuf";
+
+ // 作弊：瞬间移动
+message test_create_soldier_request
+{
+	required uint32 soldier_type = 1;
+}
+
+message test_create_soldier
+{
+	required uint32 player_id = 1;
+}

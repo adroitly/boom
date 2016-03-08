@@ -1,0 +1,12 @@
+option java_package = "com.protobuf";
+
+message test_set_hero_request
+{
+	required uint32 hero_id = 1;
+	required uint32 hero_level = 2;
+}
+
+message test_set_hero
+{
+	
+}

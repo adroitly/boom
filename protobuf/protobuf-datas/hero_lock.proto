@@ -1,0 +1,14 @@
+option java_package = "com.protobuf";
+
+message hero_lock_request
+{
+	required uint32 lock = 1;  //0 表示解锁， 1表示上锁
+	required uint32 hero_id = 2;
+}
+
+message hero_lock
+{
+	required uint32 code = 1;
+}
+
+

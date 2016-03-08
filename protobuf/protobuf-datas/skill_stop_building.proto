@@ -1,0 +1,9 @@
+option java_package = "com.protobuf";
+
+
+message skill_stop_building
+{
+	optional int32 x 			= 1;
+	optional int32 y 			= 2;
+	optional uint32 skill_id			= 3;
+}

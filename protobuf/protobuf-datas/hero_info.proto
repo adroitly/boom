@@ -1,0 +1,16 @@
+option java_package = "com.protobuf";
+
+message hero_info
+{
+    required uint32 hero_id = 1;
+    optional uint32 hero_type = 2;
+    optional uint32 hero_level = 3;
+    optional uint32 hero_state = 4;
+    optional uint32 revive_time = 5;
+    optional uint32 energy = 6;
+    optional uint32 end_energy_time = 7;
+    optional uint32 lock = 8; // 1表示上锁，不能出售，不能被吃 0表示没有上锁
+    optional uint32 energy_reduce_count = 9;//是否使用了50%的加速训练
+    optional uint32 revive_reduce_count = 10;//是否使用了50%的疗伤       
+    optional uint32 go_time = 11;//出征时间
+}

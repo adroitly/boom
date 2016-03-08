@@ -1,0 +1,17 @@
+option java_package = "com.protobuf";
+import "com_package.proto";
+
+message situation_package_request
+{
+}
+
+
+
+message situation_package
+{
+	required uint32 res_id = 1;
+	optional int32 x = 2;
+	optional int32 y = 3;
+	optional Pakcage pack = 4;
+}
+

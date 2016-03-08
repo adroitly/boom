@@ -1,0 +1,8 @@
+option java_package = "com.protobuf";
+
+message hero_seek_3_info
+{
+	required uint32 building_id = 1; 		//建筑id
+	required uint32 hero_seek_type = 2;		//英雄id
+}
+

@@ -1,0 +1,11 @@
+option java_package = "com.protobuf";
+import "player_base_info.proto";
+
+// 请求势力所有成员信息
+message guild_member
+{
+	required uint32 player_id = 1;
+    optional player_base_info player_base_info = 2;     // 成员基础信息
+	optional uint32 title = 3;                          //成员封号
+	optional uint32 donate = 4;                         //个人累计总贡献
+}

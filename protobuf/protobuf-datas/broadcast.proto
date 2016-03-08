@@ -1,0 +1,8 @@
+option java_package = "com.protobuf";
+
+message broadcast
+{
+	required uint32 priority = 1;
+    required string text = 2;
+}
+

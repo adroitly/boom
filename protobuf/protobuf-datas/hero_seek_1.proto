@@ -1,0 +1,15 @@
+option java_package = "com.protobuf";
+
+// 对酒
+message hero_seek_1_request
+{
+	required uint32 type = 1;		// 1表示招贤令对酒一次，2表示元宝对酒一次，3表示元宝对酒十次
+}
+
+// 结果成功需要先发送hero-info
+message hero_seek_1
+{
+	required uint32 code = 1;        		//校验
+	repeated uint32 hero_ids = 2;			//英雄id列表
+}
+

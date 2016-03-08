@@ -1,0 +1,14 @@
+option java_package = "com.protobuf";
+import "player_base_info2.proto";
+
+// 驻守
+message building_owner_info_request
+{
+	required int32 x = 1;
+	required int32 y = 2;
+}
+
+message building_owner_info
+{
+	optional player_base_info2 player_base_info2 	= 1;
+}

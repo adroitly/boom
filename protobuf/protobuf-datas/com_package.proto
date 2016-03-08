@@ -1,0 +1,8 @@
+option java_package = "com.protobuf.common";
+import "com_package_item.proto";
+
+message Pakcage
+{
+	repeated com_package_item items = 1;
+}
+

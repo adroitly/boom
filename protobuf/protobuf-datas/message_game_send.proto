@@ -1,0 +1,21 @@
+option java_package = "com.protobuf";
+
+
+message message_game_send_request
+{
+
+}
+
+
+
+message message_game_send
+{
+	required uint32 from_player_id = 1 [default = 0];
+	required uint32 to_player_id = 2 [default = 0];
+	required string message = 3;
+	optional uint32 message_type = 4 [default = 1];  //1表示未读，2表示已读, 3 删除
+	optional string from_nickname = 5;
+	optional uint32 time = 6;
+	optional uint32 success = 7; //0 成功， 1 失败
+}
+

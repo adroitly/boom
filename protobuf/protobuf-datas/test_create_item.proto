@@ -1,0 +1,11 @@
+option java_package = "com.protobuf";
+
+message test_create_item_request
+{
+	required uint32 item_type = 1;
+}
+
+message test_create_item
+{
+	required uint32 player_id = 1;
+}

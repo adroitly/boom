@@ -1,0 +1,11 @@
+option java_package = "com.protobuf";
+
+message guild_join_request
+{
+    required int32 guild_id = 1;       // 势力ID
+}
+
+message guild_join
+{
+    required int32 code = 1 ; // 0:加入成功
+}

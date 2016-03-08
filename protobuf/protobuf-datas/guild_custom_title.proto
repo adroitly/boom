@@ -1,0 +1,13 @@
+option java_package = "com.protobuf";
+
+message guild_custom_title_request
+{
+	required uint32 title = 1;
+	required string name = 2;
+}
+
+message guild_custom_title
+{
+	required uint32 code = 1;
+}
+

@@ -1,0 +1,12 @@
+option java_package = "com.protobuf";
+import "castle_product_soldier_info.proto";
+
+message castle_product_soldier_get_request
+{
+}
+
+message castle_product_soldier_get
+{
+	repeated castle_product_soldier_info soldiers = 1;
+}
+

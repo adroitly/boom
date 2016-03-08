@@ -1,0 +1,11 @@
+option java_package = "com.protobuf";
+
+message country_war_info
+{
+    required uint32 country_id = 1;         // 国家ID
+    required uint32 relation = 2;           // 关系（0为无，1为宣战，2为被宣战）
+    required uint32 player_count = 3;       // 玩家人数
+    required uint32 fighting = 4;           // 国家总战力
+    required uint32 score = 5;              // 国家功勋
+}
+

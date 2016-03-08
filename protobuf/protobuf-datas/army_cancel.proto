@@ -1,0 +1,15 @@
+option java_package = "com.protobuf";
+
+message army_cancel_request
+{
+	required uint32 player_id = 1;
+	required uint32 army_id = 2;
+}
+
+message army_cancel
+{
+	required uint32 code = 1;
+	optional uint32 player_id = 2;
+	optional uint32 army_id = 3;
+}
+

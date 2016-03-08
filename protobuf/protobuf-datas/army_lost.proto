@@ -1,0 +1,11 @@
+option java_package = "com.protobuf";
+
+
+message army_lost
+{
+	optional uint32 player_id 			= 1;
+	optional uint32 army_id 			= 2;
+	optional int32  army_number 		= 3;
+	optional int32  army_lost_number 	= 4;
+	optional int32  skill_id 			= 5;
+}

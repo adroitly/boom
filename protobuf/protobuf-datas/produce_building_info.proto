@@ -1,0 +1,7 @@
+option java_package = "com.protobuf";
+message produce_building_info
+{
+    required uint32 building_id = 1;
+    required int32 x = 2;
+    required int32 y = 3;
+}

@@ -1,0 +1,7 @@
+option java_package = "com.protobuf";
+
+message collect_info
+{
+    required uint32 id = 1;
+    required string info = 2;
+}

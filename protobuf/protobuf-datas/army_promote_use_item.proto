@@ -1,0 +1,11 @@
+option java_package = "com.protobuf";
+
+message army_promote_use_item_request
+{
+}
+
+message army_promote_use_item
+{
+	required uint32 code = 1;
+}
+

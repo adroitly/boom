@@ -1,0 +1,9 @@
+option java_package = "com.protobuf";
+
+message country_war_record
+{
+	required uint32 src_country_id = 1;
+	required uint32 target_country_id = 2;
+    required uint32 time = 3;
+    required uint32 result = 4;     // 胜0败1
+}

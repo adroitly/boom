@@ -1,0 +1,12 @@
+option java_package = "com.protobuf";
+
+message auction_on_request
+{
+	required uint32 id = 1;
+}
+
+message auction_on
+{
+	required uint32 code  = 1;
+}
+

@@ -1,0 +1,8 @@
+option java_package = "com.protobuf";
+
+message country_war_fight_info
+{
+    required uint32 country_id = 1;         // 国家ID
+    required uint32 relation = 2;           // 关系（0为无，1为宣战，2为被宣战）
+    required uint32 fight_score = 5;        // 国战当前功勋
+}

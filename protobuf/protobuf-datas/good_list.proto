@@ -1,0 +1,22 @@
+option java_package = "com.protobuf";
+
+message good_list_request
+{
+	
+}
+
+message good_list
+{
+	message good{
+		required uint32 goodsid = 1;
+		required string name = 2;
+		required string desc = 3; 
+		required string icon = 4; 
+		required string num = 5; 
+		required string price = 6;
+	}
+
+	repeated good goods 	= 1;
+
+}
+

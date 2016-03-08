@@ -1,0 +1,12 @@
+option java_package = "com.protobuf";
+
+message shop_exchange_request
+{
+    required uint32 id = 1;
+    required uint32 count = 2;
+}
+
+message shop_exchange
+{
+    required uint32 code = 1;
+}

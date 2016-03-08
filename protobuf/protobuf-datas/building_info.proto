@@ -1,0 +1,19 @@
+option java_package = "com.protobuf";
+
+message building_info
+{
+	required uint32 building_id = 1 [default = 0];
+	required uint32 owner_id = 2 [default = 0];
+	optional uint32 level = 3 [default = 0];
+	optional int32 x = 4;
+	optional int32 y = 5;
+	optional uint32 city_amount = 6;
+	optional uint32 garrison_number = 7;
+    optional uint32 contry_id = 8 [default = 0];
+    optional uint32 guild_id = 9 [default = 0];
+    optional string owner_name = 10;
+    optional uint32 next_repair_time = 11 [default = 0];
+    
+}
+
+

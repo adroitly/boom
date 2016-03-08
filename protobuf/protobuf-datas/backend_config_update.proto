@@ -1,0 +1,16 @@
+option java_package = "com.protobuf";
+
+
+message backend_config_update_request
+{
+	
+	required string message = 1;
+}
+
+
+
+message backend_config_update
+{
+	required string message = 1;
+}
+

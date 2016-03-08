@@ -1,0 +1,14 @@
+option java_package = "com.protobuf";
+import "guild_member_info.proto";
+// 请求势力所有成员信息
+message guild_member_list_request
+{
+}
+
+message guild_member_list
+{
+	required uint32 code = 1 ; // 0:加入成功
+   	repeated guild_member_info guild_members = 2 ;
+}
+
+

@@ -1,0 +1,25 @@
+option java_package = "com.protobuf";
+
+
+message castle_repair_request
+{
+}
+
+message castle_repair
+{	
+	required uint32 code = 1;
+}
+
+
+	
+	
+
+
+	
+	
+
+
+
+
+	
+	

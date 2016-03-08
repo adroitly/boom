@@ -1,0 +1,12 @@
+option java_package = "com.protobuf";
+
+message vip_reward_receive_request
+{
+}
+
+
+message vip_reward_receive
+{
+	optional uint32 code = 1;
+}
+

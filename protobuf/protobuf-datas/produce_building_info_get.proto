@@ -1,0 +1,10 @@
+option java_package = "com.protobuf";
+import "produce_building_info.proto";
+message produce_building_info_get_request
+{
+}
+
+message produce_building_info_get
+{
+    repeated produce_building_info building_info_list = 1;
+}

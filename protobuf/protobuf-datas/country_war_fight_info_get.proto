@@ -1,0 +1,11 @@
+import "country_war_fight_info.proto";
+option java_package = "com.protobuf";
+
+message country_war_fight_info_get_request
+{
+}
+
+message country_war_fight_info_get
+{
+    repeated country_war_fight_info info_list = 1;
+}

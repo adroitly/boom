@@ -1,0 +1,9 @@
+option java_package = "com.protobuf.common";
+
+message com_package_item
+{
+	required uint32 resource_id = 1; // 1道具, 2士兵, 3武将
+	required uint32 type = 2;    //物品的配置id, 
+	required uint32 number = 3;
+}
+

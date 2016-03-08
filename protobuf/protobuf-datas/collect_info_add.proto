@@ -1,0 +1,13 @@
+import "collect_info.proto";
+option java_package = "com.protobuf";
+
+message collect_info_add_request
+{
+    required string info = 1;
+}
+
+message collect_info_add
+{
+    required uint32 code = 1;
+    optional collect_info collect_info = 2;
+}

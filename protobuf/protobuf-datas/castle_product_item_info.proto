@@ -1,0 +1,14 @@
+option java_package = "com.protobuf";
+
+
+message castle_product_item_info
+{
+	required uint32 id = 1;
+	required uint32 item_type = 2;
+    required uint32 item_number = 3;
+    required uint32 product_end_time = 4;
+    required int32 x = 5;
+    required int32 y = 6;
+    required int32 reduce_count = 7;
+}
+

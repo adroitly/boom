@@ -1,0 +1,38 @@
+option java_package = "com.protobuf";
+
+message rank_my_request
+{
+}
+
+
+message rank_my
+{
+    //国战
+	optional uint32 rank1 = 1;
+    //个人
+    optional uint32 rank2 = 2;
+    //势力
+	optional uint32 rank3 = 3;
+    //官职
+	optional uint32 rank4 = 4;
+    //财富
+	optional uint32 rank5 = 5;
+    //粮食
+	optional uint32 rank6 = 6;
+    //元气玉
+	optional uint32 rank7 = 7;
+    //矿石
+	optional uint32 rank8 = 8;
+    //木材
+	optional uint32 rank9 = 9;
+
+	optional uint32 rank1_value = 10;
+	optional uint32 rank2_value = 11;
+	optional uint32 rank3_value = 12;
+	optional uint32 rank4_value = 13;
+	optional uint32 rank5_value = 14;
+	optional uint32 rank6_value = 15;
+	optional uint32 rank7_value = 16;
+    optional uint32 rank8_value = 17;
+    optional uint32 rank9_value = 18;
+}

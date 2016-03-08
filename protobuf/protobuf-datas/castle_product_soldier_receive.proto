@@ -1,0 +1,14 @@
+option java_package = "com.protobuf";
+
+
+
+message castle_product_soldier_receive_request
+{
+	required uint32 id = 1;
+}
+
+message castle_product_soldier_receive
+{
+	required uint32 code = 1;
+    optional uint32 id = 2;
+}

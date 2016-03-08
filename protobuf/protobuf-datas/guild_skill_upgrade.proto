@@ -1,0 +1,12 @@
+option java_package = "com.protobuf";
+// 技能升级
+message guild_skill_upgrade_request
+{
+    required uint32 skill_type = 1;        //需要升级的技能type
+    required uint32 donate = 2;            //玩家贡献值
+}
+
+message guild_skill_upgrade
+{
+    required uint32 code = 1;    //0为成功，非0为失败
+}

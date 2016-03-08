@@ -1,0 +1,14 @@
+option java_package = "com.protobuf";
+import "outside_army_info.proto";
+
+message army_go_request
+{
+	required uint32 player_id = 1;
+	optional uint32 army_id = 2;
+}
+
+message army_go
+{
+	required int32 code = 1;
+	optional outside_army_info army = 2;
+}

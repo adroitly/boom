@@ -1,0 +1,13 @@
+option java_package = "com.protobuf";
+
+message service_use_request
+{
+	required uint32 service_type = 1;
+	optional uint32 id = 2;
+}
+
+message service_use
+{
+    required int32 code = 1 ;
+}
+

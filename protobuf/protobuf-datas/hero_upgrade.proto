@@ -1,0 +1,15 @@
+option java_package = "com.protobuf";
+
+// 武将升星
+message hero_upgrade_request
+{
+	required uint32 hero_id = 1;		//目标英雄ID
+	repeated uint32 stuff_hero_ids = 2;
+
+}
+
+message hero_upgrade
+{	
+ 	required uint32 code = 1;
+}
+

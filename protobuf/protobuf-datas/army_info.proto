@@ -1,0 +1,18 @@
+option java_package = "com.protobuf";
+
+
+message army_info
+{
+	required uint32 army_id = 1;
+	optional uint32 army_state = 2; 	          //1 在城内, 2 在城外, 3 驻守
+	optional uint32 hero_id = 3;
+	optional uint32 soldier_type = 4;
+	optional int32 from_x = 5;
+	optional int32 from_y = 6;
+	optional uint32 army_number = 7;
+	optional uint32 food = 8;
+	optional uint32 statu_id = 9;
+
+	
+}
+

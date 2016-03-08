@@ -1,0 +1,11 @@
+option java_package = "com.protobuf";
+
+message hero_seek_count_request
+{
+}
+
+message hero_seek_count
+{
+	required uint32 hero_seek_1_2_count = 1;
+}
+

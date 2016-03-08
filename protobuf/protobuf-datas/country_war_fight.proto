@@ -1,0 +1,11 @@
+option java_package = "com.protobuf";
+
+message country_war_fight_request
+{
+    required uint32 country_id = 1;
+}
+
+message country_war_fight
+{
+    required uint32 code = 1;
+}

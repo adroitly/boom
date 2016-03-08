@@ -1,0 +1,19 @@
+option java_package = "com.protobuf";
+
+
+message backend_notify_receiver_request
+{
+	required uint32 id = 1;
+	required uint32 player_id = 2;
+	required uint32 price = 3;
+}
+
+
+
+
+
+message backend_notify_receiver
+{
+	required uint32 code = 1;
+}
+

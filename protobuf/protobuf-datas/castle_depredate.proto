@@ -1,0 +1,16 @@
+option java_package = "com.protobuf";
+
+message castle_depredate_request
+{
+	required int32 target_x = 1;
+	required int32 target_y = 2;
+	required uint32 army_id = 3;
+	required int32 src_x = 4;
+	required int32 src_y = 5;
+}
+
+message castle_depredate
+{
+	required uint32 code = 1;
+}
+

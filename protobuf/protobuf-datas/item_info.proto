@@ -1,0 +1,7 @@
+option java_package = "com.protobuf.common";
+
+message item_info
+{
+    required uint32 item_type = 1;
+    required uint32 item_number = 2;
+}

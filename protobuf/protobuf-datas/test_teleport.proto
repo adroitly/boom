@@ -1,0 +1,18 @@
+option java_package = "com.protobuf";
+
+ // 作弊：瞬间移动
+message test_teleport_request
+{
+	optional uint32 player_id = 1;
+	optional uint32 army_id = 2;
+	optional int32 to_x = 3;
+	optional int32 to_y = 4;
+}
+
+message test_teleport
+{
+	optional uint32 player_id = 1;
+	optional uint32 army_id = 2;
+	optional int32 from_x = 3;
+	optional int32 from_y = 4;
+}

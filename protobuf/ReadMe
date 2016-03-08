@@ -1,0 +1,5 @@
+* protobuf统一使用protobuf-2.5.0这个版本
+
+* 统一将原始protobuf数据放置在protobuf-datas文件夹
+
+* 运行protobuf-script/ScriptRun脚本，自动编译protobuf-datas/*.proto原始数据

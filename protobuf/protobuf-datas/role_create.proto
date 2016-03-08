@@ -1,0 +1,17 @@
+option java_package = "com.protobuf";
+
+message role_create_request
+{
+	required uint32 type = 1;	// type类型：1测试，2账号登陆，3weixin登陆，4QQ登陆，5微博登陆
+	optional uint32 id = 2;
+	optional string nickname = 3;
+}
+
+
+
+message role_create
+{
+	// 0成功
+	required uint32 code = 1;
+}
+

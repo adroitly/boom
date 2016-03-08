@@ -1,0 +1,28 @@
+option java_package = "com.protobuf";
+
+message auction_list_request
+{
+	required uint32 page = 1;
+	optional uint32 resource_id = 2;
+	optional uint32 level = 3;
+	optional uint32 item_id = 4;
+	optional uint32 player_id = 5;
+}
+
+message auction_list
+{
+	message auction{
+		optional uint32  id = 1;
+		optional uint32  price = 2;
+		optional uint32  resource_id = 3;
+		optional uint32  number = 4;
+		optional uint32  item_id = 5;
+		optional uint32  level = 6;
+		optional uint32  player_id = 7;
+		optional string  nickname = 8;
+		optional uint32  time = 9;
+
+	}
+	repeated auction auctions = 1;
+}
+

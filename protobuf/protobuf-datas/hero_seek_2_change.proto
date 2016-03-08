@@ -1,0 +1,15 @@
+option java_package = "com.protobuf";
+import "hero_seek_2_info.proto";
+
+message hero_seek_2_change_request
+{
+	required uint32 building_id = 1;
+}
+
+// 结果成功需要先发送hero-info
+message hero_seek_2_change
+{
+	required uint32 code = 1;        		//校验
+	required hero_seek_2_info hero_seek_2_info = 2;
+}
+

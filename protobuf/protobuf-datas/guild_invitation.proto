@@ -1,0 +1,15 @@
+option java_package = "com.protobuf";
+
+// 获取申请列表
+message guild_invitation_request
+{
+    required uint32 target_id = 1;    // 由于不能为空
+}
+
+message guild_invitation
+{
+	required uint32 code = 1;
+}
+
+
+

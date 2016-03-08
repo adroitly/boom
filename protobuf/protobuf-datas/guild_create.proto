@@ -1,0 +1,14 @@
+option java_package = "com.protobuf";
+
+//创建势力
+message guild_create_request
+{
+	required string name = 1;//势力名称
+    required int32 flag = 2;//势力旗帜
+}
+
+message guild_create
+{
+    required int32 code = 1 ; // 0：创建势力成功
+}
+

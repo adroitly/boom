@@ -1,0 +1,10 @@
+option java_package = "com.protobuf";
+// 退出势力
+message guild_quit_request
+{
+}
+
+message guild_quit
+{
+    required int32 code = 1;    //0为成功，非0为失败
+}

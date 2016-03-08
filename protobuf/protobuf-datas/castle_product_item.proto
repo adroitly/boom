@@ -1,0 +1,14 @@
+option java_package = "com.protobuf";
+
+message castle_product_item_request
+{
+	required uint32 item_type = 1;
+	required int32 x = 2;
+	required int32 y = 3;
+}
+
+message castle_product_item
+{
+	required uint32 code = 1;
+}
+

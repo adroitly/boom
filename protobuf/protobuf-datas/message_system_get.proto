@@ -1,0 +1,28 @@
+option java_package = "com.protobuf";
+import "com_package_item.proto";
+
+message message_system_get_request
+{
+	required uint32 id = 1 [default = 0];
+}
+
+
+
+message message_system_get
+{
+	message MessageSystem{
+		required uint32 id = 1;
+		optional uint32 from_player_id = 2 [default = 0];
+		optional uint32 to_player_id = 3 [default = 0];
+		optional string message = 4;
+		optional uint32 message_type = 5 [default = 1];  //1表示未读，2表示已读, 3 删除
+		optional string from_nickname = 6;
+		optional uint32 time = 7;
+		optional uint32 guild_id = 8;
+		optional string title = 9;
+		repeated com_package_item items = 10;
+	}
+
+	repeated MessageSystem messages = 1;
+}
+

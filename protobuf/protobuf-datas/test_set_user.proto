@@ -1,0 +1,6 @@
+option java_package = "com.protobuf";
+
+message test_set_user_request
+{
+	required uint32 level = 1;
+}

@@ -1,0 +1,13 @@
+option java_package = "com.protobuf";
+import "com_package_item.proto";
+message open_box_request
+{
+	required uint32 item_type = 1;
+	required uint32 item_number = 2;
+}
+
+message open_box
+{
+	required uint32 code = 1;
+	repeated com_package_item items = 2;
+}

@@ -1,0 +1,13 @@
+option java_package = "com.protobuf";
+import "item_info.proto";
+// 势力捐献相关
+message guild_donate_request
+{
+    repeated item_info pay_items = 1;  //捐献资源列表
+}
+
+message guild_donate
+{
+    required int32 code = 1 ; // 0:捐献成功
+}
+

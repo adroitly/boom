@@ -1,0 +1,13 @@
+option java_package = "com.protobuf";
+// 同意拒绝新成员
+message guild_new_member_operate_request
+{
+    
+    required int32 operate_type = 1;    // 1同意 2拒绝 3全部同意 4 全部拒绝
+    optional int32 player_id = 2;       // 玩家ID
+}
+
+message guild_new_member_operate
+{
+    required int32 code = 1;    //0为成功，非0为失败
+}

@@ -1,0 +1,15 @@
+option java_package = "com.protobuf";
+
+
+message rank_info
+{
+	optional uint32 rank = 1;
+	optional uint32 id = 2;
+	optional string name = 3;
+    optional string guild_name = 4;
+	optional uint32 level = 5;
+	optional uint32 country = 6;
+	optional uint32 value = 7;
+    optional uint32 icon = 8;                   // 玩家则玩家头像，势力则势力旗帜
+}
+

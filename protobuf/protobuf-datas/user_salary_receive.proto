@@ -1,0 +1,11 @@
+option java_package = "com.protobuf";
+
+message user_salary_receive_request
+{
+}
+
+message user_salary_receive
+{
+	required uint32 code = 1;
+}
+

@@ -1,0 +1,8 @@
+option java_package = "com.protobuf";
+
+
+message army_disappear
+{
+	required uint32 player_id = 1;
+	required uint32 army_id = 2;
+}

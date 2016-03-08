@@ -1,0 +1,13 @@
+option java_package = "com.protobuf";
+
+message user_appoint_request
+{
+	required uint32 target_id = 1;
+	required uint32 level = 2;
+}
+
+message user_appoint
+{
+	required uint32 code = 1;
+}
+

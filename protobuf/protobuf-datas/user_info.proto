@@ -1,0 +1,29 @@
+option java_package = "com.protobuf";
+
+
+message user_info
+{
+	optional uint32 player_id 	= 1;
+	optional string nickname 	= 2;
+	optional int32 home_x 		= 3;
+	optional int32 home_y 		= 4;
+	optional uint32 message_system_number 	= 5;
+	optional uint32 server_time 	= 6;
+	optional uint32 guild_id = 7;
+    optional uint32 level = 8;
+    optional uint32 level_up_end_time = 9;
+	optional uint32 salary_receive_time = 10;
+	optional uint32 level_up_reduce_50 = 11;
+	optional uint32 country = 12;
+	optional uint32 item_50706 = 13;
+	optional uint32 message_board_count = 14;
+
+	optional uint32 rmb = 15;
+	optional uint32 vip = 16;
+	optional uint32 vip_reward_receive_time = 17;
+	optional uint32 vip_gift_recevie_lv = 18;
+	optional uint32 icon = 19;
+	optional uint32 sex = 20;
+
+}
+

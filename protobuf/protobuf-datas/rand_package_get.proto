@@ -1,0 +1,16 @@
+option java_package = "com.protobuf";
+import "com_package.proto";
+
+message rand_package_get_request
+{
+	required int32 x = 1;
+	required int32 y = 2;
+}
+
+message rand_package_get
+{	
+	required uint32 code = 1;
+    optional int32 x = 2;
+    optional int32 y = 3;
+	optional Pakcage pack = 4;
+}

@@ -1,0 +1,15 @@
+option java_package = "com.protobuf";
+
+message view_change_request
+{
+	required uint32 player_id = 1;
+	optional int32 x = 2;
+	optional int32 y = 3;
+}
+
+
+
+message view_change
+{
+}
+

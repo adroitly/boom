@@ -1,0 +1,14 @@
+option java_package = "com.protobuf";
+import "outside_army_info.proto";
+
+// 驻守
+message building_garrison_list_request
+{
+	required int32 x = 1;
+	required int32 y = 2;
+}
+
+message building_garrison_list
+{
+	repeated outside_army_info armyInfos 	= 1;
+}

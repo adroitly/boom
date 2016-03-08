@@ -1,0 +1,11 @@
+option java_package = "com.protobuf";
+// 自动加入设置
+message guild_message_send_request
+{
+	required string message = 1;
+}
+
+message guild_message_send
+{
+    required int32 code = 1;
+}
