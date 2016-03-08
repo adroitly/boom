@@ -1,0 +1,8 @@
+{
+    "package_path": "Upload/innet",
+	"zip_url": "http://ipas.fzxgame.cn/three/config/innet/",
+	"targets": ["../../client/res", "../../client/src"],
+	"key": "PatGame)^)!",
+	"sign": "__BIG_DEVIL__",
+    "upload_script": "UploadTools/run.sh"
+}

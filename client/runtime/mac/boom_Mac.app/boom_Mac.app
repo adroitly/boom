@@ -1,0 +1,1 @@
+/Users/patgame/Library/Developer/Xcode/DerivedData/boom-ghowlgvdpwadghhcwqsiwpxonvhb/Build/Intermediates/ArchiveIntermediates/boom_Mac/InstallationBuildProductsLocation/Applications/boom_Mac.app

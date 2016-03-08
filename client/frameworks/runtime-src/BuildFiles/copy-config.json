@@ -1,0 +1,27 @@
+{
+    "folder": [
+        {
+            "source" : "assets",
+            "targetFolder": "assets",
+            "isNew": "true"
+        },
+        {
+            "source" : "libs"
+        },
+        {
+            "source" : "obj"
+        }
+    ],
+    "files": [
+        {
+            "source": "ant.properties",
+            "targetFolder" : "/",
+            "isNew" : "true",
+            "isFilter" : "false"
+        },
+        {
+            "source": "local.properties",
+            "isNew" : "true"
+        }
+    ]
+}

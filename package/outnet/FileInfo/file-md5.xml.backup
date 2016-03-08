@@ -1,0 +1,1190 @@
+<Resources Version="1.1">
+  <_res>
+    <_army>
+      <_18000>
+        <_18000.plist md5="ecacc2a482148dfe345a74d73ab50692" />
+        <_18000.png md5="3c9a580dd72ce7b72922500976e31b47" />
+      </_18000>
+      <_18100>
+        <_18100.plist md5="deda1857737ff826c6a6f0d09e5110d8" />
+        <_18100.png md5="4e89041abb628908fce532bf32ae9f24" />
+      </_18100>
+      <_18200>
+        <_18200.plist md5="b52b6a547eca8e9cce8e8a11bcd5ea73" />
+        <_18200.png md5="9b30e1c2d7d50eb142567fcdcfbc52fc" />
+      </_18200>
+      <_18300>
+        <_18300.plist md5="f4c651ee40d733e6b2e681e12d1fea84" />
+        <_18300.png md5="1128c210fc0ef67cc26434985f989397" />
+      </_18300>
+      <_18400>
+        <_18400.plist md5="35de3cbe4b1ca3c20744bcab39e7f85f" />
+        <_18400.png md5="49c57f5c7bb17dd78a369a4fa734b9f7" />
+      </_18400>
+      <_18500>
+        <_18500.plist md5="554f6de6c067e82a3789209ddc426c11" />
+        <_18500.png md5="8e9edc201841a13edb7a1581926c0dc7" />
+      </_18500>
+      <_18600>
+        <_18600.plist md5="bc26d76aea1951fb243b94f4e2806f91" />
+        <_18600.png md5="5e93c46e5f520f18ca20f473427265bd" />
+      </_18600>
+      <_18700>
+        <_18700.plist md5="1fa96659fd246779f65d007d62dcb0ee" />
+        <_18700.png md5="9d474423ab2d02bff536ce56e13c49f2" />
+      </_18700>
+      <_18800>
+        <_18800.plist md5="d8b78e4f61f1d4dd3db572859eec9210" />
+        <_18800.png md5="399111828f9f11847a38dec5e0e3c4cf" />
+      </_18800>
+      <_18900>
+        <_18900.plist md5="e2d28386fa0cd0891e8f22d52ef22190" />
+        <_18900.png md5="5e875f1084e22e5be65bdff3752616d0" />
+      </_18900>
+    </_army>
+    <_attack-effect>
+      <_1>
+        <_1.plist md5="796224d2435d46f527710fab4fed09ed" />
+        <_1.png md5="e1793bcd2e76d5d2b41ce542453a0949" />
+      </_1>
+      <_2>
+        <_2.plist md5="3229b50df5e465a99934e863769cc279" />
+        <_2.png md5="8cc202ba92a0bc912dcbc15273b9018f" />
+      </_2>
+      <_3>
+        <_3.plist md5="02ecf798a35730bdbd8cc11c87ec9e68" />
+        <_3.png md5="3a0c70b06fe1353c42c19d0b4870d633" />
+      </_3>
+      <_4>
+        <_4.plist md5="004c4e41c30ba6f2c943ead94c180b58" />
+        <_4.png md5="3436372d634160dd200f37b6b79c57a6" />
+      </_4>
+      <_5>
+        <_5.plist md5="fd8a0377e4d0955bc69ad9c1f197bc77" />
+        <_5.png md5="13dbbba182fd50593a7bb1b897ca5386" />
+      </_5>
+    </_attack-effect>
+    <_audio>
+      <_bg-map.mp3 md5="a43a60f065055510e7956ce6c2726599" />
+      <_ef-click-button.mp3 md5="e55159ed24546ca2cc329e31ebc7815d" />
+    </_audio>
+    <_protocol>
+      <_alcohol.pb md5="38c9ffea896c26334b5cc573fac6a7d6" />
+      <_army_add_food_outside.pb md5="c4b568b865fa99c50daadebda449dd8b" />
+      <_army_add_soldier_outside.pb md5="245d5da5b0781b91adcac48de0e6cbcc" />
+      <_army_base_info.pb md5="8a1f4a4f69a48d1172e79cec550c4d6f" />
+      <_army_cancel.pb md5="261f5e91f0aabe8b0b1ae4fc8305c497" />
+      <_army_create.pb md5="b514d638f7e4b89fcc3da41aa68e65d8" />
+      <_army_disappear.pb md5="927a7ae094bc0f92bdc1a08b6f26c54e" />
+      <_army_go.pb md5="875cd0ad828013be608e920ce46dabd0" />
+      <_army_go_back.pb md5="5735ae65fb570592b764980d84dfcf99" />
+      <_army_go_back_use_item.pb md5="7af7cd3b6268bcdb05cc013a4c482ab3" />
+      <_army_info.pb md5="b997a9dc647eb4bcec3c77030cc62f37" />
+      <_army_lost.pb md5="00f4e745afa1dfb8e39949ba0dd32f92" />
+      <_army_promote.pb md5="e213d5462a5eb63e3e5623907c57cc98" />
+      <_army_promote_immediately.pb md5="c8dd59d51dace20d676792985947a5c4" />
+      <_army_promote_immediately_outside.pb md5="68a5c64dfd6e22bf13afeafbb09005cf" />
+      <_army_promote_use_item.pb md5="e342d25aab1405ebe8324376f20f7626" />
+      <_army_set.pb md5="c68e93cfeb9629832acdc1dfe02ce082" />
+      <_arrive.pb md5="5c3afc686a73bf0bfd3db0f186d9fa81" />
+      <_attack_alert.pb md5="f35bd3d30ed78ba128a31d9b0940fd6d" />
+      <_attack_army.pb md5="3ac14aed044c01d7048b0cdc597dcb5b" />
+      <_attack_building.pb md5="ad1a4221e1a9ff337c45285feea2abc7" />
+      <_attack_code.pb md5="8221f89edf95238893e8c53d28966692" />
+      <_auction_add.pb md5="067148f268932d10fc8ab795024699b7" />
+      <_auction_get.pb md5="52c8aa77b1411b22c13e7d9b59f79aa1" />
+      <_auction_list.pb md5="1324ba03911ee95a032c09142c0b426d" />
+      <_auction_off.pb md5="41a87793aa0d30de688e26fa880c2e1f" />
+      <_auction_on.pb md5="6bfe9618d4995b755ed278973b8f5948" />
+      <_backend_config_update.pb md5="b0f8ece8457308c58e2590f3a3170720" />
+      <_backend_message_system_send.pb md5="f40f3c7a011c41dd71ece88fe02f134c" />
+      <_backend_notify_receiver.pb md5="55286c37673c1b3e0960718fe8263697" />
+      <_backend_user_info_get.pb md5="7b1a137920b844573e7b644890ce45de" />
+      <_backend_user_info_modify.pb md5="0cfb8452c8e2b9f7e257ec2e0c60ed71" />
+      <_broadcast.pb md5="431b5de5099f5acc22ed01f840797046" />
+      <_building_garrison_list.pb md5="9511cb1cb17311a0515a4220a52ed435" />
+      <_building_guard.pb md5="782f15c921f7fdf89c7238b9a14645e6" />
+      <_building_info.pb md5="564d4726d8a47ae2ce75fca47923fd05" />
+      <_building_lost.pb md5="448c96dca63bf91da69c7ef1b28dbea1" />
+      <_building_occupy.pb md5="1417a7974a1ad14400454816a153040c" />
+      <_building_owner_info.pb md5="0d27032379a96f6ed4763c12195d9116" />
+      <_building_unguard.pb md5="4e6f4dcfb9e041b2005655216a865973" />
+      <_building_upgrade.pb md5="38f8d8a981e35b835e3b202437a4a6f7" />
+      <_castle_product_item.pb md5="3d445cacd96eee10c5bfc300f9e6b8a1" />
+      <_castle_product_item_get.pb md5="3d00f73e208fa320b86765006e6a0a8e" />
+      <_castle_product_item_info.pb md5="8dbf4d01c2e6ca0837db307059a9609f" />
+      <_castle_product_item_receive.pb md5="298d57116d02dd1a5a999b8a22062f6b" />
+      <_castle_product_soldier.pb md5="a6833a68f0024242416dc93bf45f6063" />
+      <_castle_product_soldier_get.pb md5="ea78af85df64fe74b37895a2dee88df3" />
+      <_castle_product_soldier_info.pb md5="d3b0d36778b8180403920b77aec1eeca" />
+      <_castle_product_soldier_receive.pb md5="6a2e03c62b881d268372abe46b66da14" />
+      <_city_building_info_get.pb md5="739130926217e0225e8b9cd9f71fc5d3" />
+      <_collect_add.pb md5="0d8d8542541fbe9f958a47b67d764231" />
+      <_collect_delete.pb md5="be4da911e94ee7ecaddfc2d11019f903" />
+      <_collect_info.pb md5="b3bdfb818c244b7df1482ee99841d675" />
+      <_collect_info_add.pb md5="6d9823238aaaa54e31d69b4e907746ba" />
+      <_collect_info_delete.pb md5="6013d66a3f7910c3d2560079bc9c2ad4" />
+      <_collect_info_get.pb md5="02e89c8fc292ce96fb2213d976bb6ec9" />
+      <_com_package.pb md5="271fce0c1d11134feaf78f5c8ee7bb12" />
+      <_com_package_item.pb md5="b560e2675ffab1d8ee377460f9f72631" />
+      <_country_war_fight.pb md5="b59db8c83d1b45b9d3247540de73ac19" />
+      <_country_war_fight_info.pb md5="10273df1e375ef4b90553f9abc1238e5" />
+      <_country_war_fight_info_get.pb md5="75689789b18da8936a7088589bcc860c" />
+      <_country_war_info.pb md5="48e2496e909ab735aaac7879807eaf14" />
+      <_country_war_info_get.pb md5="6ed236064f0e2a226b430b3db192390c" />
+      <_country_war_open.pb md5="896daefeb1c9319d8955f9ea133caf77" />
+      <_country_war_record.pb md5="7909daceae4bf1cc7e3206af0a7fe711" />
+      <_country_war_record_get.pb md5="23bde6c3ff0a6a0b93ead96fe0120c22" />
+      <_error.pb md5="d61e5aacbc1dc403b8897932e823849e" />
+      <_good_list.pb md5="4720345805fc378e75cd86a24d32564f" />
+      <_guild_apply_list.pb md5="ef79d911cb565d3dc26d38d97ca79abc" />
+      <_guild_create.pb md5="d420913c0e2c930b03b8a907469b2eae" />
+      <_guild_custom_title.pb md5="8dba0e00d70f58c77dfdbaba88ab0d69" />
+      <_guild_custom_title_info.pb md5="925adf20b64d512e2501de3a30d1e4e8" />
+      <_guild_donate.pb md5="be02f5121b764d9cac29547125849a57" />
+      <_guild_info.pb md5="d8ac4308bd757aa91524ec994d1692f9" />
+      <_guild_info_list.pb md5="30ed604cb3295c0f35f4113c0c8d24c6" />
+      <_guild_invitation.pb md5="b1a4f92d6a411e4f9259aa0c8ee406ba" />
+      <_guild_join.pb md5="93dd04a18892934751ba8dd9b657cf8c" />
+      <_guild_member.pb md5="d85a0d474b8a000187cab0f8d822f375" />
+      <_guild_member_info.pb md5="c35e2aeb08dcfe3431b8c50dafd97163" />
+      <_guild_member_list.pb md5="a3c05196985d048eb702b9b8e768588d" />
+      <_guild_member_operate.pb md5="cf1ee24d37fa826ed1b221a64d32030f" />
+      <_guild_message_send.pb md5="6bd5582777a8cc6078617092a584b4ca" />
+      <_guild_new_member_operate.pb md5="803cc9b4c07e7d48e5e3361abdbf9962" />
+      <_guild_own_info.pb md5="fc9462a15a25a5e92d19006956c9d739" />
+      <_guild_quit.pb md5="b678c8dc2be1ae5db0427092dce45155" />
+      <_guild_setting.pb md5="03b76735adbfe4ae6bc78bf75a871df2" />
+      <_guild_skill_info.pb md5="7ec9f092ca959a9479920e522d293f0d" />
+      <_guild_skill_upgrade.pb md5="ab5722a4363a262359abf58b20aba967" />
+      <_heartbeat.pb md5="ce44eef8cf1c9b838221b090dbbb62b2" />
+      <_hero_all_hp_promote.pb md5="a5ef604c50fd80c586dbfac283e5a976" />
+      <_hero_delete.pb md5="2369decd90359ded6332ca5be4bfd43d" />
+      <_hero_hp_promote_all.pb md5="209308cbea3609ba1ff93727c63d2a6e" />
+      <_hero_hp_promote_immediately.pb md5="af6411e54213090db4702d370ab91e4f" />
+      <_hero_info.pb md5="fb4b6f39443f3dce0c96e36c7e8e664d" />
+      <_hero_lock.pb md5="c9347444d737666b510d7c7e69d040c7" />
+      <_hero_museum_place.pb md5="5e39b56ca61020e4df6a487e3152e8d3" />
+      <_hero_seek_1.pb md5="f1499974bbafc0cd591378bf8a27eafb" />
+      <_hero_seek_2.pb md5="4719976feb39ac7d013c96d68042a8a7" />
+      <_hero_seek_2_change.pb md5="48bce0761c336dc67ce994509c34e0ab" />
+      <_hero_seek_2_get.pb md5="f4f8bda0ed8166746d234b373e0c55e0" />
+      <_hero_seek_2_info.pb md5="5d66ad8664982c13c4a7f8a2d3ed6d90" />
+      <_hero_seek_3.pb md5="624ac0dd91a9994177e23f4123ac3f58" />
+      <_hero_seek_3_change.pb md5="2d1d925d295a91e0a2066fb309ac5348" />
+      <_hero_seek_3_get.pb md5="532f0cedddc20477872f87806ee84e46" />
+      <_hero_seek_3_info.pb md5="736d8831fb39cc260fe3f8ea9edf9a87" />
+      <_hero_seek_count.pb md5="f5b6bef548dca37fd8dcf047bfc73f98" />
+      <_hero_upgrade.pb md5="8d0af59a2bd07e61d62815c876ef212b" />
+      <_item_info.pb md5="cab436526a33a08d748d94873646911d" />
+      <_item_use.pb md5="d739c75c47ed8c31c494a80235bfc2e9" />
+      <_login.pb md5="edfeba72da32ca3d4fc30deaaaadc9bf" />
+      <_message_board_add.pb md5="b4147e0eb341dba1fe860af9557ce9e6" />
+      <_message_board_list.pb md5="02768a3d8991c95c166d03fbd3f9b53b" />
+      <_message_game_send.pb md5="2d4c431b2961fe1a41a7d9909cc93f2e" />
+      <_message_personal_info.pb md5="c1826b5b4533da378c267c08b6b573e4" />
+      <_message_personal_send.pb md5="a8695a9b8522f990596352588f6ec145" />
+      <_message_system_get.pb md5="e1acc0cdf4141f2ec25c2fa2cf031776" />
+      <_message_system_send.pb md5="97edf82dcec18e2851e159efa88775c8" />
+      <_message_system_set.pb md5="3462874c256e4ddc08239d5599809562" />
+      <_message_world_send.pb md5="99b58f4fd65f9131902597d7a4fa24ca" />
+      <_online_player_rand_list.pb md5="b7bc4066de9bee79f444a84f83fdca77" />
+      <_open_box.pb md5="77cf0f553ee4a237f0a607321a5a03b5" />
+      <_outside_army_info.pb md5="c457df56b5f06fb31b71d6a76cd33d56" />
+      <_package_disappear.pb md5="93b2d59ee83446be5da0a386039f54f6" />
+      <_player_base_info.pb md5="ed3b6beb378f1e96e670639d2b68d531" />
+      <_player_base_info1.pb md5="72df26fe087a1ff590781ab426d3b888" />
+      <_player_base_info2.pb md5="4d10b00c74b1b154752b15af9314c070" />
+      <_produce_building_info.pb md5="4820fc2d8d861344b3997e4005d2069d" />
+      <_produce_building_info_get.pb md5="332ba7b67fed04214089013978beaff1" />
+      <_rand_package_get.pb md5="dfaff0187e9275049ab540dc2ca14790" />
+      <_rank.pb md5="da98bf8caf6648541b303ad0780e5f55" />
+      <_rank_info.pb md5="3d6eb8c704ddbe7b0562c35c5cd76ce3" />
+      <_rank_my.pb md5="eb67954081d326cc4cd4d9bd15ba94ba" />
+      <_recruit_hero_confirm.pb md5="03602c9656a1352e356abba90f3a40b3" />
+      <_recruit_hero_place.pb md5="8deb185b06d4d0a643999dd389177cab" />
+      <_recruit_hero_search.pb md5="f9b03629e11a39d672f0620e0dd28f1c" />
+      <_recruit_hero_serch.pb md5="a98bdb835053fb1549f409085698f537" />
+      <_register.pb md5="b3c123d89c4a831b707f9074738e4de9" />
+      <_role_create.pb md5="a904efa8589ea89703de47f7a21f1dda" />
+      <_seek_hero_confirm.pb md5="ef1c661a93133059295c053784aa1c9d" />
+      <_seek_hero_place.pb md5="586597143c3b48f12ab7e4a069ae871e" />
+      <_seek_hero_search.pb md5="fe9e0de575f1f17ea3047b769613756c" />
+      <_seek_hero_serch.pb md5="e2435436de1102718a9237a512cfab74" />
+      <_service_use.pb md5="a8e4699596467bb04bc106fb5f05d68f" />
+      <_shop_exchange.pb md5="57f5ed1ede1600a0d426a582e3391510" />
+      <_situation_package.pb md5="51ff3f74ca208b69802141026295cc86" />
+      <_skill_stop_army.pb md5="89a67cab995b75f0d4c053cc3b645a49" />
+      <_skill_stop_building.pb md5="fd64883fd1c479094894cb60e36c80e3" />
+      <_soldier_info.pb md5="7d6c7a7bfedab9d77a55793398c9d37b" />
+      <_test_create_hero.pb md5="5cf15ca0fe3022c510f932c7c992dbbb" />
+      <_test_create_item.pb md5="086c260dd6bb721fe79943445220804f" />
+      <_test_create_soldier.pb md5="11e676d589248ce97c09cdfebd7255e2" />
+      <_test_recharge.pb md5="ae6f897d71cddc15bd7813599a03528e" />
+      <_test_set_hero.pb md5="d3fb969f354195e0621af001d1383604" />
+      <_test_set_item.pb md5="d7775a47004488e1b9f495315def5174" />
+      <_test_set_soldier.pb md5="0787b36a7c0e7236fa17184b9f5ce949" />
+      <_test_set_user.pb md5="7db2027e48a2d8428a29e7a8a469d088" />
+      <_test_teleport.pb md5="d7ead24106f6d0bdd8c6a166d3022f4a" />
+      <_user_appoint.pb md5="8f9631f50e3421f1869db09fe867ec31" />
+      <_user_info.pb md5="bd2d38bdea115e7391fb7d09c24edb9f" />
+      <_user_level_up_reduce_10.pb md5="4050b7f731ae41ffe5255fcb50f6c25a" />
+      <_user_level_up_reduce_50.pb md5="8ceb2d2d6bcdacb8f9fa8ea757d7aa8f" />
+      <_user_level_up_time.pb md5="e758f4dc42120765e14af950b7d5fedf" />
+      <_user_level_up_use_item.pb md5="3ce1a57dc1dacecacf63a6a20fadcc2a" />
+      <_user_salary_receive.pb md5="a9b04ebb723481773302a8cab8025154" />
+      <_user_search.pb md5="7de85aab4aff36b8132dd1ed9d11b69d" />
+      <_view_change.pb md5="56bf48094756b491b0f97d800fb624a5" />
+      <_view_data_get.pb md5="26a7d370c9222b74dfb5fdc56bf8b3f1" />
+      <_vip_gift_recevie.pb md5="7276a85fcd1973d4ba9c6b117625e0dc" />
+      <_vip_reward_receive.pb md5="77fcb262094e04b0f4e89e5f362aaba7" />
+    </_protocol>
+    <_ui>
+      <_army-select-test.png md5="d3fa0eff64e318364e73a74554d296dd" />
+      <_army-select.png md5="011f0b7b66556a1fa59be05cf763d3ec" />
+      <_backpack>
+        <_back.png md5="f4caae3c1b75673d7cddd29c8d29bef1" />
+        <_backpack-item-bg.png md5="5b33ef5040986ef5e9b13d510bd41e82" />
+        <_backpack-item-cheek.png md5="bab13dc28b0f10c1764e550b1a8c6e29" />
+        <_timeliness-item-bg.png md5="21ef639d8c3ad8f7d1bdcdf617d1c1be" />
+        <_timeliness-time-bg.png md5="02441918b1cd065fa0570e3c95f4050e" />
+        <_uibtn.png md5="011f0b7b66556a1fa59be05cf763d3ec" />
+      </_backpack>
+      <_building>
+        <_building.plist md5="e30f59b5b7f536eac1ac78cf7b2c54ed" />
+        <_building.png md5="1224352102d427b3e88f40272af71a0a" />
+      </_building>
+      <_button.png md5="51dcf17930b326056bd7172b14b18768" />
+      <_city>
+        <_arrow.png md5="4b67d2e2f181376750e585c8998cfd4a" />
+        <_famous-button.png md5="b22074ce038ffeabaa16e283a1dae885" />
+        <_inner-city-bg.png md5="856b8a4b8cf0185c875c74ab4a9d8195" />
+        <_inner-city-heromuseum-man.png md5="b592c52744921c9fd41c5b7b3cbc95a3" />
+        <_inner-city-heromuseum-woman.png md5="77b685623d6904688d54d574fb7aa3e7" />
+        <_inner-city-heromuseum.png md5="7f0506cbc67174913b31af5ac3426180" />
+        <_inner-city-king-20100.png md5="7d6206d2f26de3f3e3908cbf72a05e18" />
+        <_inner-city-king-23400.png md5="6631741907a6fca28f5b9c18f194624c" />
+        <_inner-city-king-23500.png md5="f3cc27570c84399be330b10661eaa5d1" />
+        <_inner-city-king-23900.png md5="fba670ca5c61b63db3c700e0720cd502" />
+        <_inner-city-king-25400.png md5="99cd31139e4f791b360b77c4cc58d431" />
+        <_inner-city-king-26200.png md5="0ad7bfecde9436c132e8431f34363856" />
+        <_inner-city-market.png md5="633bedc9476a9e6167f43e57f33a25b2" />
+        <_inner-city-military-man.png md5="af0d92cdd59c5c8f6cc75233afa5de29" />
+        <_inner-city-military-woman.png md5="f84b14d74ed55f3753b873fef3a67326" />
+        <_inner-city-military-youth.png md5="4c1187e253d03ac33109537492bf3224" />
+        <_inner-city-military.png md5="761d5ffca22821fc338d5ae2181af76a" />
+        <_inner-city-produce-man.png md5="42bf9f3e1eef2eac8e1d8056a4ad0363" />
+        <_inner-city-produce-woman.png md5="c1a52e868cd592b4ea5ee0be2c39d6a7" />
+        <_inner-city-produce.png md5="359437e416f75e1f5c5f1ab27ea29902" />
+        <_military-youth.png md5="2fe8aa6701c8c679c4b37f510af6231a" />
+      </_city>
+      <_collection>
+        <_btn-add.png md5="42afcfa0d229bd8cb83dcb95fcb75e1e" />
+        <_btn-close.png md5="85483d4cd9b95119a6a665bf76eed1f0" />
+        <_btn-collect.png md5="1418b0d3ad2bddbf0529321ebcd9c666" />
+      </_collection>
+      <_common>
+        <_alert-view-bg.png md5="1ed30b8138c2760d8e9278a51bff3b25" />
+        <_BackgroundLayer.png md5="37b667f5ede0a129ed11864efa753eb8" />
+        <_bg-input.png md5="fd8d21aa958d86e1d7322026fca62d4e" />
+        <_broadswordSoldier.png md5="2c3d867f5d8fc340af552d6bf7d6894e" />
+        <_button-back.png md5="2a3eb1e49281e0e54def0749a4a9e0ea" />
+        <_cancel.png md5="a7338ef73003f1c22ba05601862cb420" />
+        <_lock.png md5="efc75ae182576952a17b8eebaf49fb88" />
+        <_ok.png md5="a7338ef73003f1c22ba05601862cb420" />
+        <_star.png md5="51dcf17930b326056bd7172b14b18768" />
+      </_common>
+      <_country-icon>
+        <_country-icon-1.png md5="1750c88741981901511e186c99d03cb2" />
+        <_country-icon-2.png md5="696940c7ca22056faf7154c433990545" />
+        <_country-icon-3.png md5="591285d2f764d5ef49b625e67770154e" />
+        <_country-icon-4.png md5="e5f71f26dc6795c517ff7a6cf5900eae" />
+        <_country-icon-5.png md5="07cff8c2f0744103d3092b52259d5314" />
+        <_country-icon-6.png md5="e40aaaee89a08f278c544b84f3af02d9" />
+      </_country-icon>
+      <_guild>
+        <_guild-flag-0.png md5="f3072f212a0c06fd02617cd2757a0c28" />
+        <_guild-flag-1.png md5="b4e6383aac677cf546d76137ca3e7ae7" />
+        <_guild-flag-10.png md5="656d0d2e05d59d7368e0e27646325ee3" />
+        <_guild-flag-2.png md5="8b691a3729e9f654e4270257c590da0d" />
+        <_guild-flag-3.png md5="5d2d101354708bc96e71ee59812405fe" />
+        <_guild-flag-4.png md5="9c50dc1dbbba3646603d5053cb3b3314" />
+        <_guild-flag-5.png md5="6815b394e050fc8ad8b898d743bcbf23" />
+        <_guild-flag-6.png md5="1b18876ab854d9db637a1a65da7b5e84" />
+        <_guild-flag-7.png md5="c2d76f95fa17bea0f89c6f741a907596" />
+        <_guild-flag-8.png md5="fdd0ae1fad9486c89b50837cf07419c2" />
+        <_guild-flag-9.png md5="6e3bc3d0d13d477a796a267bc771e461" />
+      </_guild>
+      <_hero-icon>
+        <_hero-icon.plist md5="fd13ce5c2623d6c668335e5f8f16ec1e" />
+        <_hero-icon.png md5="193245a022a3891a8222891452798b1a" />
+      </_hero-icon>
+      <_hero-museum>
+        <_progressbg.png md5="8bc85452592229c7a84616fccf321fbb" />
+        <_progressup.png md5="bb8e34d8a0e7dc64c96876ffd29b63b5" />
+      </_hero-museum>
+      <_login>
+        <_login-bg.png md5="2cfedf3d4d8127885b11bf52a2278344" />
+        <_login-bt.png md5="57435e06122d37822e97f92298fd8614" />
+        <_login-button.png md5="3510a5aa70ce401643952e627f7c0a41" />
+        <_login-down.png md5="73e25003c2ffaf094cc729c55ff0588f" />
+        <_login-up.png md5="f0a5d6637d29bcc2a94285eed3aa505a" />
+        <_register-bt.png md5="a7338ef73003f1c22ba05601862cb420" />
+      </_login>
+      <_mail>
+        <_mail-bg.png md5="880e649e00bc75e875e178bc9979cdfb" />
+        <_mail-chat.png md5="805730550a7d6bd056284cf627ea5494" />
+        <_mail-game-title.png md5="cf326c569590c8354504d4121ceee257" />
+        <_mail-input.png md5="4abaa0f41878b5538014ef123cb3cd07" />
+        <_mail-player-title.png md5="6280146c33fcbac7943ed817e3a96f1b" />
+        <_mail-selected.png md5="ff6e1bf99048412ebec847037e95b832" />
+        <_mail-system-title.png md5="713b4af3608f228f4a99b1ea9410e744" />
+        <_mail-title-bg.png md5="53cd92edd6b00996772ac13f594ce1e2" />
+        <_mail-title-frame.png md5="1b9d90f097dca924d990fbeaa0fec175" />
+        <_mail-unread.png md5="54c7c43c448f14a76b48899bd3aca182" />
+        <_mail-unselected.png md5="6d7735b04515b37cd3186b2ee69e4a56" />
+      </_mail>
+      <_main-page>
+        <_bg-maintop.png md5="cde58ef849f6fdd14f49996c07785676" />
+        <_bg-resource.png md5="e6aa6c49ac09ecf7c83a81c67dc1dee2" />
+        <_button-news.png md5="57ad4287e82b23c485e9674e22176c33" />
+        <_button-recharge.png md5="948c026b44e11d2b3c264903bdb71013" />
+        <_button-useitem.png md5="5c64ddb5b10e96de197dcf0a14f85d8b" />
+        <_button-vip.png md5="10c554d2dc3006542f329541a958e4c8" />
+        <_exp-progressbg.png md5="38b1289c270fcb915c4668c478069687" />
+        <_exp-progressup.png md5="f5d3d73463279091a6c185b271271a9b" />
+        <_main-button01.png md5="344ab88468416e5af7b862bf6e0293c3" />
+        <_main-button02.png md5="c8c179b8ec36fbed391a4671a6251939" />
+        <_main-button03.png md5="e0629805ab700412fa095923ddd4f49b" />
+        <_main-button04.png md5="3341a64abc6524b544cf97c81913b06e" />
+        <_main-button05.png md5="bf9ea1f6deda122ef9f2cbae554d635f" />
+        <_main-button06.png md5="4e49647f7f6caad172bc59260f6a081e" />
+        <_main-exp01.png md5="5f52ecac07004e0ad39471b5d8aae8b9" />
+        <_main-exp02.png md5="427313c0e70944ed24a987bfa8928c13" />
+        <_main-player-icon.png md5="6a43fd63bfb1381a6ea52a258125a6db" />
+        <_main-resource01.png md5="6a45055bdacf35587a9acb5c08ac0e43" />
+        <_main-resource02.png md5="bf4359a96059d2d888a4afe7b48cdd9e" />
+        <_main-resource03.png md5="76dcb18713a85ae148e8cb7ffeedccff" />
+        <_main-resource04.png md5="f3141dea417a89eb0cab0954f6ac0e12" />
+        <_main-resource05.png md5="ea9f87b43f8e92b48c81b8faa9c441bd" />
+        <_main-resource06.png md5="417f6bf04611d43189c2c9a1b7ec7452" />
+        <_red-point.png md5="4148bfab4d9507ce4bd35fb9d35abe4d" />
+        <_transparent.png md5="f3ee3b32edcde58981177e5444d2de5e" />
+        <_un-team.png md5="ef1e8dbe370bc278d18aaf2916a74b38" />
+      </_main-page>
+      <_map>
+        <_map-direction.png md5="29e0d7db93b63cecdc4c98c868de3cc1" />
+        <_map-search-button.png md5="addc696a419b07e87c4ddd04da82a058" />
+        <_map-tile.jpg md5="35d16c3674c08b6e493322234ef1ccb3" />
+      </_map>
+      <_market>
+        <_market-rank-down.png md5="1e64b780c6fc288181e137b0b761c839" />
+      </_market>
+      <_out-door>
+        <_out-door.plist md5="2cf28ac3b46ac3cc4802b129a49417d9" />
+        <_out-door.png md5="eb5c2a1920db12fc9ed0d3d1af9ab4d9" />
+      </_out-door>
+      <_random>
+        <_random.plist md5="96b688a8d7f6ca0c85813b5f243c1164" />
+        <_random.png md5="ec65a536a059d4a5f16644cec4fcf7a9" />
+      </_random>
+      <_recharge-icon>
+        <_recharge-icon.plist md5="ba6e68c5c58c99628b8a2d0f9fafc01b" />
+        <_recharge-icon.png md5="d62634146e3b0f857e5de85c16d920a0" />
+      </_recharge-icon>
+      <_soldier>
+        <_soldier.plist md5="b93334ad27349c46fca83d629c48857a" />
+        <_soldier.png md5="5c16ba198b4e1a077f071731d4afc4a2" />
+      </_soldier>
+      <_stage-icon>
+        <_stage-icon.plist md5="423afce0fa5724704b3cc34c3acc6909" />
+        <_stage-icon.png md5="c370a816783ce56f27cf84208c00dce7" />
+      </_stage-icon>
+      <_team>
+        <_button-add.png md5="662b17910f9337b53684fd0a03a4b141" />
+        <_button-sub.png md5="e02bc452262283e271565b6df66e68b8" />
+        <_cellback.png md5="fc820ab8e94ec7d4129be46f0be5a4c8" />
+        <_celleback.png md5="92216109c5d1003ff31f1f4660fd9ce7" />
+        <_progress-background.png md5="b80b6f4cef55dc6db8c4cb82798d5e31" />
+        <_progress.png md5="203b68ccf5b74d86c7ac1d52c4796b39" />
+        <_sliderback.png md5="5657d8d30b14e623807148f2a388536e" />
+        <_ui-bg-0002.png md5="880e649e00bc75e875e178bc9979cdfb" />
+        <_ui-but-0003a.png md5="2b853a40cc11bda39ff23ec0ee5ca2ed" />
+        <_ui-but-0003b.png md5="9ca097cef21aacd135055d36c74ae229" />
+        <_ui-but-0004a.png md5="49f55abf5b44b201403eb578fbb5a7e1" />
+        <_ui-but-0004b.png md5="db9b4c335b9905524f2550a7608d3704" />
+        <_ui-but-0005a.png md5="f4d40ce559c80d6e99e5eb1e648b8ac1" />
+        <_ui-but-0005b.png md5="11d4a3176cee593533760d1904e530bd" />
+        <_ui-but-0006a.png md5="4805fe8ea4087ae4cc5bb83a090396be" />
+        <_ui-but-0007a.png md5="a00e5f8d53a68d591e014ac0f32081d1" />
+        <_ui-but-0007b.png md5="3482a65ee06417fe843583dd960062d5" />
+        <_ui-t-0005.png md5="743c0574df635ae1049e14c0f75e0172" />
+        <_ui-t-0006.png md5="41c471ca4cc52b234e03be547d5ec8ba" />
+        <_ui-t-0007.png md5="3cc4ba71256a6f47354906132ca2ad42" />
+        <_ui-t-0008.png md5="1d4daecb2e064ccf7272f6159453c078" />
+        <_ui-t-0009.png md5="1fcabae0d9a5656426323342feb2a6d3" />
+        <_ui-t-0010a.png md5="ca690a9ac176c8cdab163591192dc035" />
+        <_ui-t-0010b.png md5="8096a94e1ce723a555a2a43ef6a07b7d" />
+        <_ui-t-0010c.png md5="bc9e83e65e5bc8afb8db5dd54cadf62d" />
+        <_ui-t-0010d.png md5="1c24e3bfe12ee004a09627d66085bf63" />
+        <_ui-t-0010e.png md5="617447d643a814f4ed148ac43a9e3d3a" />
+        <_ui-t-0011.png md5="1679054162a91ff61c8f174950b5febc" />
+        <_ui-t-0011a.png md5="802e8df6cf1bc823ab4deaf2af23cfa9" />
+        <_ui-t-0011b.png md5="0b0948acf1f500f76c27fac117ed6cbc" />
+        <_ui-t-0011c.png md5="c39135a88b5bf4bfd1b631df821c78ea" />
+        <_ui-t-0012.png md5="2426baa303e61ebb3938ca38c1b7a847" />
+        <_ui-t-0013.png md5="b1a1fb74255137d4920e939f40c36c3b" />
+        <_ui-t-0014a.png md5="c69f33d7cd2296f3dc087359a3a9c3b0" />
+        <_ui-t-0014b.png md5="066955a3ec5a01e43de4785f2deb10af" />
+        <_ui-t-0014c.png md5="5cc743620a7824a2cca5d168be174083" />
+        <_ui-t-0014d.png md5="ed060c3e84731ebf05c969c6561bc43e" />
+        <_ui-t-0014e.png md5="1e50a3c85f4e70f4b1d00b800ad4de82" />
+        <_ui-t-0014f.png md5="628d1a25ee53f49fa706890fdab6b5e7" />
+        <_ui-t-0015.png md5="e5466f890621788e15abefd7369c00f8" />
+        <_ui-t-0016.png md5="651fdb88b8aa0a2119f675c913734f6a" />
+        <_ui-un-0001a.png md5="a845ea6efd37fa5b98ab67743cb7e3a2" />
+        <_ui-un-0001b.png md5="5457e6abea71d2a7cbae21fe35e192a7" />
+        <_ui-un-0002.png md5="33131cd32aa7d8d04c5655163efa7278" />
+        <_ui-un-0003.png md5="fc820ab8e94ec7d4129be46f0be5a4c8" />
+        <_ui-un-0004.png md5="51dcf17930b326056bd7172b14b18768" />
+        <_ui-un-0005a.png md5="a06590589e455364a6b2bf806de3aea0" />
+        <_ui-un-0005b.png md5="bb8e34d8a0e7dc64c96876ffd29b63b5" />
+        <_ui-un-0006.png md5="66a81bf1d755ec3770b85b0523401ec2" />
+        <_ui-un-0007.png md5="f8ec2e144ec4b6f9ad0fdbfd50d10144" />
+        <_ui-un-0008.png md5="1b9d90f097dca924d990fbeaa0fec175" />
+        <_ui-un-0009.png md5="d4c3c7ee5e9bd7292972e6f71a56a0d8" />
+        <_ui-un-0010.png md5="b0a01f51a2f428a16ab6ec6bc3c51a9f" />
+        <_ui-un-0011.png md5="4e6aee3ca3798aa8e4f49890d2c4ef35" />
+        <_ui-un-0012a.png md5="f4caae3c1b75673d7cddd29c8d29bef1" />
+        <_ui-un-0012b.png md5="e5e5cab1192ebdb82efc43eabbddff11" />
+        <_ui-un-0013a.png md5="9fa3b7a47db060e58ab64895678eb997" />
+        <_ui-un-0013b.png md5="6f5e16438fa407ce22fb6837bc8b9c4f" />
+        <_ui-un-0014.png md5="48dba7a9915ff43ce5af55aa67fc34db" />
+        <_ui-un-0015.png md5="6d94108242cfb8991c16f4c2b82c058c" />
+        <_ui-un-0016.png md5="6362e6cc5383b6e1f93e27b0dd91ed16" />
+        <_ui-un-0017.png md5="abfdf7dfee1fcfdb87e0238075051c0a" />
+        <_ui-un-0018.png md5="17b51f5bb4901c3a79071b0ff453b496" />
+        <_ui_bg_0001.png md5="00754dc855014934ccf3626e485a6869" />
+        <_ui_but_0001a.png md5="07fc347cba1106a012b4ca4d711ceb70" />
+        <_ui_but_0001b.png md5="2686ca59919a93256bd7eb51f520b39c" />
+        <_ui_but_0002a.png md5="256d76001e2c6ee0994e079e038be51c" />
+        <_ui_but_0002b.png md5="8683657f1f0f262e21c6e7dcf7ef4e34" />
+        <_ui_t_0001.png md5="fedf9e52db3b22a6d91159bdaa5b360a" />
+        <_ui_t_0002.png md5="18da9afd598111b099188f565b9b44d0" />
+        <_ui_t_0003.png md5="951f507d863e00de54314072b0196612" />
+        <_ui_t_0004.png md5="4eb473346cf3535e8d46adb49f860caa" />
+      </_team>
+      <_test.png md5="04068c256cccb8f57debce170ebaf3c7" />
+      <_user-info>
+        <_salary-bg.png md5="6b250e546cbc557eb70e4fa2cf5910e1" />
+        <_up-button.png md5="f58fd5ca540f6ade0ac1d43e67e4f1bc" />
+      </_user-info>
+      <_world-map>
+        <_button-worldMap.png md5="70080e07e54f135752cdc3f626b9b066" />
+        <_worldMap-icon-01.png md5="7334f44ad9985258f6448054f02f32c9" />
+        <_worldMap-icon-02.png md5="cd64995b911944f18e2d3c193f95753f" />
+        <_worldMap-icon-16000.png md5="aa6d7cffcbdb5dace2ccb2f0fa469d51" />
+        <_worldMap-icon-16100.png md5="fb1aa84a0cea271031d2686f150010b6" />
+        <_worldMap-icon-16200.png md5="c18b582a2c94efd768711e79efd2fe29" />
+        <_worldMap.jpg md5="f762191460a4ae2f2ecf1aafaf1c6a9a" />
+      </_world-map>
+    </_ui>
+  </_res>
+  <_src>
+    <_AppSettings.lua md5="374fbfc1323870a17bfa8f151cf1384d" />
+    <_c-interface>
+      <_CInterface.lua md5="982c69468493c43ab3bafbec1a1112f9" />
+    </_c-interface>
+    <_cocos>
+      <_cocos2d>
+        <_bitExtend.lua md5="d97acd155084fd08cd5945e4ad7dbad6" />
+        <_Cocos2d.lua md5="2964737375e69b8b9ee9ddc267909392" />
+        <_Cocos2dConstants.lua md5="3e5452babab35ded223a8a88b5a2729d" />
+        <_DeprecatedCocos2dClass.lua md5="43e67c6aa392e17156324731e47d9c5e" />
+        <_DeprecatedCocos2dEnum.lua md5="c1a66a0d053f5699e3fe29b4348e247f" />
+        <_DeprecatedCocos2dFunc.lua md5="f86aef934604e647d998c4129943c6a7" />
+        <_DeprecatedOpenglEnum.lua md5="686a2e1cd0366cb3e98abd85e99139db" />
+        <_DrawPrimitives.lua md5="52ed23a28af37410a9d2518a6d4f6557" />
+        <_extern.lua md5="e39636c8445d73c78113c8e50ff26729" />
+        <_json.lua md5="af25b930d1202aea87039ddf380488b2" />
+        <_luaj.lua md5="6a8d809ce792003de4e9ef2b19d3a69c" />
+        <_luaoc.lua md5="7dac884047788e8a67ee74fb502de398" />
+        <_Opengl.lua md5="fcfa59dc2f11ce8b34dd5433b2cba7b3" />
+        <_OpenglConstants.lua md5="5bd7bff274280d638a92705333c5ab47" />
+      </_cocos2d>
+      <_cocosbuilder>
+        <_CCBReaderLoad.lua md5="1b2d69d18ed58623c1ada5b52ebd8f30" />
+        <_DeprecatedCocosBuilderClass.lua md5="db17d7cee53fd444e3f58b8e7d8032dd" />
+      </_cocosbuilder>
+      <_cocosdenshion>
+        <_AudioEngine.lua md5="daf38201dc4934c0a581b20722a81c1e" />
+        <_DeprecatedCocosDenshionClass.lua md5="8b2383e9fe495ce47e84dae4beb6fa32" />
+        <_DeprecatedCocosDenshionFunc.lua md5="bc82d1898eaf986d1ebdc5bfdf94ed1f" />
+      </_cocosdenshion>
+      <_cocostudio>
+        <_CocoStudio.lua md5="f59980342a53934d9675c138be46335a" />
+        <_DeprecatedCocoStudioClass.lua md5="f52bb37826ddf96b4b39d561646d6ad4" />
+        <_DeprecatedCocoStudioFunc.lua md5="34ba1319826713b6d624e53d251b7c51" />
+        <_StudioConstants.lua md5="c12644759c18f252b988a8a2f796d5da" />
+      </_cocostudio>
+      <_controller>
+        <_ControllerConstants.lua md5="ec71a0f02b11769725420f79afdecf11" />
+      </_controller>
+      <_extension>
+        <_DeprecatedExtensionClass.lua md5="1c8ff18814072217579c766a37293986" />
+        <_DeprecatedExtensionEnum.lua md5="820325a2f87dd940513ad61e48ee909d" />
+        <_DeprecatedExtensionFunc.lua md5="ad871f51d447db4af09b6a9369daee78" />
+        <_ExtensionConstants.lua md5="e127812d410687ec7052b9794dc616f0" />
+      </_extension>
+      <_init.lua md5="4761166dd0a4f8e39c772fdde939af87" />
+      <_network>
+        <_DeprecatedNetworkClass.lua md5="122fcbe85f0bf17d284afcd241d8b104" />
+        <_DeprecatedNetworkEnum.lua md5="1fe662c644710fe6a327208bf0891478" />
+        <_DeprecatedNetworkFunc.lua md5="e3bb03b5532c495a9975813834877985" />
+        <_NetworkConstants.lua md5="10b7614d896ddcee2435f90e878e6479" />
+      </_network>
+      <_spine>
+        <_SpineConstants.lua md5="aac608f17c4fd44003656aab9c9bc767" />
+      </_spine>
+      <_ui>
+        <_DeprecatedUIEnum.lua md5="a77672a70f2ed73b0f021548bb893405" />
+        <_DeprecatedUIFunc.lua md5="bab373e78dbadb0f9c2644d216517a27" />
+        <_experimentalUIConstants.lua md5="86a5390d8292cee4d6189b17be4c6029" />
+        <_GuiConstants.lua md5="62751b40ecc42bbb1899e803db01a15f" />
+      </_ui>
+    </_cocos>
+    <_config>
+      <_BackpackConfig.lua md5="e65e0501ca5fdb16bc4b0fed57103cee" />
+      <_BuildingConfig.lua md5="a22aa9ed849106edbfdc4014a6a1eb88" />
+      <_CampConfig.lua md5="3aad7e8933a5eaab74a9517bbd77a1eb" />
+      <_CastleConfig.lua md5="2af81c33312d695e1c92f8ff6450cd69" />
+      <_CountryConfig.lua md5="f86bc0c6b4c8120b31962bb107a359e8" />
+      <_ErrorConfig.lua md5="ef152113aad09a1da4f7ec66da52eb61" />
+      <_FamousCityConfig.lua md5="56c91908a77b145811075e542747e790" />
+      <_GuildDonateRatioConfig.lua md5="25ff02932d3b423d979ff74feb3bf3eb" />
+      <_GuildLevelConfig.lua md5="c9824416bbfa02e2e3c50901da181e5a" />
+      <_GuildSkillConfig.lua md5="078203ed72827d2c6579a4d9e0dc8bc5" />
+      <_HeroConfig.lua md5="e429ea8fc7a6297337a35f3b46903b4e" />
+      <_HeroGrowthConfig.lua md5="7b0fb7cc46b51915c0c2abdf887f86af" />
+      <_NameConfig.lua md5="0441021af4955f19dc5a90b63b90b821" />
+      <_OfficerConfig.lua md5="be993d43a5ad1a0066e1527af93da659" />
+      <_PayRatioConfig.lua md5="4a8eaa8a96698c19b965a9175f03ff50" />
+      <_RandomConfig.lua md5="0445fafa4d8126d585d5ee5c9fbd794f" />
+      <_RechargeConfig.lua md5="ee85a184dcc2dd67ee3af1deb85f3a04" />
+      <_ResourcePointConfig.lua md5="0fb721ea02b63b76983a1e1666880c91" />
+      <_ShopConfig.lua md5="86ec41f626a2e9a37b35ce7ce2ff6d21" />
+      <_SkillConfig.lua md5="1bd83c1e1e47a961b69fe0e9e18305f2" />
+      <_SoldierConfig.lua md5="e585b735fb82581f765513b6745ffdaa" />
+      <_StatuIdConfig.lua md5="b398206ec10442b10310d506d0c8672f" />
+      <_VipConfig.lua md5="588dc083d6c9b17d575378e4e68b3413" />
+      <_WikiConfig.lua md5="17c1e30fb6f5a501767af998d6a521b6" />
+    </_config>
+    <_config-reader>
+      <_CountryConfigReader.lua md5="805189081613888f5a5e94ca212586d0" />
+      <_FamousCityConfigReader.lua md5="5ef4d046e6c993003259d24a1361a657" />
+      <_PayRatioConfigReader.lua md5="47c44166b4784f9b4aa018e22b8b9834" />
+      <_RandomConfigReader.lua md5="858610c11452b17e158551bda8e83207" />
+      <_SkillConfigReader.lua md5="d330f578b6f1a9947d4dd9fcf2cfccc6" />
+      <_SoldierConfigReader.lua md5="cde72bb3223c87e7f3cfbebd8b7bb7e2" />
+    </_config-reader>
+    <_game-controller>
+      <_GameController.lua md5="267ac9c86927a0ac15c307983c37dc50" />
+      <_ServerConfigInfo.lua md5="417f36275606e2ac6b3261817e17be96" />
+    </_game-controller>
+    <_libs>
+      <_ccex>
+        <_Action.lua md5="b31884daaf41b8af912cb963262a1efa" />
+        <_Audio.lua md5="c04e3449d61713e3bf6e526958b1884a" />
+        <_Director.lua md5="db9bb98c133dbd167df9a43e8e3e4d3a" />
+        <_Event.lua md5="f7aaf2033e7a9a50eb4dc26af4c37290" />
+        <_Init.lua md5="6d4ccecd32a60975c58d961634abac4b" />
+        <_Layout.lua md5="66d0e66e6c77ec06f87251ba10e52d9c" />
+        <_Node.lua md5="a57ee6e5276d9c180c9917d4a368a72c" />
+        <_Point.lua md5="fc3ed33ce39620fd672eb858af0e8c4d" />
+        <_Rect.lua md5="96916cd64d83b2ae54f86495e69517bc" />
+        <_Screen.lua md5="af461fe6df3d054b553fb24462cc442f" />
+        <_Timer.lua md5="555d224183ea9a9942d0cb5b86c9f0c3" />
+        <_TimerDelay.lua md5="387b0619fffd5361362bc4f49563ef79" />
+        <_TimerInterval.lua md5="a5e68584333476556bf1eb3d2f06186b" />
+        <_TimerRepeat.lua md5="d2e92bfc04642a56ad4838307e41e4ef" />
+        <_Touch.lua md5="4a76d62b80be3749b8509f517adb576b" />
+        <_ui>
+          <_XpcallbackLayer.lua md5="e3e1ad2c5f141b6061a97a600e99116e" />
+        </_ui>
+      </_ccex>
+      <_flash>
+        <_FlashAnimate.lua md5="afb59916a39d3d9f5dbb3bfcc34a1ff8" />
+        <_FlashAnimateRepeat.lua md5="424d4058b1e3b472b5ee309ec720233b" />
+        <_FlashAnimateRepeatForver.lua md5="ffa474755b1d70a3a3dd757db9c5d17c" />
+        <_FlashSprite.lua md5="ef3eed06f95ed9462ea3fd3faa66a934" />
+        <_Init.lua md5="875fd6c2d45a896fb27a66df9b6d2364" />
+      </_flash>
+      <_hot-updater>
+        <_HotUpdater.lua md5="f9db4f420c1a5af5538fdf65eb767763" />
+      </_hot-updater>
+      <_Init.lua md5="54b0f439edb725e313f3a489fd178fa5" />
+      <_luaex>
+        <_Function.lua md5="13afe0c348ef135972b448134e576435" />
+        <_Init.lua md5="244fa3344db586fc3f214c77cbbeba3e" />
+        <_Math.lua md5="d1a3465155131b6aa8d09b4b67bf7b3c" />
+        <_Print.lua md5="edfe3c645ee89e9c75d5b88d0cc33b90" />
+        <_String.lua md5="282382158df80858974eba1deb25606c" />
+        <_Table.lua md5="5ca713d658688624fc445213149952f4" />
+      </_luaex>
+      <_socket>
+        <_prot_encode.lua md5="4dcb3f22538fb8e0bd796bf8348b5a38" />
+        <_protobuf.lua md5="8cb673dbbc2f1d8c9fe70b522dbf57ce" />
+        <_SocketClient.lua md5="caa0c6351d3a741b4f18cb71cf546099" />
+        <_SocketClientObserver.lua md5="ad5d865794d8540ea61eda0c7016f9e1" />
+      </_socket>
+      <_widget>
+        <_Button.lua md5="d332b3b84535959e7cee84e60dbf1ad8" />
+        <_ButtonLabel.lua md5="1bace979c53ddce73272ee80762ee9aa" />
+        <_ButtonLongPress.lua md5="d7d04d88fecae3f4157d087c5ba1c656" />
+        <_ButtonRadioLayer.lua md5="3c9095db29b789a7e84433eaacaf1f9a" />
+        <_ButtonSetLayer.lua md5="a6719e7416e4852104e0bd8f6f4a0c40" />
+        <_ButtonText.lua md5="95787fcb5f2084d3a9777649bd71cdbd" />
+        <_ControlSlider.lua md5="1cf23c547882ef0d8f1349090ab40b0a" />
+        <_GLProgram.lua md5="1173166736ad7d259fb58a89491610b5" />
+        <_GridView.lua md5="044f4799ad50c71e5caceae1d6ac35ab" />
+        <_GridViewCell.lua md5="590ad102a636f48b1ca23b655bb5ca06" />
+        <_Init.lua md5="0c2d6a6e06033e27549b55d544bcbb61" />
+        <_ProgressBar.lua md5="5ea6d7b246a3c24f8e947083a8df7f0d" />
+        <_RichText.lua md5="898c62d7c830f318ee01096078be2dd4" />
+        <_SpriteAnimate.lua md5="7a01b39453b2032fbd81803b79c02cb4" />
+        <_SpriteAnimatePlistCache.lua md5="6839e8fdb725be9f00cbd64c02a005a9" />
+        <_SpriteAnimateRepeat.lua md5="a6d7406a4442996a176ad44a53538431" />
+        <_SpriteAnimateRepeatForver.lua md5="1c92fa64a0de3c4bffc08ed463227873" />
+      </_widget>
+    </_libs>
+    <_main.lua md5="a6870760b6301a0f758d6fc4adaa61af" />
+    <_player-data>
+      <_BackpackData.lua md5="1e48be9b1db6448d6b2f1c6466957da8" />
+      <_BackpackDataManager.lua md5="e8e4329f9835a7b2cacef884b8ff4068" />
+      <_GameMailDataManager.lua md5="6e9d28e4d3691cc0e17bf821263d96b1" />
+      <_GuildData.lua md5="ea1b4ba5cd36bc5d8b356b3ec3d51c03" />
+      <_GuildDataManager.lua md5="ab46630e974646d890a754854da78ca4" />
+      <_GuildMemberData.lua md5="372c879208267db64ac62951e666e2d7" />
+      <_HeroData.lua md5="a17e1131030230ba9d5fe3df53b6f32c" />
+      <_HeroDataManager.lua md5="2e3ac63313ea89e9a5f067837e59a813" />
+      <_PersonalMailDataManager.lua md5="0604ec0981732956496b557fc3551756" />
+      <_PlayerBaseData.lua md5="ad194efd1e72afc4c03c53c6e6d61c1e" />
+      <_PlayerData.lua md5="c880388009566d92279314adac7ef4d0" />
+      <_SoldierData.lua md5="ec2a9c68fc5461c518d5afdecc4637fc" />
+      <_SoldierDataManager.lua md5="389789f4038d84efe158604b7c075315" />
+      <_SystemMailDataManager.lua md5="3b0ab3321ff5a521e74591109de83a94" />
+      <_TeamData.lua md5="8e39b500687dd4516245c85b60eeef55" />
+      <_TeamDataManager.lua md5="7dd31beb7acd226278c1328569e6d657" />
+      <_UserInfoData.lua md5="c74d955cfe9c85d4bc89b239981f1264" />
+      <_UserInfoDataManager.lua md5="e5358a9d31df970756d87741d6f178d2" />
+    </_player-data>
+    <_protobuf-preloader>
+      <_ProtobufPreloader.lua md5="a280366b76ae8ce1e6621e5abdf84e5b" />
+    </_protobuf-preloader>
+    <_share>
+      <_AlertView.lua md5="308fbdfd02d92966084a44fbbbcf42de" />
+      <_BigMapLayer.lua md5="9c435c5dedc0f32673cdb5838de2147c" />
+      <_CommentApp.lua md5="4c72c7226176b5e6da82cacc65e1984c" />
+      <_DataSave.lua md5="7bd258214ed481fc10387445ed215f9a" />
+      <_encrypt.lua md5="e7086350260d183a0fee809af3ddb841" />
+      <_expandable-view>
+        <_ExpandableNode.lua md5="5d770eeec6b9e242cc7598edef6aa19d" />
+        <_ExpandableView.lua md5="0c478d6ca9470e34e1f1223d77374bc3" />
+      </_expandable-view>
+      <_FlaButton.lua md5="b17ce25a96040ca4a90289344b1e4951" />
+      <_Listener.lua md5="fb3c250ce0b05b70defa7d0375634c5b" />
+      <_PageView.lua md5="fe287ffab2495ae08c3e38d557779597" />
+      <_radio-button>
+        <_RadioButton.lua md5="49c10631ce663c268c23d2645614489a" />
+        <_RadioButtonManager.lua md5="880d946780a01dcb4477937facd57db7" />
+        <_RadioTextButton.lua md5="0fa98d982859a3f90408608ac4ce5f33" />
+      </_radio-button>
+      <_ScallPageView.lua md5="f5a5ed43385675a6905fd3b5223469d4" />
+      <_ScrollButton.lua md5="7f9edf89a68c9e7fca3b0d1d19e1d0fb" />
+      <_TableView.lua md5="aa34d255a330172973af796d0228439b" />
+      <_TextField.lua md5="d853e78f767785b3ed90f4985ae33c69" />
+      <_toggle-button>
+        <_ToggleButton.lua md5="7f8aae19b84a31b9bb19bd392c22bb6a" />
+        <_ToggleTextButton.lua md5="1bcdb5312b1c99a7a04e432d0f46f39e" />
+      </_toggle-button>
+    </_share>
+    <_socket-manager>
+      <_SocketError.lua md5="8eaec83f046d520ba998fd5379313af9" />
+      <_SocketManager.lua md5="572ee102a3234376a8d9eff303c8035a" />
+    </_socket-manager>
+    <_test-layer>
+      <_TestLabel.lua md5="f158f4d9e2a1c306492886f1c4ec77df" />
+      <_TestLayer.lua md5="655bc5cafa9afe4e6d0201826b545802" />
+    </_test-layer>
+    <_ui>
+      <_alert>
+        <_AlertData.lua md5="548823e326abe2fd0de4748c1c715633" />
+        <_MainAlertLayer.lua md5="14f35691d3aa809a38c19f42ee48ddf7" />
+        <_MoreAlertCell.lua md5="437d015b0108a4f85947eb68b4878a08" />
+        <_MoreAlertLayer.lua md5="9b57cf7808a3485960016de967679abe" />
+      </_alert>
+      <_backpack>
+        <_data-manager>
+          <_BackpackConfigRead.lua md5="4e2f1b6666ed75e529711ef22acd9b8b" />
+          <_PackageItemData.lua md5="ecad37b5636ce4f61558aaf14c3be059" />
+        </_data-manager>
+        <_layer-manager>
+          <_BackpackButton.lua md5="94adbe62c3f8ec6c596b1b7f0a8e8ab3" />
+          <_BackpackDetailLayer.lua md5="a2660a8cf59abc95b919a6ac83d6ae18" />
+          <_BackpackHeroListCell.lua md5="cee537c38eb535735baf29fd1407f5a1" />
+          <_BackpackHeroListLayer.lua md5="0542cee480072deade3a4a8d5aa03543" />
+          <_BackpackLayer.lua md5="0e801f128125280b67e1f67c5afb6119" />
+          <_CheckBackpackItemCanUse.lua md5="1cae9ed1043ee09d2fa72cadcece441f" />
+          <_EditGoodsLayer.lua md5="ceebac7f38e16e5f71eeb87f8da2e9d5" />
+          <_GoodsDetailLayer.lua md5="8688533f429767428944a359cec2b8cd" />
+          <_HeroIconClickLayer.lua md5="c570b7945a243f767ee334f14fb0eff5" />
+          <_IconButton.lua md5="8bf4a4c885db5c1734533c5f64c95032" />
+          <_PropertyUseDialogLayer.lua md5="e242aec65e485a115cd3213a5bc3a6c0" />
+          <_PropertyUseShowCell.lua md5="50dab4c836090422ba9c4efb306c652c" />
+          <_PropertyUseShowLayer.lua md5="058d0caad7e339b03a5da5ae198ccc66" />
+          <_SearchGoodsCell.lua md5="a19ac14873566a62da8640d2e69c2c44" />
+          <_SearchGoodsLayer.lua md5="a8ee47da866ed69b493549233b90dd91" />
+          <_ShowBoxOpenDetailCell.lua md5="e5993f8f7497bc885e757eda15ae6c08" />
+          <_ShowBoxOpenDetailLayer.lua md5="d1153728a8a28d892f87bf9430fbac96" />
+        </_layer-manager>
+        <_MainLayer.lua md5="d0bab855a399b5002a0338131ea1adc7" />
+      </_backpack>
+      <_cheat>
+        <_MainLayer.lua md5="53d2cd836fb1f51158df523b12f08ee3" />
+      </_cheat>
+      <_city>
+        <_king>
+          <_CastleConfigReader.lua md5="9d2ce329d621994aa430781ba09d50e8" />
+          <_CastleUpgradeLayer.lua md5="ef7f7ef37587d73a6e76a24bb84cd064" />
+          <_MainLayer.lua md5="f85d7f7df2744e4382efb8c5bfa79958" />
+        </_king>
+        <_MainLayer.lua md5="39f56596682c6503d274b52278676ad4" />
+        <_MilitaryLayer.lua md5="683e63d0392d2a00fc651442d5c0a364" />
+      </_city>
+      <_collection>
+        <_data-manager>
+          <_CollectConfig.lua md5="422c0d8c7e48c772f987d0d3a3a736ef" />
+          <_CollectData.lua md5="630476dea067c98c65256fddec13f5e2" />
+          <_CollectDataManager.lua md5="0242165e3fa6ff9497b07aeb5446f3c4" />
+        </_data-manager>
+        <_layer-manager>
+          <_CollectCell.lua md5="a212d6faa1de8eaa6ee54d41cce9bed3" />
+          <_CollectLayer.lua md5="76c857630b99bc7ecfc1618d391bd6c6" />
+        </_layer-manager>
+        <_MainLayer.lua md5="15fc0472be2f4041c9b9173e19345095" />
+      </_collection>
+      <_common>
+        <___Localized.lua md5="af357e2c658959c3df5b142c4ae4a503" />
+        <_AttackAnimate.lua md5="72106a669603bf9d62c63b04c56bcc4e" />
+        <_BackgroundLayer.lua md5="645b39b45b4eedcfaaabcb152fe47a0d" />
+        <_ClickLabel.lua md5="b03084dff85c1705ffb596ae89d19e2e" />
+        <_Command.lua md5="5c8585c9428298b104934730424b92ec" />
+        <_CommonUI.lua md5="5a84165a2a83dc0c8c687bce0dbd646b" />
+        <_EditBox.lua md5="0290ede246c344c57ed4243341b6d607" />
+        <_Enum.lua md5="c64b74ad273929d7f2ed2931ae3df538" />
+        <_GlobalClass.lua md5="352702d21d0c052b4ce5f00b730711ca" />
+        <_HeroIcon.lua md5="01fd54fafba984c584a62c5a18805a67" />
+        <_InputUI.lua md5="47690c5c74ff4d866d357050a45f6cb7" />
+        <_KeyboardTouchManager.lua md5="6e1cb0cdb5eecdc61d732c52acc12606" />
+        <_LightTips.lua md5="7333c51b023b10fefccddc59505b583d" />
+        <_LoadingLayer.lua md5="0f302bcadaae3b32e0b214079c1165fd" />
+        <_Platform.lua md5="8e6355e6a06aee1bb2d0941907612494" />
+        <_PopBlood.lua md5="266c5ba10861e37d90f5debcacb11cb9" />
+        <_richlabel>
+          <_ElementBase.lua md5="548c6a3c950a5f5a4eac7d50748633c7" />
+          <_ElementButton.lua md5="c87fd149558d66ceb410b26f2587b691" />
+          <_ElementSprite.lua md5="00eb258947f80c2eebf2b500706f9219" />
+          <_ElementText.lua md5="f4b60c1a1517b9d2cf9804cd4f470d25" />
+          <_ElementTextButton.lua md5="4518ef3b60437c80816db9bb027770ab" />
+          <_RichLabel.lua md5="a045473510d2c534313fdd4b055111d4" />
+          <_RichLabelBase.lua md5="b1d5957c59fa6b593f1e7551b5d640da" />
+        </_richlabel>
+        <_ServerErrorCode.lua md5="838d72558d1c168eb0d7d00f9264821b" />
+        <_SkillAnimate.lua md5="200bdf1fd645a2aabedb1c5d6b7104ee" />
+        <_TextInput.lua md5="a8fdffaf4b089b7450991423c1f66348" />
+        <_TextSprite.lua md5="0550ed0b854150e503682f6d9c650633" />
+        <_TimeTools.lua md5="d934ae865dbc276421970d1be4dd55c6" />
+        <_TouchSlideNode.lua md5="7ce7c705eae0078e7a376c13e4da62d4" />
+        <_Utils.lua md5="c2d8e32db7611b5757e63e01ef0803cb" />
+      </_common>
+      <_country-war>
+        <_data-manager>
+          <_CountryWarData.lua md5="05e8fad521f9ab135bebbbad60ffc03c" />
+          <_CountryWarRecordData.lua md5="17b67cc7450997867a5417daa2b3c35d" />
+        </_data-manager>
+        <_layer-manager>
+          <_CountryWarCell.lua md5="8265bb4365f2ad9457a1ec3aff843256" />
+          <_CountryWarFightLayer.lua md5="f84f6d70131bb0846d8f2a03bac4e118" />
+          <_CountryWarInfoLayer.lua md5="e1b77c87999fadd2fb233b2b7216912c" />
+          <_CountryWarRecordCell.lua md5="722cf1c8160bbc05bdbe3445af2e9be5" />
+        </_layer-manager>
+        <_MainLayer.lua md5="a4f031f56eb247e9d5b06d54834b8ed4" />
+      </_country-war>
+      <_guild>
+        <_data-manager>
+          <_FlagData.lua md5="bd3db0c7ce6f49342ae7576ea6eb975b" />
+          <_GuildDonateRatioConfigRead.lua md5="350910474d6e871c8ded87d36235192d" />
+          <_GuildLevelConfigRead.lua md5="35b45839669fb007652ec87f85182dd4" />
+          <_GuildSkillConfigRead.lua md5="6406f8ca049a66ac552f239f6598b3e8" />
+          <_GuildSkillData.lua md5="dc60a04861fefae2c90bc687fe448771" />
+          <_OfficerConfigRead.lua md5="2e6aa7b0291a03b5210184d9e08a437d" />
+        </_data-manager>
+        <_layer-manager>
+          <_DonateRankCell.lua md5="aed05abff8ddb26b1bf716194f0f15b3" />
+          <_DonateRankLayer.lua md5="a668e6c959b13a03eec63c05545f5764" />
+          <_FlagChangeCell.lua md5="ba28cdfcdb970d5bb00887779634de3c" />
+          <_FlagChangeLayer.lua md5="2dce1849d5585a0d300b3f38df1205ff" />
+          <_GuildCreateLayer.lua md5="ee73b3776c3c90e3fb58a675c8c41f51" />
+          <_GuildInviteCell.lua md5="7e2cf4ea0350c65217161c60e9b35450" />
+          <_GuildInviteLayer.lua md5="a10ca55adc82727dd9ab563dc2ffab02" />
+          <_GuildJionCell.lua md5="7b1e8216b8a2821834f5e4c01944296d" />
+          <_GuildJoinLayer.lua md5="0535aa2f661f6952e31b9ef9a95beed8" />
+          <_GuildJoinSettingLayer.lua md5="a1648335e7e7107657ba4fed3eb400f5" />
+          <_GuildLayer.lua md5="c51021b2d586329b3a46578504c8df75" />
+          <_GuildLayerCell.lua md5="df09dc34d6dec873bbf800c70d3280ad" />
+          <_GuildLayerManager.lua md5="b0b0d0dc47b9ac20a05df5e0c39f6fbe" />
+          <_GuildManagerLayer.lua md5="a662d49d70b806eed747e0b2d8114faa" />
+          <_GuildMemberCell.lua md5="44b6c21c4cad230da4bc39a563d22c78" />
+          <_GuildMemberLayer.lua md5="8837de386ae46a6cb4b5fcab27fdd82d" />
+          <_GuildMemberOperateLayer.lua md5="e74fd2cbe6ea7e82e77bf9a4d32c41bb" />
+          <_GuildOfferLayer.lua md5="3ee0f6516620ec41e132764ac6e3fe7a" />
+          <_GuildQuitLayer.lua md5="1e4492538dd230f1dfdce00d39bfc691" />
+          <_GuildSkillCell.lua md5="69a65f898ebf2ed8a0296e76db93195f" />
+          <_GuildSkillLayer.lua md5="0d72d4af502c135962798d2754dca2bc" />
+          <_OtherGuildCell.lua md5="735e68b4551a170d1732bb7110a0e5d4" />
+          <_OtherGuildLayer.lua md5="8ed61ce4d58fef2be64928009bfe5bdb" />
+          <_ResourceDonateLayer.lua md5="0dec002caac1526eec06afee444a4b74" />
+          <_ResourceHouseLayer.lua md5="be8e42b25e52118e81a0a706c4262a21" />
+          <_ResourceOperateCell.lua md5="7bfa477f0e8ae16d48ce553a9eeb9d3a" />
+          <_ResourceRecordCell.lua md5="2008b9666c0b5b2bd63107635ed033dd" />
+          <_ResourceRecordLayer.lua md5="c6d4722c25536761321ba48774593364" />
+          <_ResourceSaveLayer.lua md5="4f9ed12d6ad803613370943119690d0e" />
+          <_ResourceTakeLayer.lua md5="7de343e864f83c1fcde3e176ed3e08b7" />
+        </_layer-manager>
+        <_MainLayer.lua md5="810eda2bc0973dee14310e3a2b564a31" />
+      </_guild>
+      <_hero-museum>
+        <_layers>
+          <_AlcoholLayer.lua md5="9a6306f8476d8bb395a106cc854db399" />
+          <_HeroDoctorCell.lua md5="51d818d33ea0763df9e4a6c24d8ec178" />
+          <_HeroDoctorLayer.lua md5="c8c0e585b1ab24b8d72362a1200bc485" />
+          <_HeroPlaceLayer.lua md5="d4f3a97b7df850e95d4812388d010750" />
+          <_HeroPlaceLayerCell.lua md5="c7d3dc86033ee5c82b64c510770cc5b4" />
+          <_RecruitHeroLayer.lua md5="1dbbf51f63124c30d71872f3e2998342" />
+          <_SeekHeroLayer.lua md5="fc8754173002be4294fae05cbf078d96" />
+          <_SelectHeroListLayer.lua md5="06f8d4b04020a1ed148f7c227432d73f" />
+          <_ShowHerosLayer.lua md5="62eebd25413b4ffe3321aff4fa3cf277" />
+          <_TrickHeroInfoLayer.lua md5="d2f5d96dee22ba1937f98938ea3020e9" />
+          <_UpgradeHeroLayer.lua md5="2fd387cdb5b03ed4ff7205d1668795cc" />
+        </_layers>
+        <_MainLayer.lua md5="dea44b0abae46d9ac9d0a148bd53b877" />
+      </_hero-museum>
+      <_login>
+        <_CheckVersionLayer.lua md5="d1d527646f066dc7069ba035941c19b6" />
+        <_CreateRoleLayer.lua md5="84b6a53b42a81e9b1cd8de665063c3ab" />
+        <_MainLayer.lua md5="da1930cec6a9e2d877b33cff902d776e" />
+        <_NameConfigReader.lua md5="8932008ffe8a4f8d5810ad480cc02fd7" />
+        <_RoleSelectLayer.lua md5="81768167ea3789760f80b6f8c3daa3dd" />
+        <_ServerListChoiseBarCell.lua md5="2d61a060d56bbae4983c03ee6b6abf48" />
+        <_ServerListChoiseCell.lua md5="81d12ea1cdb15c5cb7d29588b9f7a10b" />
+        <_ServerListChoiseLayer.lua md5="6a64f3c77f2e31a01a2c3f22ac671306" />
+        <_ServerListLayer.lua md5="27a1e67a58638119b25da083a9b02c8d" />
+        <_ServerListUtils.lua md5="26a811018c18bb5fcab7f7a30681408e" />
+      </_login>
+      <_mail>
+        <_data-manager>
+          <_GameMailData.lua md5="3983b68f7480e339b139585e0da84ccd" />
+          <_PersonalMailData.lua md5="c908d3b678bf347d05136451c0455d90" />
+          <_SystemMailData.lua md5="852d241cd5e52e62878d75d89e52c5ff" />
+        </_data-manager>
+        <_layer-manager>
+          <_AddNameLayer.lua md5="39f3525d4e00a9c9b0a3f0d107778791" />
+          <_GameMailCell.lua md5="09c6c631e5db0492585fc86ac77f0913" />
+          <_GameMailDetailsLayer.lua md5="8c4519ca440971e210b2c788ea150dd7" />
+          <_GameMailLayer.lua md5="2d4f9faf4caabc1eb8314340f3726ca3" />
+          <_PersonalMailFrame.lua md5="a79a0a5be490b7a89b09b22db9b09e01" />
+          <_PersonalMailLayer.lua md5="47146f9fa6c247c96dd3872085af9537" />
+          <_PlayerMailCell.lua md5="ecd8def7c44780779d1d738b9de834c7" />
+          <_PlayerMailLayer.lua md5="c394782212e2897ecc20666d61fc573d" />
+          <_SendMailLayer.lua md5="3b5b3f7e2b73ed749c81e2397fc4bd3e" />
+          <_SettingMailLayer.lua md5="da4687f2a7097230a307bb11af5caca4" />
+          <_SystemMailCell.lua md5="0d229dd612e0fabd3985479a85184d1c" />
+          <_SystemMailDetailsLayer.lua md5="23bf52fefd58c9f0281b3f335484a43c" />
+          <_SystemMailItemCell.lua md5="cfae528f94eb7ef1f64a6834c2fbf803" />
+          <_SystemMailLayer.lua md5="3b1fb59190dcd232b5feefde111493d5" />
+        </_layer-manager>
+        <_MainLayer.lua md5="5c221ff4eb47920d92a83a5c6533e53b" />
+      </_mail>
+      <_map>
+        <_army-status>
+          <_Aid.lua md5="fcf0abb70ad17651fc03feefd316fb8b" />
+          <_AttackArmy.lua md5="0c78233a9dcde0689da778ee4ad6f51a" />
+          <_AttackBuilding.lua md5="9d5a9a1f54036e767fbff9f6c3920e61" />
+          <_Base.lua md5="69fe30bc98dbc7d4f52ef15b92b11f3a" />
+          <_GoHome.lua md5="5cd412c687f937c7f1fe21993d22c6b9" />
+          <_Move.lua md5="da340222cc3f6a1a4d9c8829af1d21b8" />
+          <_OccupyBuilding.lua md5="e1fc92977876cabac95be9f4f971b03c" />
+          <_Pickup.lua md5="3874f8cc562497cce7a29eca25ae2b68" />
+          <_StatusUtils.lua md5="ae5dadb185666460462d0d84c37d357f" />
+          <_Wait.lua md5="a5484b21a719e868c6f4b55a0c57e7ff" />
+        </_army-status>
+        <_ArmyLeadLayer.lua md5="4b89ccc5cad4e0d4140bdff01d36a3b3" />
+        <_ArmyLeadNode.lua md5="608c32209db2a5aa78cd5bd1145736ef" />
+        <_CastlePointArrowLayer.lua md5="aa991536776a838716389996115074b1" />
+        <_ClickOperation.lua md5="4dbe2f23e0c8222c62e2d362c6f5e6c1" />
+        <_CoordinateLayer.lua md5="3078c0f21bc463ba19e3d5dac4ecb2de" />
+        <_data-manager>
+          <_ArmyData.lua md5="755b9806abe1add70a610b63a8bbb515" />
+          <_ArmyDataManager.lua md5="b7d012a10f716621247d2b0bd2372521" />
+          <_BuildingData.lua md5="29801263c5fa649a919ab6f7f179f7ed" />
+          <_BuildingDataManager.lua md5="a7289d273aa4c2c6e28987325874458f" />
+          <_GoOutInfo.lua md5="b414577f6ba7e210e73410434430ed55" />
+          <_HeartBeat.lua md5="8e06608cae34a642f23155f9db441583" />
+          <_MapConfig.lua md5="0ea81c0bbe67508418947b266c2763dd" />
+          <_MapDataManager.lua md5="3769742b027c1039e4e56c924fe19a9f" />
+          <_MapDataSocket.lua md5="d0fa9335b349569f536f31e4f6fd4914" />
+          <_RandomResourceData.lua md5="80f67895ce0a90d4dee7454552d974ba" />
+          <_ResourcePointUtils.lua md5="37d911afb2272fb61c1ae837f44951f0" />
+        </_data-manager>
+        <_layer-manager>
+          <_AllFamousCityShowLayer.lua md5="8712d0f98ecc078516f2799e5969cfbb" />
+          <_AllFamousCityShowLayerCell.lua md5="f97699375ce4d5022863f71d364a4285" />
+          <_ArmyAnimationSprite.lua md5="9b84059c414e56cb51f489738420ed29" />
+          <_ArmyDirection.lua md5="53b55df2248081fbde04bef2ed04c6cf" />
+          <_ArmyGoBackLayer.lua md5="e7197db300e1189ef10c5a5d5c076c2d" />
+          <_ArmySpriteNode.lua md5="8db698bc5ff2c32c15ec2741ba4ebac9" />
+          <_ArmySpritesManager.lua md5="694afd7d1de529fe436df347298a9bab" />
+          <_ArmySupplyLayer.lua md5="c3a4ff81a5751333f541cddd2030d456" />
+          <_BaseSpritesManager.lua md5="4157c926a59f6f834e007099068325b3" />
+          <_BaseSpritesManagerUtils.lua md5="546f4353133c3459634ee4508edf14a6" />
+          <_BuildingSpriteNode.lua md5="95fa061f7d928dc733880241545483b7" />
+          <_BuildingSpritesManager.lua md5="ab81be36fa85f3cfb655cc8b6a7df8bb" />
+          <_MapLayerManager.lua md5="e02cc7753de691c4e434064ec37cd32e" />
+          <_MapLayerManagerEx.lua md5="d41d8cd98f00b204e9800998ecf8427e" />
+          <_RandomResSpriteNode.lua md5="90b31f7cab5eaf0df03a8b187475faa7" />
+          <_RandomResSpritesManager.lua md5="c385b9be4c0ebc2cf39d0494e107ad64" />
+        </_layer-manager>
+        <_logic>
+          <_ArmyDisappearCallback.lua md5="34e0edc8eda49f74f34a485f1a225eda" />
+          <_ArmyGoBackCallback.lua md5="716f1d6a6b25816d9bed8da93b3e48a4" />
+          <_ArmyInfoCallback.lua md5="3fa8599235d9a874215a15a0d9af7ac1" />
+          <_ArmyInfoUpdateCallback.lua md5="8b8f4d1f29da7a27d2ce63fc5575269e" />
+          <_ArmyLostCallback.lua md5="ea2b3fc3679bab280fccac3787978aae" />
+          <_AttackArmyCallback.lua md5="63afb7927bcd75b3394c2a358d46852e" />
+          <_AttackBuildingCallback.lua md5="1c94f19b625e72f0243455ef179ad443" />
+          <_AttackCodeCallback.lua md5="dfc665dfee0efbd7bb399bd3c78fd5e6" />
+          <_BattleUtils.lua md5="7375edba7a0726c621629fa1f65af8fa" />
+          <_BuildingGuardCallback.lua md5="86bac62a0c106ba8a89c73c85a3421bc" />
+          <_BuildingInfoCallback.lua md5="49906348758b58934ba189781eb24649" />
+          <_BuildingLostCallback.lua md5="6b9fda61eea1b14d7a667d1d54ed36cd" />
+          <_BuildingOccupyCallback.lua md5="1df3f45413f8fb0c5066c1e2025947aa" />
+          <_CountryWarOpen.lua md5="54cfe929034c7957e10cab62c6ebcacb" />
+          <_GoOutCallback.lua md5="9ed7f10f617ff43911777673af70234b" />
+          <_OutsideArmyInfoCallback.lua md5="875fc6226544008b1898a45f7d0d4633" />
+          <_PackageDisappearCallback.lua md5="13138bd6ec8d0ec5cc4b193ad90caec3" />
+          <_RandomResourceCallback.lua md5="4e97f902f37a5316c501f2d92f9568d9" />
+          <_RandPackageGetCallback.lua md5="3225cec19229ff2649fbf19aef98e3af" />
+          <_ScrollViewDidScroll.lua md5="c09feadb9fbe71042bb129e5c8965ea3" />
+          <_TeleportCallback.lua md5="5fcc262d618f14dea1f3fe1245b1f9ea" />
+        </_logic>
+        <_MainLayer.lua md5="1580ad68cee1beca842bf341b3b9bf06" />
+        <_MapManager.lua md5="212fbb53809552a9370bbbc17f205adf" />
+        <_MapTopLayer.lua md5="8c4d0dc7879ad2b310e40504dc81762b" />
+        <_SearchCoordinateLayer.lua md5="c952c69a67e0bdeb0cd95e78a91e1719" />
+      </_map>
+      <_map-subview>
+        <_ClickArmyDialog.lua md5="6be64f6c27a92048b88a03cc3d580a06" />
+        <_ClickBuildingDialog.lua md5="1ce8d93a3dff93796835b64029c855ac" />
+        <_ClickCastleDialog.lua md5="0a838e0099f3cd8a21d8a1733761f2ff" />
+        <_ClickGrasslandDialog.lua md5="5cd0e12b5adf16cf960a2475e4d326f0" />
+        <_ClickRandomResDialog.lua md5="fea9cdd0a7803bdfdef9a0a66caaf4e8" />
+        <_DialogUtils.lua md5="7bfb1e011a00dfbbb8bc887739cd00a5" />
+      </_map-subview>
+      <_market>
+        <_datas>
+          <_FilterData.lua md5="73d4c51e21617107048d46d90e3c9015" />
+          <_MarketData.lua md5="92ab899237b373b91011e63de8cde381" />
+        </_datas>
+        <_layers>
+          <_ConfirmGoodsSetToMarketLayer.lua md5="c34d7c189172fbb7e93c52929bd034b7" />
+          <_FilterGoodsLayer.lua md5="7b78dee42d43a675d3940c180b6d524b" />
+          <_FilterGoodsLayerCell.lua md5="557741b25acedbf27c5010894d383542" />
+          <_MarketBottomLayer.lua md5="883799726754fe76bdabc92be2fd9b75" />
+          <_MarketConfirmLayer.lua md5="212996d1564b88dbdb3b02a981b9d014" />
+          <_MarketGoodsIcon.lua md5="30358fec869012e64bac3c178f7dbbba" />
+          <_MarketSellingLayerCell.lua md5="a24e81970c79e9875a820ac33b36d3fe" />
+          <_UserSellingLayer.lua md5="39ea582c8b1bd862767b7ab887a4a4b2" />
+          <_UserSellingLayerCell.lua md5="6a5bff9f9ee7b6ee9f9707ac6f7085f8" />
+          <_UserWantSellLayer.lua md5="b499b23a2dcfb79749bb03252e831146" />
+          <_UserWantSellLayerCell.lua md5="e0c6723a7998569f15bd78eb0a18cd4e" />
+        </_layers>
+        <_MainLayer.lua md5="43dbd60bd0cde1dd42ee447e68ac21f7" />
+      </_market>
+      <_message-board>
+        <_data-manager>
+          <_MessageBoardData.lua md5="1732687228ea6b883369262f9fc05bd4" />
+        </_data-manager>
+        <_layer-manager>
+          <_MessageBoardCell.lua md5="a7677881db20e04ef27cd239e8d37ff8" />
+          <_MessageBoardLayer.lua md5="dab6351c957035e482e480a0c1a7eb46" />
+          <_OperateMenuLayer.lua md5="7bee170029d9f1e3ed9f309d0aa43a31" />
+          <_OwnMessageBoardLayer.lua md5="6edc52c756705bee3f3bec52173c858b" />
+        </_layer-manager>
+      </_message-board>
+      <_notice>
+        <_MainLayer.lua md5="a9c5dcb9f81008f271fe5621b6432396" />
+        <_notice-manager>
+          <_AlertNoticeLayer.lua md5="68c11b7a3c9c2bf820eaf13137befbf7" />
+          <_ScrollNoticeData.lua md5="8bf757b1a68f27eac99d14fc17fb9afe" />
+          <_ScrollNoticeManager.lua md5="d9d47e10a792e7b61fb2b4862676db1d" />
+        </_notice-manager>
+      </_notice>
+      <_outside-search>
+        <_datas>
+          <_BuildingSearchData.lua md5="ba52c7572cb02e2f1b792d73210b5189" />
+        </_datas>
+        <_layers>
+          <_BuildingDefenceCell.lua md5="dc035f282484ed8dc0b53bc6a4d7da03" />
+          <_BuildingDefenceLayer.lua md5="91a1366b2ed08d660b490927289e567e" />
+          <_BuildingGarrisonLayer.lua md5="f89450d0b7e3b7accfa6b1579123b467" />
+          <_BuildingOutputInfoScrollView.lua md5="8f4ccd65dc88a71ae39f2be4a7a4eb63" />
+          <_CityInfoScrollView.lua md5="3334a1bfc7575baa1fb7684711f4b099" />
+          <_HeroInfosLayer.lua md5="1d0f2ecac76c6e09ad9ae244081be312" />
+          <_NoPlayerBuildingInfoLayer.lua md5="7c5fea5e2e4320ab9c0f63605cd93c0f" />
+          <_OtherPlayerCastleLayer.lua md5="052de05724b898dcac58ed0cd36f4fb7" />
+          <_SearchArmyLayer.lua md5="8a04b74b433b649614299b67330f9f55" />
+          <_SearchNotCastleLayer.lua md5="a2f8bd75ace52727585f8b242048ce92" />
+          <_SearchRandomLayer.lua md5="72bdb5c8f72fe5d446d56fa7e98a56e6" />
+        </_layers>
+        <_MainLayer.lua md5="63d7846cab71308b35c6f2637c9f2151" />
+      </_outside-search>
+      <_produce>
+        <_data-manager>
+          <_BuildingConfigReader.lua md5="5ac15fc7c4a4e580724a39ca019a4b82" />
+          <_CampConfigReader.lua md5="25327eb88c373e73eda76f1a57f38649" />
+          <_ProduceBuildingData.lua md5="15747ae0a2368355ba3c0734f43fd877" />
+          <_ProduceBuildingDataManager.lua md5="b9159cc32663343ea9b700e24f9a8984" />
+          <_ProduceConfigReader.lua md5="fae842ac9c7b64d7f6813800752913a8" />
+          <_ProduceResourceData.lua md5="a904190932aab6de37d5cfe51c110189" />
+          <_ProduceSoldierData.lua md5="4926d38c9fa7e7ac222cb348218d9354" />
+          <_ResourcePointConfigReader.lua md5="5f651940ccf6a6cb03156dd673060ae6" />
+        </_data-manager>
+        <_layer-manager>
+          <_OccupiedBuildingTitleNode.lua md5="3a1d91a383488c6f9fa591ba8a387415" />
+          <_OccupiedBuildingView.lua md5="ef5a00e84e2fa4602a0c390611dd85cd" />
+          <_ProduceResourceNode.lua md5="7ab1eb8fd6892070f1d688d1b361c8c9" />
+          <_ProduceResourcesLayer.lua md5="50675886f42e0ecf5daaa2008ae8da40" />
+          <_ProduceSoldierLayer.lua md5="8edf28336b6b3a890deadd7f6f7c8c45" />
+          <_ProduceSoldierNode.lua md5="0270699c2f17d58a74269d9441f7c84f" />
+        </_layer-manager>
+      </_produce>
+      <_rank>
+        <_data-manager>
+          <_RankConfig.lua md5="6628ab7b4a7a0f11c07b9803c8e526de" />
+          <_RankData.lua md5="00c09ef0f639cf95658445ffd0bc602d" />
+        </_data-manager>
+        <_layer-manager>
+          <_RankCell.lua md5="b06e6760bf0812e3186dbceb54ede048" />
+          <_RankGuildCell.lua md5="b6492627038ae84c8afe5333f6a53113" />
+          <_RankGuildLayer.lua md5="11b93c38187c63f1ad26ed878493f9a4" />
+          <_RankLayer.lua md5="f506bf80f1356068222bd34ed586aef1" />
+          <_RankTitleCell.lua md5="700b43f7d986f6a4ee004e0ff1dd98ee" />
+        </_layer-manager>
+        <_MainLayer.lua md5="2c48491110b6f42767befae5d41591ac" />
+      </_rank>
+      <_recharge>
+        <_data-manager>
+          <_RechargeConfigReader.lua md5="f623f107b5619f3403a7df9a42932aa1" />
+          <_ShopConfigReader.lua md5="046ea1c7a7730556456515933007a4f9" />
+          <_VipConfigReader.lua md5="f8f0840b23d19915975d770c8a79c29a" />
+        </_data-manager>
+        <_layer-manager>
+          <_RechargeItemCell.lua md5="f8031e49c05961218fd35cdb8af6f90b" />
+          <_RechargeLayer.lua md5="da9610725f3536cd435d840324910e17" />
+          <_ShopItemBuyLayer.lua md5="06cbd71fb49b9ae849d421831a1de02f" />
+          <_ShopItemCell.lua md5="0ab4ec06be2240167d07cbcc085ec600" />
+          <_ShopLayer.lua md5="dc88c73b3280480b3e7de5224cee8fa0" />
+          <_VipGiftsCell.lua md5="19faec60612f5b8a7b80effbdde88e4f" />
+          <_VipGiftsLayer.lua md5="ad651e3d1311aabd2a60c59cdf30a6d9" />
+          <_VipRightsCell.lua md5="c03b3577fe3fdb0c17054e133617d5b9" />
+          <_VipRightsLayer.lua md5="c03a95bd550300db4a8706659dbeb5f9" />
+        </_layer-manager>
+        <_MainLayer.lua md5="939cd8c133a8b2a217aeb41cc6b5ee4c" />
+      </_recharge>
+      <_setting>
+        <_MainLayer.lua md5="f2432dd83444669a555e231f7a7bf3a3" />
+      </_setting>
+      <_tabbar>
+        <_MainLayer.lua md5="8ed759350b76d9ef4caef98fb2e9c473" />
+        <_TeamButtonLayer.lua md5="dcb9f0985d62d629757db987eb67408a" />
+      </_tabbar>
+      <_team>
+        <_data-manager>
+          <_HeroAttribute.lua md5="d99c52e93a6b0c7e4a8b57ad3968a611" />
+          <_HeroConfigRead.lua md5="eddafa1a030f89a35e40a53e6f39f0b0" />
+          <_HeroGrowthConfigRead.lua md5="728d29ad33878631f755d0518e70206c" />
+          <_StatuIdConfigRead.lua md5="acb29875866cb3053c797d5783806fcf" />
+        </_data-manager>
+        <_layer-manager>
+          <_ConfirmDrillLayer.lua md5="848eebafd9e22c7f5ad7d659ed088d53" />
+          <_ConfirmSpeedupLayer.lua md5="8f766564d96ca20c07430ab4edc36e7a" />
+          <_EditTeamLayer.lua md5="7adeff035e31c71717ff9886522d1475" />
+          <_EditTeamLayerCell.lua md5="57fb1a7e7e97be3da7f2452e3b1015c1" />
+          <_HeroInfoLayer.lua md5="68bf1522b23fd358cfd79a8fa5bd33b6" />
+          <_HeroSelectCell.lua md5="4102c2fc13905275a4e8db243cdf11b6" />
+          <_HeroSelectLayer.lua md5="042a15dc4129681a27218345fd3edc61" />
+          <_OutTeamCell.lua md5="2e30dd9fd4e83ea1e78b1707f46b67af" />
+          <_OutTeamLayer.lua md5="538cc9960cde51292774ca50b62a8f79" />
+          <_RevokeTeamCell.lua md5="18d59fcd7ab4b2c57f28d890eef581e9" />
+          <_RevokeTeamLayer.lua md5="2e1a0c2d32a19aa26191a21b935924a1" />
+          <_SoldierInfoLayer.lua md5="a6aa674e1d93659df51d1fe1e5fa90f1" />
+          <_SoldierSelectCell.lua md5="5faba9763c0a81631aeec7df4cb39f98" />
+          <_SoldierSelectLayer.lua md5="53b3bd7b28df74d1fec40ad6ea00ce62" />
+          <_UserSkillLayer.lua md5="1aadb60459121a1f9c9fd3eb12b52f86" />
+        </_layer-manager>
+        <_MainLayer.lua md5="266151ca0a6a29fddd7e0b2c0eb0786f" />
+      </_team>
+      <_tips>
+        <_TipsLayer.lua md5="89d29af2641dd62a1153f51c4e62b14d" />
+        <_TipsManager.lua md5="33e7f330c38c4a16432601b0f14fdf0c" />
+      </_tips>
+      <_user-info>
+        <_datas>
+          <_OtherPlayerData.lua md5="bccde04ecc0e7e674c96d4fccf31eaeb" />
+          <_SearchUserData.lua md5="d470975e820b6a86ac39b9cad4341b62" />
+        </_datas>
+        <_layers>
+          <_AppointLayer.lua md5="c6a0c796b679fae60f240e6a3a9f33ea" />
+          <_AppointLayerCell.lua md5="8aa3c3822d8737bb139c3d5bf6e11723" />
+          <_AppointViewLayer.lua md5="91366ce8f3e9ce5b40ee27db67cd6bb4" />
+          <_AppointViewLayerCell.lua md5="7d80b4d5b6a850d48fb1d3b2fb396cee" />
+          <_ContributeOfficerCell.lua md5="cbd5e3bcacd8fb2672989fb286afbfb9" />
+          <_ContributeOfficerLayer.lua md5="74e2017a3d7d1eb05875413c265398e0" />
+          <_OtherPlayerInfoLayer.lua md5="da69825269a758b930c173be40c4cbc2" />
+          <_SalaryShowLayer.lua md5="d4f524ff769072adede47a8f4d8bf37c" />
+          <_SalaryShowLayerCell.lua md5="4b6d5b2de94d9414cb4f3c0823b734b6" />
+        </_layers>
+        <_MainLayer.lua md5="92437a3fe21e0af7e0f2a4979923c202" />
+      </_user-info>
+      <_wiki>
+        <_data-manager>
+          <_WikiConfigReader.lua md5="322553bd6bb551a99883dba5c26220ba" />
+          <_WikiDataManager.lua md5="6046fc6c601c93d5d9882e242319ed67" />
+        </_data-manager>
+        <_layer-manager>
+          <_ConnectOurLayer.lua md5="6da8f3f88490bdd632a674587639afb8" />
+          <_WikiContentLayer.lua md5="7c79a5f96dda8efabe72aa1af44efcc0" />
+          <_WikiSearchLayer.lua md5="54c8c9457435e54720fc333fa057ef05" />
+          <_WikiTitleCell.lua md5="4f5d70e7291fac20eef4708d4a9c0c30" />
+        </_layer-manager>
+        <_MainLayer.lua md5="d3c4c2e63adff4fcbaf9022c2baecc2e" />
+      </_wiki>
+      <_world-map>
+        <_layers>
+          <_ShowWorldLayer.lua md5="9eef67c94e0052177e32f9d6f91d6afd" />
+        </_layers>
+        <_MainLayer.lua md5="743144b73b7f4d0f83a3305c8f0f45a3" />
+      </_world-map>
+    </_ui>
+  </_src>
+</Resources>

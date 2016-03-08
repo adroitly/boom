@@ -1,0 +1,78 @@
+{
+	
+	"说明" : "如果source后加入/则为整个文件夹进行打包或者copy，如果copy可以支持深度，打包只支持一个文件夹，如：角色动作/",
+
+
+	"default_pixel_format" : "RGBA4444",
+	
+
+	"merge" : [
+		{
+			"source" : "建筑物",
+			"rename" : "building"
+		},
+		{
+			"source" : "随机资源",
+			"rename" : "random"
+		},
+		{
+			"source" : "名将ICON",
+			"rename" : "hero-icon"
+		},
+		{
+			"source" : "道具icon",
+			"rename" : "stage-icon"
+		},
+		{
+			"source" : "角色动作/",
+			"rename" : "../army"
+		},
+		{
+			"source" : "攻击特效/",
+			"rename" : "../attack-effect"
+		},
+		{
+			"source" : "充值icon",
+			"rename" : "recharge-icon"
+		}
+	], 
+	"copy" : [
+		{
+			"source" : "UI/启动界面",
+			"rename" : "login"
+		},
+		{
+			"source" : "UI/游戏主界面",
+			"rename" : "main-page"
+		},
+		{
+			"source" : "UI/文字/游戏主界面",
+			"rename" : "main-page"
+		},
+		{
+			"source" : "UI/文字/启动界面",
+			"rename" : "login"
+		},
+		{
+			"source" : "君主+角色",
+			"rename" : "city"
+		},
+		{
+			"source" : "UI/背包界面",
+			"rename" : "backpack"
+		},
+		{
+			"source" : "UI/拍卖行",
+			"rename" : "market"
+		},
+		{
+			"source" : "UI/世界地图",
+			"rename" : "world-map"
+		},
+				{
+			"source" : "UI/文字/世界地图",
+			"rename" : "world-map"
+		}
+
+	]
+}

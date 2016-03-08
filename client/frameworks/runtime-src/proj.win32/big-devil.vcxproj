@@ -1,0 +1,590 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{4E6A7A0E-DDD8-4BAA-8B22-C964069364ED}</ProjectGuid>
+    <ProjectName>big-devil</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '10.0'">v100</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '11.0'">v110</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '11.0' and exists('$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A')">v110_xp</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '12.0' and exists('$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A')">v120_xp</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '10.0'">v100</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '11.0'">v110</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '11.0' and exists('$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A')">v110_xp</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '12.0' and exists('$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A')">v120_xp</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\..\cocos2d-x\cocos\2d\cocos2dx.props" />
+    <Import Project="..\..\cocos2d-x\cocos\2d\cocos2d_headers.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\..\cocos2d-x\cocos\2d\cocos2dx.props" />
+    <Import Project="..\..\cocos2d-x\cocos\2d\cocos2d_headers.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration).win32\</OutDir>
+    <IntDir>$(Configuration).win32\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(IncludePath)</IncludePath>
+    <SourcePath>$(SourcePath);</SourcePath>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration).win32\</OutDir>
+    <IntDir>$(Configuration).win32\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LibraryPath>C:\Qt\Qt5.4.0\5.4\msvc2013_opengl\lib;$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A\lib;C:\libs\boost_1_55_0\stage\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LibraryPath>C:\libs\glew\lib;C:\libs\boost_1_55_0\stage\lib;C:\Qt\Qt5.4.0\5.4\msvc2013_opengl\lib;$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A\lib;$(LibraryPath)</LibraryPath>
+    <PreBuildEventUseInBuild>false</PreBuildEventUseInBuild>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(EngineRoot)external\curl\include\win32;$(ProjectDir)..\..\..\..\3rd;$(ProjectDir)..\..\..\..\3rd\flash_sdk_src;$(ProjectDir)..\..\..\..\3rd\flash_sdk_src\core;$(ProjectDir)..\..\..\..\3rd\flash_sdk_src\flash_cocos2dx;$(ProjectDir)..\..\..\libs;$(ProjectDir)..\..\..\libs\lua_binding;$(ProjectDir)..\..\..\libs\game;$(ProjectDir)..\..\..\libs\fla;$(ProjectDir)..\..\..\libs\cocos2dx-toolbox;$(ProjectDir)..\..\..\libs\ccex;C:\Qt\Qt5.4.0\5.4\msvc2013_opengl\include;C:\libs\boost_1_55_0;$(ProjectDir)..\Classes;$(ProjectDir)..\Classes\runtime;$(ProjectDir)..\Classes\protobuf-lite;$(EngineRoot)external\win32-specific\zlib\include;$(EngineRoot)cocos\scripting\lua-bindings\auto;$(EngineRoot)cocos\scripting\lua-bindings\manual;$(EngineRoot)cocos\audio\include;$(EngineRoot)external;$(EngineRoot)external\lua\lua;$(EngineRoot)external\lua\tolua;$(EngineRoot)external\chipmunk\include\chipmunk;$(EngineRoot)extensions;$(EngineRoot);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <MinimalRebuild>false</MinimalRebuild>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>FLA_USE_LUA_BINDING=1;FLA_USE_COCOS2D_VERSION_3=1;PLATFORM_QT=1;CC_LUA_ENGINE_ENABLED=1;WIN32;_WINDOWS;STRICT;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS_DEBUG;COCOS2D_DEBUG=1;GLFW_EXPOSE_NATIVE_WIN32;GLFW_EXPOSE_NATIVE_WGL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DisableSpecificWarnings>4819;4267;4251;4244;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <ProgramDataBaseFileName>$(IntDir)vc$(PlatformToolsetVersion).pdb</ProgramDataBaseFileName>
+      <ForcedIncludeFiles>algorithm</ForcedIncludeFiles>
+      <CompileAs>CompileAsCpp</CompileAs>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(OutDir);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>Qt5Gui.lib;Qt5Core.lib;libcurl_imp.lib;lua51.lib;websockets.lib;libboost_thread-vc120-mt-gd-1_55.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <ProgramDatabaseFile>$(ProjectDir)../../../runtime/win32/$(TargetName).pdb</ProgramDatabaseFile>
+      <OutputFile>$(ProjectDir)../../../runtime/win32/$(TargetName)$(TargetExt)</OutputFile>
+    </Link>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A\include;$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <HeaderFileName>big-devil.h</HeaderFileName>
+      <InterfaceIdentifierFileName>big-devil_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>big-devil_p.c</ProxyFileName>
+      <GenerateStublessProxies>true</GenerateStublessProxies>
+      <TypeLibraryName>$(IntDir)/big-devil.tlb</TypeLibraryName>
+      <DllDataFileName>
+      </DllDataFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Command>if not exist "$(LocalDebuggerWorkingDirectory)" mkdir "$(LocalDebuggerWorkingDirectory)"</Command>
+      <Message>copy files</Message>
+    </PreBuildEvent>
+    <PreLinkEvent>
+      <Command>
+      </Command>
+    </PreLinkEvent>
+    <PostBuildEvent>
+      <Command>xcopy /Y /Q "$(OutDir)*.dll" "$(ProjectDir)..\..\..\runtime\win32\"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\..\..\..\3rd;$(ProjectDir)..\..\..\..\3rd\flash_sdk_src;$(ProjectDir)..\..\..\..\3rd\flash_sdk_src\core;$(ProjectDir)..\..\..\..\3rd\flash_sdk_src\flash_cocos2dx;$(ProjectDir)..\..\..\libs;$(ProjectDir)..\..\..\libs\lua_binding;$(ProjectDir)..\..\..\libs\game;$(ProjectDir)..\..\..\libs\fla;$(ProjectDir)..\..\..\libs\cocos2dx-toolbox;$(ProjectDir)..\..\..\libs\ccex;C:\Qt\Qt5.4.0\5.4\msvc2013_opengl\include;C:\libs\boost_1_55_0;$(ProjectDir)..\Classes;$(ProjectDir)..\Classes\runtime;$(ProjectDir)..\Classes\protobuf-lite;$(EngineRoot)cocos\scripting\lua-bindings\auto;$(EngineRoot)cocos\scripting\lua-bindings\manual;$(EngineRoot)cocos\audio\include;$(EngineRoot)external;$(EngineRoot)external\lua\lua;$(EngineRoot)external\lua\tolua;$(EngineRoot)external\curl\include\win32;$(EngineRoot)external\win32-specific\zlib\include;$(EngineRoot)external\chipmunk\include\chipmunk;$(EngineRoot)extensions;$(EngineRoot);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <PreprocessorDefinitions>FLA_USE_LUA_BINDING=1;PLATFORM_QT=1;CC_LUA_ENGINE_ENABLED=1;WIN32;_WINDOWS;STRICT;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS_DEBUG;NDEBUG;GLFW_EXPOSE_NATIVE_WIN32;GLFW_EXPOSE_NATIVE_WGL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DisableSpecificWarnings>4267;4251;4244;4819;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <ProgramDataBaseFileName>$(IntDir)vc$(PlatformToolsetVersion).pdb</ProgramDataBaseFileName>
+      <ForcedIncludeFiles>algorithm</ForcedIncludeFiles>
+      <CompileAs>CompileAsCpp</CompileAs>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+      <AdditionalLibraryDirectories>$(OutDir);$(EngineRoot)external\websockets\prebuilt\win32;$(EngineRoot)external\curl\prebuilt\win32;$(EngineRoot)external\glfw3\prebuilt\win32;$(EngineRoot)external\lua\luajit\prebuilt\win32;$(EngineRoot)external\win32-specific\zlib\prebuilt;$(EngineRoot)external\png\prebuilt\win32;$(EngineRoot)external\jpeg\prebuilt\win32;$(EngineRoot)external\tiff\prebuilt\win32;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>Qt5Gui.lib;Qt5Core.lib;lua51.lib;libcurl_imp.lib;websockets.lib;libboost_date_time-vc120-mt-1_55.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <OutputFile>$(ProjectDir)../../../runtime/win32/$(TargetName)$(TargetExt)</OutputFile>
+    </Link>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A\include;$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <HeaderFileName>big-devil.h</HeaderFileName>
+      <InterfaceIdentifierFileName>big-devil_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>big-devil_p.c</ProxyFileName>
+      <GenerateStublessProxies>true</GenerateStublessProxies>
+      <TypeLibraryName>$(IntDir)/big-devil.tlb</TypeLibraryName>
+      <DllDataFileName>
+      </DllDataFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Command>if exist "$(LocalDebuggerWorkingDirectory)" rd /s /q "$(LocalDebuggerWorkingDirectory)"
+mkdir "$(LocalDebuggerWorkingDirectory)"
+mkdir "$(LocalDebuggerWorkingDirectory)\src"
+mkdir "$(LocalDebuggerWorkingDirectory)\res"
+xcopy "$(ProjectDir)..\..\..\src" "$(LocalDebuggerWorkingDirectory)\src" /e /Y
+xcopy "$(ProjectDir)..\..\..\res" "$(LocalDebuggerWorkingDirectory)\res" /e /Y
+copy "$(ProjectDir)..\..\..\config.json" "$(LocalDebuggerWorkingDirectory)\config.json" /Y
+</Command>
+      <Message>copy files</Message>
+    </PreBuildEvent>
+    <PreLinkEvent>
+      <Command>
+      </Command>
+    </PreLinkEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\3rd\async\detail\traits.hpp" />
+    <ClInclude Include="..\..\..\..\3rd\async\OperationQueue.h" />
+    <ClInclude Include="..\..\..\..\3rd\ccex\DispatchManager.h" />
+    <ClInclude Include="..\..\..\..\3rd\ccex\Geometry.h" />
+    <ClInclude Include="..\..\..\..\3rd\ccex\Holder.h" />
+    <ClInclude Include="..\..\..\..\3rd\ccex\Iterator.h" />
+    <ClInclude Include="..\..\..\..\3rd\ccex\LabelAtlasEx.h" />
+    <ClInclude Include="..\..\..\..\3rd\ccex\lua_binding\lua_reg_ccex.h" />
+    <ClInclude Include="..\..\..\..\3rd\ccex\NodeAddtions.h" />
+    <ClInclude Include="..\..\..\..\3rd\ccex\QuickAction.h" />
+    <ClInclude Include="..\..\..\..\3rd\ccex\RefCache.h" />
+    <ClInclude Include="..\..\..\..\3rd\ccex\SafeCall.h" />
+    <ClInclude Include="..\..\..\..\3rd\ccex\StopTimer.h" />
+    <ClInclude Include="..\..\..\..\3rd\ccex\TileSpriteAtlas.h" />
+    <ClInclude Include="..\..\..\..\3rd\ccex\TimerManager.h" />
+    <ClInclude Include="..\..\..\..\3rd\clover\CloverTest.h" />
+    <ClInclude Include="..\..\..\..\3rd\clover\Container.h" />
+    <ClInclude Include="..\..\..\..\3rd\clover\Counter.h" />
+    <ClInclude Include="..\..\..\..\3rd\clover\Data.h" />
+    <ClInclude Include="..\..\..\..\3rd\clover\ImmutableData.h" />
+    <ClInclude Include="..\..\..\..\3rd\clover\IntrusiveObject.h" />
+    <ClInclude Include="..\..\..\..\3rd\clover\KeyValue.h" />
+    <ClInclude Include="..\..\..\..\3rd\clover\lexical_cast.h" />
+    <ClInclude Include="..\..\..\..\3rd\clover\light_string.h" />
+    <ClInclude Include="..\..\..\..\3rd\clover\ptr_vector.h" />
+    <ClInclude Include="..\..\..\..\3rd\clover\RefCounter.h" />
+    <ClInclude Include="..\..\..\..\3rd\clover\ScopeGuard.h" />
+    <ClInclude Include="..\..\..\..\3rd\clover\Traits.h" />
+    <ClInclude Include="..\..\..\..\3rd\easy_lua\easy_lua.h" />
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\base\fla_Base.h" />
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\base\fla_BitmapData.h" />
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\base\fla_Color4.h" />
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\base\fla_ColorTransform.h" />
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\base\fla_Error.h" />
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\base\fla_Image.h" />
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\base\fla_Lerp.h" />
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\base\fla_Ref.h" />
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\base\fla_RefPtrVector.h" />
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\base\fla_utils.h" />
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\definition\bin\fla_BaseWriter.h" />
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\definition\bin\fla_BinaryFormat.h" />
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\definition\bin\fla_BinaryReader.h" />
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\definition\bin\fla_BinaryWriter.h" />
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\definition\bin\fla_BinCatalog.h" />
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\definition\bin\fla_BinData.h" />
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\definition\bin\fla_BinEdgeWriterReader.h" />
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\definition\bin\fla_BinParseShape.h" />
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\definition\bin\fla_Codec.h" />
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\definition\bin\fla_ScaleMap.h" />
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\definition\fla_Collection.h" />
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\definition\fla_Definition.h" />
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\definition\fla_DefinitionAnimation.h" />
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\definition\fla_DefinitionFont.h" />
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\definition\fla_DefinitionImage.h" />
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\definition\fla_DefinitionMap.h" />
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\definition\fla_DefinitionMorphShape.h" />
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\definition\fla_DefinitionNull.h" />
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\definition\fla_DefinitionPackage.h" />
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\definition\fla_DefinitionPlaceholder.h" />
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\definition\fla_DefinitionRole.h" />
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\definition\fla_DefinitionScene.h" />
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\definition\fla_DefinitionShape.h" />
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\definition\fla_DefinitionText.h" />
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\definition\fla_DefinitionType.h" />
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\definition\fla_DefinitionUtils.h" />
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\definition\fla_FlaDataInfo.h" />
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\definition\fla_PlaceObject.h" />
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\definition\shape\fla_EdgeList.h" />
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\definition\shape\fla_FillStyle.h" />
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\definition\shape\fla_Gradient.h" />
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\definition\shape\fla_LineStyle.h" />
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\definition\shape\fla_Path.h" />
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\definition\shape\fla_PathEdge.h" />
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\definition\shape\fla_RenderShape.h" />
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\definition\shape\fla_Shape.h" />
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\definition\shape\fla_ShapeGraphicsUtils.h" />
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\graphics\fla_Graphics.h" />
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\graphics\fla_RenderOfDefinition.h" />
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\graphics\fla_transToImage.h" />
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\platform\fla_PlatformTraits.h" />
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\platform\ios_mac\fla_CFScopeRelease.h" />
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\platform\ios_mac\fla_QuartzGraphics.h" />
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\platform\ios_mac\fla_QuartzImage.h" />
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\platform\null\fla_NullGraphics.h" />
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\platform\null\fla_NullImage.h" />
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\platform\qt\fla_QtGraphics.h" />
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\platform\qt\fla_QtImage.h" />
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\platform\skia\fla_SkiaGraphics.h" />
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\platform\skia\fla_SkiaImage.h" />
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\texture_pack\fla_TPPackItem.h" />
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\texture_pack\fla_TPTextureOuput.h" />
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\texture_pack\fla_TPTexturePacker.h" />
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\utility\fla_Holder.h" />
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\utility\fla_Json.h" />
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\utility\fla_md5.h" />
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\utility\fla_plist.h" />
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\utility\fla_PtrHolder.h" />
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\utility\fla_RcObj.h" />
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\utility\fla_Value.h" />
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\utility\fla_ZipUtils.h" />
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\flash_cocos2dx\FlaBitmapData.h" />
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\flash_cocos2dx\FlaCacheStrategy.h" />
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\flash_cocos2dx\FlaCollection.h" />
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\flash_cocos2dx\FlaConfig.h" />
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\flash_cocos2dx\FlaDefinition.h" />
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\flash_cocos2dx\FlaEnum.h" />
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\flash_cocos2dx\FlaGLProgram.h" />
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\flash_cocos2dx\FlaLua.h" />
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\flash_cocos2dx\FlaMovieNode.h" />
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\flash_cocos2dx\FlaMoviePart.h" />
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\flash_cocos2dx\FlaResourceCache.h" />
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\flash_cocos2dx\FlaSDK.h" />
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\flash_cocos2dx\FlaTexturePackage.h" />
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\flash_cocos2dx\lua_binding\lua_cocos2dx_flashsdk.h" />
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\flash_cocos2dx\src\cocos2d_bridge.h" />
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\flash_cocos2dx\src\cocos2d_bridge_2x.h" />
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\flash_cocos2dx\src\cocos2d_bridge_3x.h" />
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\flash_cocos2dx\src\fla_AsynManager.h" />
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\flash_cocos2dx\src\fla_BatchMoviewRender.h" />
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\flash_cocos2dx\src\fla_cocos2d_Texture.h" />
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\flash_cocos2dx\src\fla_MovieClip.h" />
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\flash_cocos2dx\src\fla_MoviePart.h" />
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\flash_cocos2dx\src\fla_MovieShareData.h" />
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\flash_cocos2dx\src\fla_ReusableMoviewSet.h" />
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\flash_cocos2dx\src\fla_Settings.h" />
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\flash_cocos2dx\src\fla_TextureCache.h" />
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\flash_cocos2dx\src\fla_TextureFrame.h" />
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\flash_cocos2dx\src\fla_TexturePackage.h" />
+    <ClInclude Include="..\..\..\..\3rd\kmath\km_mat3.h" />
+    <ClInclude Include="..\..\..\..\3rd\kmath\km_rect2.h" />
+    <ClInclude Include="..\..\..\..\3rd\kmath\km_size2.h" />
+    <ClInclude Include="..\..\..\..\3rd\kmath\km_types.h" />
+    <ClInclude Include="..\..\..\..\3rd\kmath\km_vec2.h" />
+    <ClInclude Include="..\..\..\..\3rd\libra\libra_atomic.h" />
+    <ClInclude Include="..\..\..\..\3rd\libra\libra_bits.h" />
+    <ClInclude Include="..\..\..\..\3rd\libra\libra_config.h" />
+    <ClInclude Include="..\..\..\..\3rd\libra\libra_date.h" />
+    <ClInclude Include="..\..\..\..\3rd\libra\libra_fsys.h" />
+    <ClInclude Include="..\..\..\..\3rd\libra\libra_hex.h" />
+    <ClInclude Include="..\..\..\..\3rd\libra\libra_math.h" />
+    <ClInclude Include="..\..\..\..\3rd\libra\libra_membuf.h" />
+    <ClInclude Include="..\..\..\..\3rd\libra\libra_path.h" />
+    <ClInclude Include="..\..\..\..\3rd\libra\libra_safe.h" />
+    <ClInclude Include="..\..\..\..\3rd\libra\libra_slice.h" />
+    <ClInclude Include="..\..\..\..\3rd\libra\libra_socket.h" />
+    <ClInclude Include="..\..\..\..\3rd\libra\libra_strbuf.h" />
+    <ClInclude Include="..\..\..\..\3rd\libra\libra_string.h" />
+    <ClInclude Include="..\..\..\..\3rd\libra\libra_utf8.h" />
+    <ClInclude Include="..\..\..\..\3rd\libra\libra_utility.h" />
+    <ClInclude Include="..\..\..\..\3rd\lkit_c\lkit_fsys.h" />
+    <ClInclude Include="..\..\..\..\3rd\lkit_c\lkit_openlibs.h" />
+    <ClInclude Include="..\..\..\..\3rd\lkit_c\lkit_path.h" />
+    <ClInclude Include="..\..\..\..\3rd\lkit_c\lkit_reload.h" />
+    <ClInclude Include="..\..\..\..\3rd\network\details\CURLWrapper.h" />
+    <ClInclude Include="..\..\..\..\3rd\network\HttpClient.h" />
+    <ClInclude Include="..\..\..\..\3rd\network\HttpRequest.h" />
+    <ClInclude Include="..\..\..\..\3rd\network\HttpResponse.h" />
+    <ClInclude Include="..\..\..\..\3rd\network\lua_binding\lua_network.h" />
+    <ClInclude Include="..\..\..\..\3rd\rbp\rbp_MaxRectsBinPack.h" />
+    <ClInclude Include="..\..\..\..\3rd\rbp\rbp_PackItem.h" />
+    <ClInclude Include="..\..\..\..\3rd\rbp\rbp_Rect.h" />
+    <ClInclude Include="..\..\..\..\3rd\rbp\rbp_Ref.h" />
+    <ClInclude Include="..\..\..\..\3rd\rbp\rbp_TextureBin.h" />
+    <ClInclude Include="..\..\..\..\3rd\rbp\rbp_TexturePacker.h" />
+    <ClInclude Include="..\..\..\libs\ccex\ActionEx.h" />
+    <ClInclude Include="..\..\..\libs\ccex\lua_reg_ActionEx.h" />
+    <ClInclude Include="..\..\..\libs\fla_ex\FlaUI.h" />
+    <ClInclude Include="..\..\..\libs\fla_ex\lua_register_fla_ex.h" />
+    <ClInclude Include="..\..\..\libs\fla_ex\lua_register_ui_load.h" />
+    <ClInclude Include="..\..\..\libs\fla_ex\Preloader.h" />
+    <ClInclude Include="..\..\..\libs\fla_ex\RoleCacheStrategy.h" />
+    <ClInclude Include="..\..\..\libs\fla_ex\RoleGLProgram.h" />
+    <ClInclude Include="..\..\..\libs\fla_ex\RoleNode.h" />
+    <ClInclude Include="..\..\..\libs\fla_ex\SDKWrapper.h" />
+    <ClInclude Include="..\..\..\libs\game\GameUtils.h" />
+    <ClInclude Include="..\..\..\libs\game\lua_register_game.h" />
+    <ClInclude Include="..\..\..\libs\lua_profile\profile.h" />
+    <ClInclude Include="..\..\..\libs\rc4\rc4.h" />
+    <ClInclude Include="..\..\..\libs\sdklib\GameSdk.h" />
+    <ClInclude Include="..\..\..\libs\sdklib\lua_register_pay.h" />
+    <ClInclude Include="..\..\..\libs\sdklib\lua_register_umeng.h" />
+    <ClInclude Include="..\..\..\libs\sdklib\pay\GamePay.h" />
+    <ClInclude Include="..\..\..\libs\sdklib\umeng\UmengConfig.h" />
+    <ClInclude Include="..\Classes\AppDelegate.h" />
+    <ClInclude Include="..\Classes\ConfigParser.h" />
+    <ClInclude Include="..\Classes\protobuf-lite\google\protobuf\extension_set.h" />
+    <ClInclude Include="..\Classes\protobuf-lite\google\protobuf\generated_message_util.h" />
+    <ClInclude Include="..\Classes\protobuf-lite\google\protobuf\io\coded_stream.h" />
+    <ClInclude Include="..\Classes\protobuf-lite\google\protobuf\io\coded_stream_inl.h" />
+    <ClInclude Include="..\Classes\protobuf-lite\google\protobuf\io\zero_copy_stream.h" />
+    <ClInclude Include="..\Classes\protobuf-lite\google\protobuf\io\zero_copy_stream_impl_lite.h" />
+    <ClInclude Include="..\Classes\protobuf-lite\google\protobuf\message_lite.h" />
+    <ClInclude Include="..\Classes\protobuf-lite\google\protobuf\repeated_field.h" />
+    <ClInclude Include="..\Classes\protobuf-lite\google\protobuf\stubs\atomicops.h" />
+    <ClInclude Include="..\Classes\protobuf-lite\google\protobuf\stubs\atomicops_internals_x86_msvc.h" />
+    <ClInclude Include="..\Classes\protobuf-lite\google\protobuf\stubs\common.h" />
+    <ClInclude Include="..\Classes\protobuf-lite\google\protobuf\stubs\hash.h" />
+    <ClInclude Include="..\Classes\protobuf-lite\google\protobuf\stubs\map-util.h" />
+    <ClInclude Include="..\Classes\protobuf-lite\google\protobuf\stubs\once.h" />
+    <ClInclude Include="..\Classes\protobuf-lite\google\protobuf\stubs\platform_macros.h" />
+    <ClInclude Include="..\Classes\protobuf-lite\google\protobuf\stubs\stl_util.h" />
+    <ClInclude Include="..\Classes\protobuf-lite\google\protobuf\stubs\stringprintf.h" />
+    <ClInclude Include="..\Classes\protobuf-lite\google\protobuf\stubs\template_util.h" />
+    <ClInclude Include="..\Classes\protobuf-lite\google\protobuf\stubs\type_traits.h" />
+    <ClInclude Include="..\Classes\protobuf-lite\google\protobuf\wire_format_lite.h" />
+    <ClInclude Include="..\Classes\protobuf-lite\google\protobuf\wire_format_lite_inl.h" />
+    <ClInclude Include="..\Classes\runtime\ConnectWaitLayer.h" />
+    <ClInclude Include="..\Classes\runtime\ConsoleCommand.h" />
+    <ClInclude Include="..\Classes\runtime\FileServer.h" />
+    <ClInclude Include="..\Classes\runtime\lua_debugger.h" />
+    <ClInclude Include="..\Classes\runtime\Protos.pb.h" />
+    <ClInclude Include="..\Classes\runtime\ResData.h" />
+    <ClInclude Include="..\Classes\runtime\Runtime.h" />
+    <ClInclude Include="..\Classes\VisibleRect.h" />
+    <ClInclude Include="main.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="SimulatorWindow.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\3rd\async\OperationQueue.cpp" />
+    <ClCompile Include="..\..\..\..\3rd\ccex\DispatchManager.cpp" />
+    <ClCompile Include="..\..\..\..\3rd\ccex\Geometry.cpp" />
+    <ClCompile Include="..\..\..\..\3rd\ccex\Iterator.cpp" />
+    <ClCompile Include="..\..\..\..\3rd\ccex\LabelAtlasEx.cpp" />
+    <ClCompile Include="..\..\..\..\3rd\ccex\lua_binding\lua_reg_ccex.cpp" />
+    <ClCompile Include="..\..\..\..\3rd\ccex\lua_binding\lua_reg_LabelAtlasEx.cpp" />
+    <ClCompile Include="..\..\..\..\3rd\ccex\lua_binding\lua_reg_RefCache.cpp" />
+    <ClCompile Include="..\..\..\..\3rd\ccex\NodeAddtions.cpp" />
+    <ClCompile Include="..\..\..\..\3rd\ccex\QuickAction.cpp" />
+    <ClCompile Include="..\..\..\..\3rd\ccex\RefCache.cpp" />
+    <ClCompile Include="..\..\..\..\3rd\ccex\StopTimer.cpp" />
+    <ClCompile Include="..\..\..\..\3rd\ccex\TileSpriteAtlas.cpp" />
+    <ClCompile Include="..\..\..\..\3rd\ccex\TimerManager.cpp" />
+    <ClCompile Include="..\..\..\..\3rd\clover\Data.cpp" />
+    <ClCompile Include="..\..\..\..\3rd\clover\lexical_cast.cpp" />
+    <ClCompile Include="..\..\..\..\3rd\clover\light_string.cpp" />
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\core\base\fla_BitmapData.cpp" />
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\core\base\fla_ColorTransform.cpp" />
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\core\base\fla_Error.cpp" />
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\core\base\fla_Image.cpp" />
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\core\base\fla_Lerp.cpp" />
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\core\base\fla_Ref.cpp" />
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\core\base\fla_utils.cpp" />
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\core\definition\bin\fla_BaseWriter.cpp" />
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\core\definition\bin\fla_BinaryFormat.cpp" />
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\core\definition\bin\fla_BinaryReader.cpp" />
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\core\definition\bin\fla_BinaryWriter.cpp" />
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\core\definition\bin\fla_BinCatalog.cpp" />
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\core\definition\bin\fla_BinData.cpp" />
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\core\definition\bin\fla_BinEdgeWriterReader.cpp" />
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\core\definition\bin\fla_BinParseShape.cpp" />
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\core\definition\bin\fla_Codec.cpp" />
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\core\definition\bin\fla_ScaleMap.cpp" />
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\core\definition\fla_Collection.cpp" />
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\core\definition\fla_DefinitionAnimation.cpp" />
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\core\definition\fla_DefinitionFont.cpp" />
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\core\definition\fla_DefinitionImage.cpp" />
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\core\definition\fla_DefinitionMap.cpp" />
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\core\definition\fla_DefinitionMorphShape.cpp" />
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\core\definition\fla_DefinitionNull.cpp" />
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\core\definition\fla_DefinitionPackage.cpp" />
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\core\definition\fla_DefinitionPlaceholder.cpp" />
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\core\definition\fla_DefinitionRole.cpp" />
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\core\definition\fla_DefinitionScene.cpp" />
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\core\definition\fla_DefinitionShape.cpp" />
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\core\definition\fla_DefinitionUtils.cpp" />
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\core\definition\fla_FlaDataInfo.cpp" />
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\core\definition\fla_PlaceObject.cpp" />
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\core\definition\shape\fla_EdgeList.cpp" />
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\core\definition\shape\fla_RenderShape.cpp" />
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\core\definition\shape\fla_Shape.cpp" />
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\core\definition\shape\fla_ShapeGraphicsUtils.cpp" />
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\core\graphics\fla_transToImage.cpp" />
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\core\platform\ios_mac\fla_QuartzGraphics.cpp" />
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\core\platform\ios_mac\fla_QuartzImage.cpp" />
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\core\platform\qt\fla_QtGraphics.cpp" />
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\core\platform\qt\fla_QtImage.cpp" />
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\core\platform\skia\fla_SkiaGraphics.cpp" />
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\core\platform\skia\fla_SkiaImage.cpp" />
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\core\texture_pack\fla_TPPackItem.cpp" />
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\core\texture_pack\fla_TPTextureOuput.cpp" />
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\core\texture_pack\fla_TPTexturePacker.cpp" />
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\core\utility\fla_Holder.cpp" />
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\core\utility\fla_Json.cpp" />
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\core\utility\fla_md5.c" />
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\core\utility\fla_plist.cpp" />
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\core\utility\fla_ZipUtils.cpp" />
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\flash_cocos2dx\FlaMoviePart.cpp" />
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\flash_cocos2dx\lua_binding\FlaLua.cpp" />
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\flash_cocos2dx\lua_binding\lua_cocos2dx_flashsdk.cpp" />
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\flash_cocos2dx\lua_binding\lua_register_fla_Collection.cpp" />
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\flash_cocos2dx\lua_binding\lua_register_fla_Definition.cpp" />
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\flash_cocos2dx\lua_binding\lua_register_fla_MovieNode.cpp" />
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\flash_cocos2dx\lua_binding\lua_register_fla_MoviePart.cpp" />
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\flash_cocos2dx\src\cocos2d_bridge.cpp" />
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\flash_cocos2dx\src\FlaAsync.cpp" />
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\flash_cocos2dx\src\FlaBitmapData.cpp" />
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\flash_cocos2dx\src\FlaCacheStrategy.cpp" />
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\flash_cocos2dx\src\FlaCollection.cpp" />
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\flash_cocos2dx\src\FlaDefinition.cpp" />
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\flash_cocos2dx\src\FlaGLProgram.cpp" />
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\flash_cocos2dx\src\FlaMovieNode.cpp" />
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\flash_cocos2dx\src\FlaResourceCache.cpp" />
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\flash_cocos2dx\src\FlaSDK.cpp" />
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\flash_cocos2dx\src\FlaTexturePackage.cpp" />
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\flash_cocos2dx\src\fla_AsynManager.cpp" />
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\flash_cocos2dx\src\fla_BatchMoviewRender.cpp" />
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\flash_cocos2dx\src\fla_cocos2d_Texture.cpp" />
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\flash_cocos2dx\src\fla_MovieClip.cpp" />
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\flash_cocos2dx\src\fla_MoviePart.cpp" />
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\flash_cocos2dx\src\fla_MovieShareData.cpp" />
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\flash_cocos2dx\src\fla_ReusableMoviewSet.cpp" />
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\flash_cocos2dx\src\fla_Settings.cpp" />
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\flash_cocos2dx\src\fla_TextureCache.cpp" />
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\flash_cocos2dx\src\fla_TextureFrame.cpp" />
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\flash_cocos2dx\src\fla_TexturePackage.cpp" />
+    <ClCompile Include="..\..\..\..\3rd\kmath\km_mat3.cpp" />
+    <ClCompile Include="..\..\..\..\3rd\kmath\km_rect2.cpp" />
+    <ClCompile Include="..\..\..\..\3rd\libra\libra_date.c" />
+    <ClCompile Include="..\..\..\..\3rd\libra\libra_fsys.c" />
+    <ClCompile Include="..\..\..\..\3rd\libra\libra_hex.c" />
+    <ClCompile Include="..\..\..\..\3rd\libra\libra_math.cpp" />
+    <ClCompile Include="..\..\..\..\3rd\libra\libra_membuf.c" />
+    <ClCompile Include="..\..\..\..\3rd\libra\libra_path.cpp" />
+    <ClCompile Include="..\..\..\..\3rd\libra\libra_safe.c" />
+    <ClCompile Include="..\..\..\..\3rd\libra\libra_slice.cpp" />
+    <ClCompile Include="..\..\..\..\3rd\libra\libra_socket.c" />
+    <ClCompile Include="..\..\..\..\3rd\libra\libra_strbuf.c" />
+    <ClCompile Include="..\..\..\..\3rd\libra\libra_string.cpp" />
+    <ClCompile Include="..\..\..\..\3rd\libra\libra_utf8.c" />
+    <ClCompile Include="..\..\..\..\3rd\libra\libra_utility.cpp" />
+    <ClCompile Include="..\..\..\..\3rd\lkit_c\lkit_fsys.cpp" />
+    <ClCompile Include="..\..\..\..\3rd\lkit_c\lkit_openlibs.cpp" />
+    <ClCompile Include="..\..\..\..\3rd\lkit_c\lkit_path.cpp" />
+    <ClCompile Include="..\..\..\..\3rd\lkit_c\lkit_reload.cpp" />
+    <ClCompile Include="..\..\..\..\3rd\network\details\CURLWrapper.cpp" />
+    <ClCompile Include="..\..\..\..\3rd\network\HttpClient.cpp" />
+    <ClCompile Include="..\..\..\..\3rd\network\lua_binding\lua_network.cpp" />
+    <ClCompile Include="..\..\..\..\3rd\rbp\rbp_MaxRectsBinPack.cpp" />
+    <ClCompile Include="..\..\..\..\3rd\rbp\rbp_Rect.cpp" />
+    <ClCompile Include="..\..\..\..\3rd\rbp\rbp_TextureBin.cpp" />
+    <ClCompile Include="..\..\..\..\3rd\rbp\rbp_TexturePacker.cpp" />
+    <ClCompile Include="..\..\..\libs\ccex\ActionEx.cpp" />
+    <ClCompile Include="..\..\..\libs\ccex\lua_reg_ActionEx.cpp" />
+    <ClCompile Include="..\..\..\libs\fla_ex\FlaUI.cpp" />
+    <ClCompile Include="..\..\..\libs\fla_ex\lua_register_fla_ex.cpp" />
+    <ClCompile Include="..\..\..\libs\fla_ex\lua_register_ui_load.cpp" />
+    <ClCompile Include="..\..\..\libs\fla_ex\Preloader.cpp" />
+    <ClCompile Include="..\..\..\libs\fla_ex\RoleCacheStrategy.cpp" />
+    <ClCompile Include="..\..\..\libs\fla_ex\RoleGLProgram.cpp" />
+    <ClCompile Include="..\..\..\libs\fla_ex\RoleNode.cpp" />
+    <ClCompile Include="..\..\..\libs\fla_ex\SDKWrapper.cpp" />
+    <ClCompile Include="..\..\..\libs\game\GameUtils.cpp" />
+    <ClCompile Include="..\..\..\libs\game\lua_register_game.cpp" />
+    <ClCompile Include="..\..\..\libs\lua_profile\profile.cpp" />
+    <ClCompile Include="..\..\..\libs\rc4\rc4.cpp" />
+    <ClCompile Include="..\..\..\libs\sdklib\GameSdk.cpp" />
+    <ClCompile Include="..\..\..\libs\sdklib\lua_register_pay.cpp" />
+    <ClCompile Include="..\..\..\libs\sdklib\lua_register_umeng.cpp" />
+    <ClCompile Include="..\..\..\libs\sdklib\mac\GameSdk-Mac.cpp" />
+    <ClCompile Include="..\..\..\libs\sdklib\pay\GamePay.cpp" />
+    <ClCompile Include="..\..\..\libs\sdklib\umeng\UmengConfig.cpp" />
+    <ClCompile Include="..\Classes\AppDelegate.cpp" />
+    <ClCompile Include="..\Classes\ConfigParser.cpp" />
+    <ClCompile Include="..\Classes\protobuf-lite\google\protobuf\extension_set.cc" />
+    <ClCompile Include="..\Classes\protobuf-lite\google\protobuf\generated_message_util.cc" />
+    <ClCompile Include="..\Classes\protobuf-lite\google\protobuf\io\coded_stream.cc" />
+    <ClCompile Include="..\Classes\protobuf-lite\google\protobuf\io\zero_copy_stream.cc" />
+    <ClCompile Include="..\Classes\protobuf-lite\google\protobuf\io\zero_copy_stream_impl_lite.cc" />
+    <ClCompile Include="..\Classes\protobuf-lite\google\protobuf\message_lite.cc" />
+    <ClCompile Include="..\Classes\protobuf-lite\google\protobuf\repeated_field.cc" />
+    <ClCompile Include="..\Classes\protobuf-lite\google\protobuf\stubs\atomicops_internals_x86_msvc.cc" />
+    <ClCompile Include="..\Classes\protobuf-lite\google\protobuf\stubs\common.cc" />
+    <ClCompile Include="..\Classes\protobuf-lite\google\protobuf\stubs\once.cc" />
+    <ClCompile Include="..\Classes\protobuf-lite\google\protobuf\stubs\stringprintf.cc" />
+    <ClCompile Include="..\Classes\protobuf-lite\google\protobuf\wire_format_lite.cc" />
+    <ClCompile Include="..\Classes\runtime\ConnectWaitLayer.cpp" />
+    <ClCompile Include="..\Classes\runtime\ConsoleCommand.cpp" />
+    <ClCompile Include="..\Classes\runtime\FileServer.cpp" />
+    <ClCompile Include="..\Classes\runtime\Landscape_png.cpp" />
+    <ClCompile Include="..\Classes\runtime\lua_debugger.c" />
+    <ClCompile Include="..\Classes\runtime\PlayDisable_png.cpp" />
+    <ClCompile Include="..\Classes\runtime\PlayEnable_png.cpp" />
+    <ClCompile Include="..\Classes\runtime\Portrait_png.cpp" />
+    <ClCompile Include="..\Classes\runtime\Protos.pb.cc" />
+    <ClCompile Include="..\Classes\runtime\Runtime.cpp" />
+    <ClCompile Include="..\Classes\runtime\Shine_png.cpp" />
+    <ClCompile Include="..\Classes\VisibleRect.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Runtime_win32.cpp" />
+    <ClCompile Include="SimulatorWindow.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\game.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\cocos2d-x\cocos\scripting\lua-bindings\proj.win32\libluacocos2d.vcxproj">
+      <Project>{9f2d6ce6-c893-4400-b50c-6db70cc2562f}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

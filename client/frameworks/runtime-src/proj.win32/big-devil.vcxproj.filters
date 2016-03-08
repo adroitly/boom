@@ -1,0 +1,1293 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{fc5cb953-2953-4968-83b3-39e3ff951754}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="win32">
+      <UniqueIdentifier>{037a9a02-b906-4cc5-ad98-304acd4e25ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{2d1d0979-58cd-4ab6-b91c-13650158f1fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\runtime">
+      <UniqueIdentifier>{44c0d166-6d84-43b5-8be7-a440c1c0f1ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\runtime\protobuf-lite">
+      <UniqueIdentifier>{28edb895-7c19-408b-abd6-130196087d96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rd">
+      <UniqueIdentifier>{76dd434c-ef4a-4427-ac5d-0cc9725b100b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rd\clover">
+      <UniqueIdentifier>{80ab419c-5ce5-4529-88be-971935ecbf04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rd\libra">
+      <UniqueIdentifier>{591ef7b2-220a-4bec-a524-9f8ebf793b2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rd\flash_sdk_src">
+      <UniqueIdentifier>{c5d04045-9836-4fee-a650-3c323d740867}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rd\flash_sdk_src\core">
+      <UniqueIdentifier>{c0b2fdf0-5148-4cdd-8d1b-fdb23b55eaca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rd\flash_sdk_src\flash_cocos2dx">
+      <UniqueIdentifier>{069e5d0a-6744-4c89-aab2-635dc972cf01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rd\flash_sdk_src\core\base">
+      <UniqueIdentifier>{92a0202e-95dd-42af-bab7-52b01a00a49e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rd\flash_sdk_src\core\definition">
+      <UniqueIdentifier>{72cf61b6-76d5-4925-a3ab-d4f631b45d47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rd\flash_sdk_src\core\graphics">
+      <UniqueIdentifier>{999abfb0-fbb5-4677-acc8-f60a82a28f92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rd\flash_sdk_src\core\platform">
+      <UniqueIdentifier>{659e5fc4-f152-4559-81a3-0a56794e239d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rd\flash_sdk_src\core\texture_pack">
+      <UniqueIdentifier>{cdb5cfa3-6103-46de-abec-c4c6cecaf782}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rd\flash_sdk_src\core\utility">
+      <UniqueIdentifier>{c5ce6db5-62b7-4b63-9fca-b65279c03816}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rd\flash_sdk_src\flash_cocos2dx\src">
+      <UniqueIdentifier>{6083cc66-b17c-4bfb-8877-a011358f538a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs">
+      <UniqueIdentifier>{e07575bd-4838-4636-86d6-ad6b7c02b952}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\game">
+      <UniqueIdentifier>{ce20d4ee-04af-4b9e-80c2-66ca5ca0b34c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rd\easy_lua">
+      <UniqueIdentifier>{d2586219-f201-4fa1-97f1-16fe2058147c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\fla_ex">
+      <UniqueIdentifier>{88f3bd48-2975-47fd-95dd-f27f9d894c2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rd\kmath">
+      <UniqueIdentifier>{ec4dd0ed-ba95-4c97-bce0-5050fcac6e69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rd\async">
+      <UniqueIdentifier>{40f2e6b7-1706-4811-854f-a6e70a94d886}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rd\network">
+      <UniqueIdentifier>{86ef5687-7235-4906-b956-46830ba80ced}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\rc4">
+      <UniqueIdentifier>{8adad15f-cebc-43e6-b33d-66035d79df23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rd\ccex">
+      <UniqueIdentifier>{475bca44-443e-4f4f-960a-d5dac38d99f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\lua_profile">
+      <UniqueIdentifier>{524ce5ad-cc02-4764-b38c-ca6606db67b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rd\lkit_c">
+      <UniqueIdentifier>{f0f68074-90cc-48a5-8d89-e91b304c8d56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\sdklib">
+      <UniqueIdentifier>{a638456f-5d53-4bee-a43c-2d5f3be574fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\sdklib\umeng">
+      <UniqueIdentifier>{93cb6901-8929-4e07-aec0-476c0f60c3f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\sdklib\mac">
+      <UniqueIdentifier>{f22b051e-bf5b-4874-84f2-f4a39b5a70d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rd\ccex\lua_binding">
+      <UniqueIdentifier>{5c80d488-42ea-49bd-93a6-10ce80188505}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\ccex">
+      <UniqueIdentifier>{019efabf-11c6-4f0f-b05f-169ba66ecfbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\sdklib\pay">
+      <UniqueIdentifier>{956cf905-4e26-449c-8da8-921ec715e09a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rd\rbp">
+      <UniqueIdentifier>{e0da0b4d-fdcf-4cc9-a530-5545bc21e773}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rd\flash_sdk_src\flash_cocos2dx\lua_binding">
+      <UniqueIdentifier>{0f8435f5-3eec-4196-bce9-a4425504f60f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="SimulatorWindow.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="..\Classes\ConfigParser.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\VisibleRect.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\runtime\ResData.h">
+      <Filter>Classes\runtime</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\runtime\Runtime.h">
+      <Filter>Classes\runtime</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\runtime\Protos.pb.h">
+      <Filter>Classes\runtime</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\protobuf-lite\google\protobuf\extension_set.h">
+      <Filter>Classes\runtime\protobuf-lite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\protobuf-lite\google\protobuf\generated_message_util.h">
+      <Filter>Classes\runtime\protobuf-lite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\protobuf-lite\google\protobuf\io\coded_stream.h">
+      <Filter>Classes\runtime\protobuf-lite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\protobuf-lite\google\protobuf\io\coded_stream_inl.h">
+      <Filter>Classes\runtime\protobuf-lite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\protobuf-lite\google\protobuf\io\zero_copy_stream.h">
+      <Filter>Classes\runtime\protobuf-lite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\protobuf-lite\google\protobuf\io\zero_copy_stream_impl_lite.h">
+      <Filter>Classes\runtime\protobuf-lite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\protobuf-lite\google\protobuf\message_lite.h">
+      <Filter>Classes\runtime\protobuf-lite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\protobuf-lite\google\protobuf\repeated_field.h">
+      <Filter>Classes\runtime\protobuf-lite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\protobuf-lite\google\protobuf\stubs\atomicops.h">
+      <Filter>Classes\runtime\protobuf-lite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\protobuf-lite\google\protobuf\stubs\atomicops_internals_x86_msvc.h">
+      <Filter>Classes\runtime\protobuf-lite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\protobuf-lite\google\protobuf\stubs\common.h">
+      <Filter>Classes\runtime\protobuf-lite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\protobuf-lite\google\protobuf\stubs\hash.h">
+      <Filter>Classes\runtime\protobuf-lite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\protobuf-lite\google\protobuf\stubs\map-util.h">
+      <Filter>Classes\runtime\protobuf-lite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\protobuf-lite\google\protobuf\stubs\once.h">
+      <Filter>Classes\runtime\protobuf-lite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\protobuf-lite\google\protobuf\stubs\platform_macros.h">
+      <Filter>Classes\runtime\protobuf-lite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\protobuf-lite\google\protobuf\stubs\stl_util.h">
+      <Filter>Classes\runtime\protobuf-lite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\protobuf-lite\google\protobuf\stubs\stringprintf.h">
+      <Filter>Classes\runtime\protobuf-lite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\protobuf-lite\google\protobuf\stubs\template_util.h">
+      <Filter>Classes\runtime\protobuf-lite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\protobuf-lite\google\protobuf\stubs\type_traits.h">
+      <Filter>Classes\runtime\protobuf-lite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\protobuf-lite\google\protobuf\wire_format_lite.h">
+      <Filter>Classes\runtime\protobuf-lite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\protobuf-lite\google\protobuf\wire_format_lite_inl.h">
+      <Filter>Classes\runtime\protobuf-lite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\runtime\lua_debugger.h">
+      <Filter>Classes\runtime</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\runtime\ConnectWaitLayer.h">
+      <Filter>Classes\runtime</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\runtime\ConsoleCommand.h">
+      <Filter>Classes\runtime</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\runtime\FileServer.h">
+      <Filter>Classes\runtime</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\texture_pack\fla_TPPackItem.h">
+      <Filter>3rd\flash_sdk_src\core\texture_pack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\texture_pack\fla_TPTextureOuput.h">
+      <Filter>3rd\flash_sdk_src\core\texture_pack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\texture_pack\fla_TPTexturePacker.h">
+      <Filter>3rd\flash_sdk_src\core\texture_pack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\platform\fla_PlatformTraits.h">
+      <Filter>3rd\flash_sdk_src\core\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\platform\ios_mac\fla_CFScopeRelease.h">
+      <Filter>3rd\flash_sdk_src\core\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\platform\ios_mac\fla_QuartzGraphics.h">
+      <Filter>3rd\flash_sdk_src\core\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\platform\ios_mac\fla_QuartzImage.h">
+      <Filter>3rd\flash_sdk_src\core\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\platform\null\fla_NullGraphics.h">
+      <Filter>3rd\flash_sdk_src\core\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\platform\null\fla_NullImage.h">
+      <Filter>3rd\flash_sdk_src\core\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\platform\qt\fla_QtGraphics.h">
+      <Filter>3rd\flash_sdk_src\core\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\platform\qt\fla_QtImage.h">
+      <Filter>3rd\flash_sdk_src\core\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\platform\skia\fla_SkiaGraphics.h">
+      <Filter>3rd\flash_sdk_src\core\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\platform\skia\fla_SkiaImage.h">
+      <Filter>3rd\flash_sdk_src\core\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\graphics\fla_Graphics.h">
+      <Filter>3rd\flash_sdk_src\core\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\graphics\fla_RenderOfDefinition.h">
+      <Filter>3rd\flash_sdk_src\core\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\graphics\fla_transToImage.h">
+      <Filter>3rd\flash_sdk_src\core\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\definition\bin\fla_BaseWriter.h">
+      <Filter>3rd\flash_sdk_src\core\definition</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\definition\bin\fla_BinaryFormat.h">
+      <Filter>3rd\flash_sdk_src\core\definition</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\definition\bin\fla_BinaryReader.h">
+      <Filter>3rd\flash_sdk_src\core\definition</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\definition\bin\fla_BinaryWriter.h">
+      <Filter>3rd\flash_sdk_src\core\definition</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\definition\bin\fla_BinCatalog.h">
+      <Filter>3rd\flash_sdk_src\core\definition</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\definition\bin\fla_BinData.h">
+      <Filter>3rd\flash_sdk_src\core\definition</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\definition\bin\fla_BinEdgeWriterReader.h">
+      <Filter>3rd\flash_sdk_src\core\definition</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\definition\bin\fla_BinParseShape.h">
+      <Filter>3rd\flash_sdk_src\core\definition</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\definition\bin\fla_ScaleMap.h">
+      <Filter>3rd\flash_sdk_src\core\definition</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\definition\fla_Collection.h">
+      <Filter>3rd\flash_sdk_src\core\definition</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\definition\fla_Definition.h">
+      <Filter>3rd\flash_sdk_src\core\definition</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\definition\fla_DefinitionFont.h">
+      <Filter>3rd\flash_sdk_src\core\definition</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\definition\fla_DefinitionImage.h">
+      <Filter>3rd\flash_sdk_src\core\definition</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\definition\fla_DefinitionMorphShape.h">
+      <Filter>3rd\flash_sdk_src\core\definition</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\definition\fla_DefinitionNull.h">
+      <Filter>3rd\flash_sdk_src\core\definition</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\definition\fla_DefinitionPlaceholder.h">
+      <Filter>3rd\flash_sdk_src\core\definition</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\definition\fla_DefinitionRole.h">
+      <Filter>3rd\flash_sdk_src\core\definition</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\definition\fla_DefinitionScene.h">
+      <Filter>3rd\flash_sdk_src\core\definition</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\definition\fla_DefinitionShape.h">
+      <Filter>3rd\flash_sdk_src\core\definition</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\definition\fla_DefinitionText.h">
+      <Filter>3rd\flash_sdk_src\core\definition</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\definition\fla_DefinitionType.h">
+      <Filter>3rd\flash_sdk_src\core\definition</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\definition\fla_DefinitionUtils.h">
+      <Filter>3rd\flash_sdk_src\core\definition</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\definition\fla_FlaDataInfo.h">
+      <Filter>3rd\flash_sdk_src\core\definition</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\definition\shape\fla_EdgeList.h">
+      <Filter>3rd\flash_sdk_src\core\definition</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\definition\shape\fla_FillStyle.h">
+      <Filter>3rd\flash_sdk_src\core\definition</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\definition\shape\fla_Gradient.h">
+      <Filter>3rd\flash_sdk_src\core\definition</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\definition\shape\fla_LineStyle.h">
+      <Filter>3rd\flash_sdk_src\core\definition</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\definition\shape\fla_Path.h">
+      <Filter>3rd\flash_sdk_src\core\definition</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\definition\shape\fla_PathEdge.h">
+      <Filter>3rd\flash_sdk_src\core\definition</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\definition\shape\fla_RenderShape.h">
+      <Filter>3rd\flash_sdk_src\core\definition</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\definition\shape\fla_Shape.h">
+      <Filter>3rd\flash_sdk_src\core\definition</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\definition\shape\fla_ShapeGraphicsUtils.h">
+      <Filter>3rd\flash_sdk_src\core\definition</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\flash_cocos2dx\FlaBitmapData.h">
+      <Filter>3rd\flash_sdk_src\flash_cocos2dx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\flash_cocos2dx\FlaCacheStrategy.h">
+      <Filter>3rd\flash_sdk_src\flash_cocos2dx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\flash_cocos2dx\FlaCollection.h">
+      <Filter>3rd\flash_sdk_src\flash_cocos2dx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\flash_cocos2dx\FlaConfig.h">
+      <Filter>3rd\flash_sdk_src\flash_cocos2dx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\flash_cocos2dx\FlaDefinition.h">
+      <Filter>3rd\flash_sdk_src\flash_cocos2dx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\flash_cocos2dx\FlaEnum.h">
+      <Filter>3rd\flash_sdk_src\flash_cocos2dx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\flash_cocos2dx\FlaGLProgram.h">
+      <Filter>3rd\flash_sdk_src\flash_cocos2dx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\flash_cocos2dx\FlaLua.h">
+      <Filter>3rd\flash_sdk_src\flash_cocos2dx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\flash_cocos2dx\FlaMovieNode.h">
+      <Filter>3rd\flash_sdk_src\flash_cocos2dx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\flash_cocos2dx\FlaResourceCache.h">
+      <Filter>3rd\flash_sdk_src\flash_cocos2dx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\flash_cocos2dx\FlaSDK.h">
+      <Filter>3rd\flash_sdk_src\flash_cocos2dx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\flash_cocos2dx\FlaTexturePackage.h">
+      <Filter>3rd\flash_sdk_src\flash_cocos2dx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libs\game\GameUtils.h">
+      <Filter>libs\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libs\game\lua_register_game.h">
+      <Filter>libs\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\definition\fla_DefinitionPackage.h">
+      <Filter>3rd\flash_sdk_src\core\definition</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\definition\fla_DefinitionMap.h">
+      <Filter>3rd\flash_sdk_src\core\definition</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libs\fla_ex\lua_register_fla_ex.h">
+      <Filter>libs\fla_ex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libs\fla_ex\lua_register_ui_load.h">
+      <Filter>libs\fla_ex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libs\fla_ex\Preloader.h">
+      <Filter>libs\fla_ex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libs\fla_ex\RoleCacheStrategy.h">
+      <Filter>libs\fla_ex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libs\fla_ex\RoleGLProgram.h">
+      <Filter>libs\fla_ex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libs\fla_ex\RoleNode.h">
+      <Filter>libs\fla_ex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libs\fla_ex\SDKWrapper.h">
+      <Filter>libs\fla_ex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\definition\bin\fla_Codec.h">
+      <Filter>3rd\flash_sdk_src\core\definition</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\kmath\km_mat3.h">
+      <Filter>3rd\kmath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\kmath\km_rect2.h">
+      <Filter>3rd\kmath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\kmath\km_size2.h">
+      <Filter>3rd\kmath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\kmath\km_types.h">
+      <Filter>3rd\kmath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\kmath\km_vec2.h">
+      <Filter>3rd\kmath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\definition\fla_PlaceObject.h">
+      <Filter>3rd\flash_sdk_src\core\definition</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\definition\fla_DefinitionAnimation.h">
+      <Filter>3rd\flash_sdk_src\core\definition</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\async\detail\traits.hpp">
+      <Filter>3rd\async</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\async\OperationQueue.h">
+      <Filter>3rd\async</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\flash_cocos2dx\FlaMoviePart.h">
+      <Filter>3rd\flash_sdk_src\flash_cocos2dx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\network\HttpClient.h">
+      <Filter>3rd\network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\network\HttpRequest.h">
+      <Filter>3rd\network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\network\HttpResponse.h">
+      <Filter>3rd\network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\network\details\CURLWrapper.h">
+      <Filter>3rd\network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\network\lua_binding\lua_network.h">
+      <Filter>3rd\network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libs\rc4\rc4.h">
+      <Filter>libs\rc4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\ccex\DispatchManager.h">
+      <Filter>3rd\ccex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\ccex\Geometry.h">
+      <Filter>3rd\ccex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\ccex\Holder.h">
+      <Filter>3rd\ccex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\ccex\Iterator.h">
+      <Filter>3rd\ccex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\ccex\LabelAtlasEx.h">
+      <Filter>3rd\ccex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\ccex\NodeAddtions.h">
+      <Filter>3rd\ccex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\ccex\QuickAction.h">
+      <Filter>3rd\ccex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\ccex\RefCache.h">
+      <Filter>3rd\ccex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\ccex\SafeCall.h">
+      <Filter>3rd\ccex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\ccex\StopTimer.h">
+      <Filter>3rd\ccex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\ccex\TileSpriteAtlas.h">
+      <Filter>3rd\ccex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\ccex\TimerManager.h">
+      <Filter>3rd\ccex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libs\lua_profile\profile.h">
+      <Filter>libs\lua_profile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\lkit_c\lkit_fsys.h">
+      <Filter>3rd\lkit_c</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\lkit_c\lkit_openlibs.h">
+      <Filter>3rd\lkit_c</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\lkit_c\lkit_path.h">
+      <Filter>3rd\lkit_c</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\lkit_c\lkit_reload.h">
+      <Filter>3rd\lkit_c</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\easy_lua\easy_lua.h">
+      <Filter>3rd\easy_lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libs\sdklib\GameSdk.h">
+      <Filter>libs\sdklib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libs\sdklib\umeng\UmengConfig.h">
+      <Filter>libs\sdklib\umeng</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\ccex\lua_binding\lua_reg_ccex.h">
+      <Filter>3rd\ccex\lua_binding</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libs\fla_ex\FlaUI.h">
+      <Filter>libs\fla_ex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libs\ccex\ActionEx.h">
+      <Filter>libs\ccex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libs\ccex\lua_reg_ActionEx.h">
+      <Filter>libs\ccex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libs\sdklib\lua_register_pay.h">
+      <Filter>libs\sdklib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libs\sdklib\lua_register_umeng.h">
+      <Filter>libs\sdklib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libs\sdklib\pay\GamePay.h">
+      <Filter>libs\sdklib\pay</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\rbp\rbp_MaxRectsBinPack.h">
+      <Filter>3rd\rbp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\rbp\rbp_PackItem.h">
+      <Filter>3rd\rbp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\rbp\rbp_Rect.h">
+      <Filter>3rd\rbp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\rbp\rbp_Ref.h">
+      <Filter>3rd\rbp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\rbp\rbp_TextureBin.h">
+      <Filter>3rd\rbp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\rbp\rbp_TexturePacker.h">
+      <Filter>3rd\rbp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\flash_cocos2dx\lua_binding\lua_cocos2dx_flashsdk.h">
+      <Filter>3rd\flash_sdk_src\flash_cocos2dx\lua_binding</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\libra\libra_atomic.h">
+      <Filter>3rd\libra</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\libra\libra_bits.h">
+      <Filter>3rd\libra</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\libra\libra_config.h">
+      <Filter>3rd\libra</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\libra\libra_date.h">
+      <Filter>3rd\libra</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\libra\libra_fsys.h">
+      <Filter>3rd\libra</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\libra\libra_hex.h">
+      <Filter>3rd\libra</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\libra\libra_math.h">
+      <Filter>3rd\libra</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\libra\libra_membuf.h">
+      <Filter>3rd\libra</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\libra\libra_path.h">
+      <Filter>3rd\libra</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\libra\libra_safe.h">
+      <Filter>3rd\libra</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\libra\libra_slice.h">
+      <Filter>3rd\libra</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\libra\libra_socket.h">
+      <Filter>3rd\libra</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\libra\libra_strbuf.h">
+      <Filter>3rd\libra</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\libra\libra_string.h">
+      <Filter>3rd\libra</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\libra\libra_utf8.h">
+      <Filter>3rd\libra</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\libra\libra_utility.h">
+      <Filter>3rd\libra</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\clover\CloverTest.h">
+      <Filter>3rd\clover</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\clover\Container.h">
+      <Filter>3rd\clover</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\clover\Counter.h">
+      <Filter>3rd\clover</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\clover\Data.h">
+      <Filter>3rd\clover</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\clover\ImmutableData.h">
+      <Filter>3rd\clover</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\clover\IntrusiveObject.h">
+      <Filter>3rd\clover</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\clover\KeyValue.h">
+      <Filter>3rd\clover</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\clover\lexical_cast.h">
+      <Filter>3rd\clover</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\clover\light_string.h">
+      <Filter>3rd\clover</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\clover\ptr_vector.h">
+      <Filter>3rd\clover</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\clover\RefCounter.h">
+      <Filter>3rd\clover</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\clover\ScopeGuard.h">
+      <Filter>3rd\clover</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\clover\Traits.h">
+      <Filter>3rd\clover</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\flash_cocos2dx\src\cocos2d_bridge.h">
+      <Filter>3rd\flash_sdk_src\flash_cocos2dx\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\flash_cocos2dx\src\cocos2d_bridge_2x.h">
+      <Filter>3rd\flash_sdk_src\flash_cocos2dx\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\flash_cocos2dx\src\cocos2d_bridge_3x.h">
+      <Filter>3rd\flash_sdk_src\flash_cocos2dx\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\flash_cocos2dx\src\fla_AsynManager.h">
+      <Filter>3rd\flash_sdk_src\flash_cocos2dx\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\flash_cocos2dx\src\fla_BatchMoviewRender.h">
+      <Filter>3rd\flash_sdk_src\flash_cocos2dx\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\flash_cocos2dx\src\fla_cocos2d_Texture.h">
+      <Filter>3rd\flash_sdk_src\flash_cocos2dx\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\flash_cocos2dx\src\fla_MovieClip.h">
+      <Filter>3rd\flash_sdk_src\flash_cocos2dx\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\flash_cocos2dx\src\fla_MoviePart.h">
+      <Filter>3rd\flash_sdk_src\flash_cocos2dx\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\flash_cocos2dx\src\fla_MovieShareData.h">
+      <Filter>3rd\flash_sdk_src\flash_cocos2dx\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\flash_cocos2dx\src\fla_ReusableMoviewSet.h">
+      <Filter>3rd\flash_sdk_src\flash_cocos2dx\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\flash_cocos2dx\src\fla_Settings.h">
+      <Filter>3rd\flash_sdk_src\flash_cocos2dx\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\flash_cocos2dx\src\fla_TextureCache.h">
+      <Filter>3rd\flash_sdk_src\flash_cocos2dx\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\flash_cocos2dx\src\fla_TextureFrame.h">
+      <Filter>3rd\flash_sdk_src\flash_cocos2dx\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\flash_cocos2dx\src\fla_TexturePackage.h">
+      <Filter>3rd\flash_sdk_src\flash_cocos2dx\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\base\fla_Base.h">
+      <Filter>3rd\flash_sdk_src\core\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\base\fla_BitmapData.h">
+      <Filter>3rd\flash_sdk_src\core\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\base\fla_Color4.h">
+      <Filter>3rd\flash_sdk_src\core\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\base\fla_ColorTransform.h">
+      <Filter>3rd\flash_sdk_src\core\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\base\fla_Error.h">
+      <Filter>3rd\flash_sdk_src\core\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\base\fla_Image.h">
+      <Filter>3rd\flash_sdk_src\core\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\base\fla_Lerp.h">
+      <Filter>3rd\flash_sdk_src\core\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\base\fla_Ref.h">
+      <Filter>3rd\flash_sdk_src\core\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\base\fla_RefPtrVector.h">
+      <Filter>3rd\flash_sdk_src\core\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\base\fla_utils.h">
+      <Filter>3rd\flash_sdk_src\core\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\utility\fla_Holder.h">
+      <Filter>3rd\flash_sdk_src\core\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\utility\fla_Json.h">
+      <Filter>3rd\flash_sdk_src\core\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\utility\fla_md5.h">
+      <Filter>3rd\flash_sdk_src\core\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\utility\fla_plist.h">
+      <Filter>3rd\flash_sdk_src\core\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\utility\fla_PtrHolder.h">
+      <Filter>3rd\flash_sdk_src\core\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\utility\fla_RcObj.h">
+      <Filter>3rd\flash_sdk_src\core\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\utility\fla_Value.h">
+      <Filter>3rd\flash_sdk_src\core\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\3rd\flash_sdk_src\core\utility\fla_ZipUtils.h">
+      <Filter>3rd\flash_sdk_src\core\utility</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="SimulatorWindow.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Runtime_win32.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ConfigParser.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\VisibleRect.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\runtime\Landscape_png.cpp">
+      <Filter>Classes\runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\runtime\PlayDisable_png.cpp">
+      <Filter>Classes\runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\runtime\PlayEnable_png.cpp">
+      <Filter>Classes\runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\runtime\Portrait_png.cpp">
+      <Filter>Classes\runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\runtime\Runtime.cpp">
+      <Filter>Classes\runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\runtime\Shine_png.cpp">
+      <Filter>Classes\runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\runtime\Protos.pb.cc">
+      <Filter>Classes\runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\protobuf-lite\google\protobuf\extension_set.cc">
+      <Filter>Classes\runtime\protobuf-lite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\protobuf-lite\google\protobuf\generated_message_util.cc">
+      <Filter>Classes\runtime\protobuf-lite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\protobuf-lite\google\protobuf\io\coded_stream.cc">
+      <Filter>Classes\runtime\protobuf-lite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\protobuf-lite\google\protobuf\io\zero_copy_stream.cc">
+      <Filter>Classes\runtime\protobuf-lite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\protobuf-lite\google\protobuf\io\zero_copy_stream_impl_lite.cc">
+      <Filter>Classes\runtime\protobuf-lite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\protobuf-lite\google\protobuf\message_lite.cc">
+      <Filter>Classes\runtime\protobuf-lite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\protobuf-lite\google\protobuf\repeated_field.cc">
+      <Filter>Classes\runtime\protobuf-lite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\protobuf-lite\google\protobuf\stubs\atomicops_internals_x86_msvc.cc">
+      <Filter>Classes\runtime\protobuf-lite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\protobuf-lite\google\protobuf\stubs\common.cc">
+      <Filter>Classes\runtime\protobuf-lite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\protobuf-lite\google\protobuf\stubs\once.cc">
+      <Filter>Classes\runtime\protobuf-lite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\protobuf-lite\google\protobuf\stubs\stringprintf.cc">
+      <Filter>Classes\runtime\protobuf-lite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\protobuf-lite\google\protobuf\wire_format_lite.cc">
+      <Filter>Classes\runtime\protobuf-lite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\runtime\lua_debugger.c">
+      <Filter>Classes\runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\runtime\ConnectWaitLayer.cpp">
+      <Filter>Classes\runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\runtime\ConsoleCommand.cpp">
+      <Filter>Classes\runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\runtime\FileServer.cpp">
+      <Filter>Classes\runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\core\texture_pack\fla_TPPackItem.cpp">
+      <Filter>3rd\flash_sdk_src\core\texture_pack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\core\texture_pack\fla_TPTextureOuput.cpp">
+      <Filter>3rd\flash_sdk_src\core\texture_pack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\core\texture_pack\fla_TPTexturePacker.cpp">
+      <Filter>3rd\flash_sdk_src\core\texture_pack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\core\platform\ios_mac\fla_QuartzGraphics.cpp">
+      <Filter>3rd\flash_sdk_src\core\platform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\core\platform\ios_mac\fla_QuartzImage.cpp">
+      <Filter>3rd\flash_sdk_src\core\platform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\core\platform\qt\fla_QtGraphics.cpp">
+      <Filter>3rd\flash_sdk_src\core\platform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\core\platform\qt\fla_QtImage.cpp">
+      <Filter>3rd\flash_sdk_src\core\platform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\core\platform\skia\fla_SkiaGraphics.cpp">
+      <Filter>3rd\flash_sdk_src\core\platform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\core\platform\skia\fla_SkiaImage.cpp">
+      <Filter>3rd\flash_sdk_src\core\platform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\core\graphics\fla_transToImage.cpp">
+      <Filter>3rd\flash_sdk_src\core\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\core\definition\bin\fla_BaseWriter.cpp">
+      <Filter>3rd\flash_sdk_src\core\definition</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\core\definition\bin\fla_BinaryFormat.cpp">
+      <Filter>3rd\flash_sdk_src\core\definition</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\core\definition\bin\fla_BinaryReader.cpp">
+      <Filter>3rd\flash_sdk_src\core\definition</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\core\definition\bin\fla_BinaryWriter.cpp">
+      <Filter>3rd\flash_sdk_src\core\definition</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\core\definition\bin\fla_BinCatalog.cpp">
+      <Filter>3rd\flash_sdk_src\core\definition</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\core\definition\bin\fla_BinData.cpp">
+      <Filter>3rd\flash_sdk_src\core\definition</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\core\definition\bin\fla_BinEdgeWriterReader.cpp">
+      <Filter>3rd\flash_sdk_src\core\definition</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\core\definition\bin\fla_BinParseShape.cpp">
+      <Filter>3rd\flash_sdk_src\core\definition</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\core\definition\bin\fla_ScaleMap.cpp">
+      <Filter>3rd\flash_sdk_src\core\definition</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\core\definition\fla_Collection.cpp">
+      <Filter>3rd\flash_sdk_src\core\definition</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\core\definition\fla_DefinitionFont.cpp">
+      <Filter>3rd\flash_sdk_src\core\definition</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\core\definition\fla_DefinitionImage.cpp">
+      <Filter>3rd\flash_sdk_src\core\definition</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\core\definition\fla_DefinitionMorphShape.cpp">
+      <Filter>3rd\flash_sdk_src\core\definition</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\core\definition\fla_DefinitionNull.cpp">
+      <Filter>3rd\flash_sdk_src\core\definition</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\core\definition\fla_DefinitionPlaceholder.cpp">
+      <Filter>3rd\flash_sdk_src\core\definition</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\core\definition\fla_DefinitionRole.cpp">
+      <Filter>3rd\flash_sdk_src\core\definition</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\core\definition\fla_DefinitionScene.cpp">
+      <Filter>3rd\flash_sdk_src\core\definition</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\core\definition\fla_DefinitionShape.cpp">
+      <Filter>3rd\flash_sdk_src\core\definition</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\core\definition\fla_DefinitionUtils.cpp">
+      <Filter>3rd\flash_sdk_src\core\definition</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\core\definition\fla_FlaDataInfo.cpp">
+      <Filter>3rd\flash_sdk_src\core\definition</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\core\definition\shape\fla_EdgeList.cpp">
+      <Filter>3rd\flash_sdk_src\core\definition</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\core\definition\shape\fla_RenderShape.cpp">
+      <Filter>3rd\flash_sdk_src\core\definition</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\core\definition\shape\fla_Shape.cpp">
+      <Filter>3rd\flash_sdk_src\core\definition</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\core\definition\shape\fla_ShapeGraphicsUtils.cpp">
+      <Filter>3rd\flash_sdk_src\core\definition</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libs\game\GameUtils.cpp">
+      <Filter>libs\game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libs\game\lua_register_game.cpp">
+      <Filter>libs\game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\core\definition\fla_DefinitionPackage.cpp">
+      <Filter>3rd\flash_sdk_src\core\definition</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\core\definition\fla_DefinitionMap.cpp">
+      <Filter>3rd\flash_sdk_src\core\definition</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libs\fla_ex\lua_register_fla_ex.cpp">
+      <Filter>libs\fla_ex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libs\fla_ex\lua_register_ui_load.cpp">
+      <Filter>libs\fla_ex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libs\fla_ex\Preloader.cpp">
+      <Filter>libs\fla_ex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libs\fla_ex\RoleCacheStrategy.cpp">
+      <Filter>libs\fla_ex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libs\fla_ex\RoleGLProgram.cpp">
+      <Filter>libs\fla_ex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libs\fla_ex\RoleNode.cpp">
+      <Filter>libs\fla_ex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libs\fla_ex\SDKWrapper.cpp">
+      <Filter>libs\fla_ex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\core\definition\bin\fla_Codec.cpp">
+      <Filter>3rd\flash_sdk_src\core\definition</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\3rd\kmath\km_mat3.cpp">
+      <Filter>3rd\kmath</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\3rd\kmath\km_rect2.cpp">
+      <Filter>3rd\kmath</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\core\definition\fla_PlaceObject.cpp">
+      <Filter>3rd\flash_sdk_src\core\definition</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\core\definition\fla_DefinitionAnimation.cpp">
+      <Filter>3rd\flash_sdk_src\core\definition</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\3rd\async\OperationQueue.cpp">
+      <Filter>3rd\async</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\flash_cocos2dx\FlaMoviePart.cpp">
+      <Filter>3rd\flash_sdk_src\flash_cocos2dx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\3rd\network\HttpClient.cpp">
+      <Filter>3rd\network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\3rd\network\details\CURLWrapper.cpp">
+      <Filter>3rd\network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\3rd\network\lua_binding\lua_network.cpp">
+      <Filter>3rd\network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libs\rc4\rc4.cpp">
+      <Filter>libs\rc4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\3rd\ccex\DispatchManager.cpp">
+      <Filter>3rd\ccex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\3rd\ccex\Geometry.cpp">
+      <Filter>3rd\ccex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\3rd\ccex\Iterator.cpp">
+      <Filter>3rd\ccex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\3rd\ccex\LabelAtlasEx.cpp">
+      <Filter>3rd\ccex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\3rd\ccex\NodeAddtions.cpp">
+      <Filter>3rd\ccex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\3rd\ccex\QuickAction.cpp">
+      <Filter>3rd\ccex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\3rd\ccex\RefCache.cpp">
+      <Filter>3rd\ccex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\3rd\ccex\StopTimer.cpp">
+      <Filter>3rd\ccex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\3rd\ccex\TileSpriteAtlas.cpp">
+      <Filter>3rd\ccex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\3rd\ccex\TimerManager.cpp">
+      <Filter>3rd\ccex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libs\lua_profile\profile.cpp">
+      <Filter>libs\lua_profile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\3rd\lkit_c\lkit_fsys.cpp">
+      <Filter>3rd\lkit_c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\3rd\lkit_c\lkit_openlibs.cpp">
+      <Filter>3rd\lkit_c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\3rd\lkit_c\lkit_path.cpp">
+      <Filter>3rd\lkit_c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\3rd\lkit_c\lkit_reload.cpp">
+      <Filter>3rd\lkit_c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libs\sdklib\umeng\UmengConfig.cpp">
+      <Filter>libs\sdklib\umeng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libs\sdklib\mac\GameSdk-Mac.cpp">
+      <Filter>libs\sdklib\mac</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\3rd\ccex\lua_binding\lua_reg_ccex.cpp">
+      <Filter>3rd\ccex\lua_binding</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\3rd\ccex\lua_binding\lua_reg_LabelAtlasEx.cpp">
+      <Filter>3rd\ccex\lua_binding</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\3rd\ccex\lua_binding\lua_reg_RefCache.cpp">
+      <Filter>3rd\ccex\lua_binding</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libs\fla_ex\FlaUI.cpp">
+      <Filter>libs\fla_ex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libs\ccex\ActionEx.cpp">
+      <Filter>libs\ccex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libs\ccex\lua_reg_ActionEx.cpp">
+      <Filter>libs\ccex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libs\sdklib\GameSdk.cpp">
+      <Filter>libs\sdklib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libs\sdklib\lua_register_pay.cpp">
+      <Filter>libs\sdklib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libs\sdklib\lua_register_umeng.cpp">
+      <Filter>libs\sdklib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libs\sdklib\pay\GamePay.cpp">
+      <Filter>libs\sdklib\pay</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\3rd\rbp\rbp_MaxRectsBinPack.cpp">
+      <Filter>3rd\rbp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\3rd\rbp\rbp_Rect.cpp">
+      <Filter>3rd\rbp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\3rd\rbp\rbp_TextureBin.cpp">
+      <Filter>3rd\rbp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\3rd\rbp\rbp_TexturePacker.cpp">
+      <Filter>3rd\rbp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\flash_cocos2dx\lua_binding\FlaLua.cpp">
+      <Filter>3rd\flash_sdk_src\flash_cocos2dx\lua_binding</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\flash_cocos2dx\lua_binding\lua_cocos2dx_flashsdk.cpp">
+      <Filter>3rd\flash_sdk_src\flash_cocos2dx\lua_binding</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\flash_cocos2dx\lua_binding\lua_register_fla_Collection.cpp">
+      <Filter>3rd\flash_sdk_src\flash_cocos2dx\lua_binding</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\flash_cocos2dx\lua_binding\lua_register_fla_Definition.cpp">
+      <Filter>3rd\flash_sdk_src\flash_cocos2dx\lua_binding</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\flash_cocos2dx\lua_binding\lua_register_fla_MovieNode.cpp">
+      <Filter>3rd\flash_sdk_src\flash_cocos2dx\lua_binding</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\flash_cocos2dx\lua_binding\lua_register_fla_MoviePart.cpp">
+      <Filter>3rd\flash_sdk_src\flash_cocos2dx\lua_binding</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\3rd\libra\libra_date.c">
+      <Filter>3rd\libra</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\3rd\libra\libra_fsys.c">
+      <Filter>3rd\libra</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\3rd\libra\libra_hex.c">
+      <Filter>3rd\libra</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\3rd\libra\libra_math.cpp">
+      <Filter>3rd\libra</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\3rd\libra\libra_membuf.c">
+      <Filter>3rd\libra</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\3rd\libra\libra_path.cpp">
+      <Filter>3rd\libra</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\3rd\libra\libra_safe.c">
+      <Filter>3rd\libra</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\3rd\libra\libra_slice.cpp">
+      <Filter>3rd\libra</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\3rd\libra\libra_socket.c">
+      <Filter>3rd\libra</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\3rd\libra\libra_strbuf.c">
+      <Filter>3rd\libra</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\3rd\libra\libra_string.cpp">
+      <Filter>3rd\libra</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\3rd\libra\libra_utf8.c">
+      <Filter>3rd\libra</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\3rd\libra\libra_utility.cpp">
+      <Filter>3rd\libra</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\3rd\clover\Data.cpp">
+      <Filter>3rd\clover</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\3rd\clover\lexical_cast.cpp">
+      <Filter>3rd\clover</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\3rd\clover\light_string.cpp">
+      <Filter>3rd\clover</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\flash_cocos2dx\src\cocos2d_bridge.cpp">
+      <Filter>3rd\flash_sdk_src\flash_cocos2dx\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\flash_cocos2dx\src\fla_AsynManager.cpp">
+      <Filter>3rd\flash_sdk_src\flash_cocos2dx\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\flash_cocos2dx\src\fla_BatchMoviewRender.cpp">
+      <Filter>3rd\flash_sdk_src\flash_cocos2dx\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\flash_cocos2dx\src\fla_cocos2d_Texture.cpp">
+      <Filter>3rd\flash_sdk_src\flash_cocos2dx\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\flash_cocos2dx\src\fla_MovieClip.cpp">
+      <Filter>3rd\flash_sdk_src\flash_cocos2dx\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\flash_cocos2dx\src\fla_MoviePart.cpp">
+      <Filter>3rd\flash_sdk_src\flash_cocos2dx\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\flash_cocos2dx\src\fla_MovieShareData.cpp">
+      <Filter>3rd\flash_sdk_src\flash_cocos2dx\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\flash_cocos2dx\src\fla_ReusableMoviewSet.cpp">
+      <Filter>3rd\flash_sdk_src\flash_cocos2dx\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\flash_cocos2dx\src\fla_Settings.cpp">
+      <Filter>3rd\flash_sdk_src\flash_cocos2dx\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\flash_cocos2dx\src\fla_TextureCache.cpp">
+      <Filter>3rd\flash_sdk_src\flash_cocos2dx\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\flash_cocos2dx\src\fla_TextureFrame.cpp">
+      <Filter>3rd\flash_sdk_src\flash_cocos2dx\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\flash_cocos2dx\src\fla_TexturePackage.cpp">
+      <Filter>3rd\flash_sdk_src\flash_cocos2dx\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\flash_cocos2dx\src\FlaAsync.cpp">
+      <Filter>3rd\flash_sdk_src\flash_cocos2dx\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\flash_cocos2dx\src\FlaBitmapData.cpp">
+      <Filter>3rd\flash_sdk_src\flash_cocos2dx\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\flash_cocos2dx\src\FlaCacheStrategy.cpp">
+      <Filter>3rd\flash_sdk_src\flash_cocos2dx\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\flash_cocos2dx\src\FlaCollection.cpp">
+      <Filter>3rd\flash_sdk_src\flash_cocos2dx\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\flash_cocos2dx\src\FlaDefinition.cpp">
+      <Filter>3rd\flash_sdk_src\flash_cocos2dx\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\flash_cocos2dx\src\FlaGLProgram.cpp">
+      <Filter>3rd\flash_sdk_src\flash_cocos2dx\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\flash_cocos2dx\src\FlaMovieNode.cpp">
+      <Filter>3rd\flash_sdk_src\flash_cocos2dx\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\flash_cocos2dx\src\FlaResourceCache.cpp">
+      <Filter>3rd\flash_sdk_src\flash_cocos2dx\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\flash_cocos2dx\src\FlaSDK.cpp">
+      <Filter>3rd\flash_sdk_src\flash_cocos2dx\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\flash_cocos2dx\src\FlaTexturePackage.cpp">
+      <Filter>3rd\flash_sdk_src\flash_cocos2dx\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\core\base\fla_BitmapData.cpp">
+      <Filter>3rd\flash_sdk_src\core\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\core\base\fla_ColorTransform.cpp">
+      <Filter>3rd\flash_sdk_src\core\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\core\base\fla_Error.cpp">
+      <Filter>3rd\flash_sdk_src\core\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\core\base\fla_Image.cpp">
+      <Filter>3rd\flash_sdk_src\core\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\core\base\fla_Lerp.cpp">
+      <Filter>3rd\flash_sdk_src\core\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\core\base\fla_Ref.cpp">
+      <Filter>3rd\flash_sdk_src\core\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\core\base\fla_utils.cpp">
+      <Filter>3rd\flash_sdk_src\core\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\core\utility\fla_Holder.cpp">
+      <Filter>3rd\flash_sdk_src\core\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\core\utility\fla_Json.cpp">
+      <Filter>3rd\flash_sdk_src\core\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\core\utility\fla_md5.c">
+      <Filter>3rd\flash_sdk_src\core\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\core\utility\fla_plist.cpp">
+      <Filter>3rd\flash_sdk_src\core\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\3rd\flash_sdk_src\core\utility\fla_ZipUtils.cpp">
+      <Filter>3rd\flash_sdk_src\core\utility</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\game.ico" />
+  </ItemGroup>
+</Project>

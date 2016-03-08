@@ -1,0 +1,23 @@
+[
+    {
+        "url": "http://ipas.fzxgame.cn/three/config/outnet/1.0.zip", 
+        "reload": true, 
+        "version": "1.0", 
+        "size_kb": 29819, 
+        "remove": false
+    }, 
+    {
+        "url": "http://ipas.fzxgame.cn/three/config/outnet/1.1.zip", 
+        "reload": true, 
+        "version": "1.1", 
+        "remove": false, 
+        "size_kb": 27
+    }, 
+    {
+        "url": "http://ipas.fzxgame.cn/three/config/outnet/1.2.zip", 
+        "reload": true, 
+        "version": "1.2", 
+        "size_kb": 189, 
+        "remove": false
+    }
+]

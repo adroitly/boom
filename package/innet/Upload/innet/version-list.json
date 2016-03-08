@@ -1,0 +1,121 @@
+[
+    {
+        "url": "http://ipas.fzxgame.cn/three/config/innet/1.0.zip", 
+        "reload": true, 
+        "version": "1.0", 
+        "size_kb": 29687, 
+        "remove": false
+    }, 
+    {
+        "url": "http://ipas.fzxgame.cn/three/config/innet/1.1.zip", 
+        "reload": true, 
+        "version": "1.1", 
+        "remove": false, 
+        "size_kb": 215
+    }, 
+    {
+        "url": "http://ipas.fzxgame.cn/three/config/innet/1.2.zip", 
+        "reload": true, 
+        "version": "1.2", 
+        "size_kb": 325, 
+        "remove": false
+    }, 
+    {
+        "url": "http://ipas.fzxgame.cn/three/config/innet/1.3.zip", 
+        "reload": true, 
+        "version": "1.3", 
+        "remove": false, 
+        "size_kb": 155
+    }, 
+    {
+        "url": "http://ipas.fzxgame.cn/three/config/innet/1.4.zip", 
+        "reload": true, 
+        "version": "1.4", 
+        "size_kb": 184, 
+        "remove": false
+    }, 
+    {
+        "url": "http://ipas.fzxgame.cn/three/config/innet/1.5.zip", 
+        "reload": true, 
+        "version": "1.5", 
+        "remove": false, 
+        "size_kb": 97
+    }, 
+    {
+        "url": "http://ipas.fzxgame.cn/three/config/innet/1.6.zip", 
+        "reload": true, 
+        "version": "1.6", 
+        "size_kb": 227, 
+        "remove": false
+    }, 
+    {
+        "url": "http://ipas.fzxgame.cn/three/config/innet/1.7.zip", 
+        "reload": true, 
+        "version": "1.7", 
+        "remove": false, 
+        "size_kb": 258
+    }, 
+    {
+        "url": "http://ipas.fzxgame.cn/three/config/innet/1.8.zip", 
+        "reload": true, 
+        "version": "1.8", 
+        "size_kb": 0, 
+        "remove": false
+    }, 
+    {
+        "url": "http://ipas.fzxgame.cn/three/config/innet/1.9.zip", 
+        "reload": true, 
+        "version": "1.9", 
+        "remove": false, 
+        "size_kb": 105
+    }, 
+    {
+        "url": "http://ipas.fzxgame.cn/three/config/innet/1.10.zip", 
+        "reload": true, 
+        "version": "1.10", 
+        "size_kb": 1086, 
+        "remove": false
+    }, 
+    {
+        "url": "http://ipas.fzxgame.cn/three/config/innet/1.11.zip", 
+        "reload": true, 
+        "version": "1.11", 
+        "remove": false, 
+        "size_kb": 233
+    }, 
+    {
+        "url": "http://ipas.fzxgame.cn/three/config/innet/1.12.zip", 
+        "reload": true, 
+        "version": "1.12", 
+        "size_kb": 106, 
+        "remove": false
+    }, 
+    {
+        "url": "http://ipas.fzxgame.cn/three/config/innet/1.13.zip", 
+        "reload": true, 
+        "version": "1.13", 
+        "remove": false, 
+        "size_kb": 13
+    }, 
+    {
+        "url": "http://ipas.fzxgame.cn/three/config/innet/1.14.zip", 
+        "reload": true, 
+        "version": "1.14", 
+        "size_kb": 431, 
+        "remove": false
+    }, 
+    {
+        "url": "http://ipas.fzxgame.cn/three/config/innet/1.15.zip", 
+        "reload": true, 
+        "version": "1.15", 
+        "remove": false, 
+        "size_kb": 297
+    }, 
+    {
+        "url": "http://ipas.fzxgame.cn/three/config/innet/1.16.zip", 
+        "reload": true, 
+        "version": "1.16", 
+        "size_kb": 1, 
+        "remove": false
+    }
+]

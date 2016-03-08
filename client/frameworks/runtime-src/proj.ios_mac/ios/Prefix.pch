@@ -1,0 +1,10 @@
+//
+// Prefix header for all source files of the 'big-devil' target in the 'big-devil' project
+//
+
+#ifdef __OBJC__
+	#import <Foundation/Foundation.h>
+	#import <UIKit/UIKit.h>
+#endif
+
+#define FLA_USE_LUA_BINDING     1
